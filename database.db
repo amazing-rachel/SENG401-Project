@@ -1,0 +1,30 @@
+CREATE TABLE IF NOT EXISTS user (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    fName TEXT,
+    email TEXT,
+    username TEXT UNIQUE,
+    password TEXT
+);
+
+CREATE TABLE IF NOT EXISTS game_stats (
+    game_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    user_id INTEGER NOT NULL,
+    topic TEXT NOT NULL,
+    current_position INTEGER DEFAULT 1,
+    score INTEGER DEFAULT 0,
+    status TEXT DEFAULT 'in-progress',
+    date_saved TEXT,
+    FOREIGN KEY(user_id) REFERENCES user(id)
+);
+
+CREATE TABLE IF NOT EXISTS questions (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    game_id INTEGER,
+    question_text TEXT,
+    correct_answer TEXT,
+    user_answer TEXT,
+    difficulty TEXT,
+    is_correct INTEGER,
+    FOREIGN KEY(game_id) REFERENCES game_stats(game_id)
+)
+
