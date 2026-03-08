@@ -21,12 +21,12 @@ public class DiceRoller : MonoBehaviour
         // Define rotations that put each face on top
         faceRotations = new Quaternion[]
         {
-            Quaternion.Euler(0,0,0),      // 1
-            Quaternion.Euler(0,0,90),     // 2
-            Quaternion.Euler(90,0,0),     // 3
-            Quaternion.Euler(-90,0,0),    // 4
-            Quaternion.Euler(0,0,-90),    // 5
-            Quaternion.Euler(180,0,0)     // 6
+            Quaternion.Euler(-90,0,0),     // 1 up
+            Quaternion.Euler(0,0,0),    // 2 up
+            Quaternion.Euler(0,0,-90),   // 3 up
+            Quaternion.Euler(0,0,90),    // 4 up
+            Quaternion.Euler(180,0,0),   // 5 up
+            Quaternion.Euler(90,0,0)    // 6 up
         };
     }
 

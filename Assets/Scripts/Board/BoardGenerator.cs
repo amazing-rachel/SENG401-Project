@@ -10,7 +10,7 @@ public class BoardGenerator : MonoBehaviour
     [HideInInspector]
     public Tile[] tiles;
 
-    void Start()
+    void Awake()
     {
         GenerateBoard();
     }
