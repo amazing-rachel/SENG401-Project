@@ -1,0 +1,250 @@
+{
+  "database": {
+    "easy": [
+      {
+        "topic": "primary school math",
+        "difficulty": "easy",
+        "question": "What is 6 plus 7?",
+        "choices": ["12", "13", "14", "15"],
+        "answer_index": 1,
+        "explanation": "6 + 7 = 13."
+      },
+      {
+        "topic": "primary school math",
+        "difficulty": "easy",
+        "question": "What is 9 minus 4?",
+        "choices": ["6", "5", "4", "3"],
+        "answer_index": 1,
+        "explanation": "9 - 4 = 5."
+      },
+      {
+        "topic": "primary school math",
+        "difficulty": "easy",
+        "question": "What is 3 × 4?",
+        "choices": ["7", "10", "12", "9"],
+        "answer_index": 2,
+        "explanation": "3 groups of 4 equals 12."
+      },
+      {
+        "topic": "primary school math",
+        "difficulty": "easy",
+        "question": "What is 15 + 5?",
+        "choices": ["18", "19", "20", "21"],
+        "answer_index": 2,
+        "explanation": "15 + 5 = 20."
+      },
+      {
+        "topic": "primary school math",
+        "difficulty": "easy",
+        "question": "What is 18 − 10?",
+        "choices": ["7", "9", "8", "6"],
+        "answer_index": 2,
+        "explanation": "18 minus 10 equals 8."
+      },
+      {
+        "topic": "primary school math",
+        "difficulty": "easy",
+        "question": "What is 2 × 9?",
+        "choices": ["18", "16", "20", "17"],
+        "answer_index": 0,
+        "explanation": "2 multiplied by 9 equals 18."
+      },
+      {
+        "topic": "primary school math",
+        "difficulty": "easy",
+        "question": "Tom has 5 apples and gets 4 more. How many apples does he have?",
+        "choices": ["8", "9", "10", "7"],
+        "answer_index": 1,
+        "explanation": "5 + 4 = 9 apples."
+      },
+      {
+        "topic": "primary school math",
+        "difficulty": "easy",
+        "question": "What is 10 ÷ 2?",
+        "choices": ["4", "3", "5", "6"],
+        "answer_index": 2,
+        "explanation": "10 divided by 2 equals 5."
+      },
+      {
+        "topic": "primary school math",
+        "difficulty": "easy",
+        "question": "What is 7 + 6?",
+        "choices": ["12", "13", "14", "11"],
+        "answer_index": 1,
+        "explanation": "7 + 6 = 13."
+      },
+      {
+        "topic": "primary school math",
+        "difficulty": "easy",
+        "question": "What is 14 − 7?",
+        "choices": ["6", "7", "8", "9"],
+        "answer_index": 1,
+        "explanation": "14 minus 7 equals 7."
+      },
+      {
+        "topic": "primary school math",
+        "difficulty": "easy",
+        "question": "What is 5 × 3?",
+        "choices": ["15", "10", "12", "18"],
+        "answer_index": 0,
+        "explanation": "5 groups of 3 equals 15."
+      },
+      {
+        "topic": "primary school math",
+        "difficulty": "easy",
+        "question": "What is 12 + 6?",
+        "choices": ["17", "18", "19", "16"],
+        "answer_index": 1,
+        "explanation": "12 + 6 = 18."
+      },
+      {
+        "topic": "primary school math",
+        "difficulty": "easy",
+        "question": "What is 16 − 8?",
+        "choices": ["7", "6", "8", "9"],
+        "answer_index": 2,
+        "explanation": "16 minus 8 equals 8."
+      },
+      {
+        "topic": "primary school math",
+        "difficulty": "easy",
+        "question": "What is 4 × 4?",
+        "choices": ["12", "14", "16", "18"],
+        "answer_index": 2,
+        "explanation": "4 multiplied by 4 equals 16."
+      },
+      {
+        "topic": "primary school math",
+        "difficulty": "easy",
+        "question": "Lisa had 9 candies and ate 3. How many are left?",
+        "choices": ["5", "6", "7", "4"],
+        "answer_index": 1,
+        "explanation": "9 − 3 = 6."
+      },
+      {
+        "topic": "primary school math",
+        "difficulty": "easy",
+        "question": "What is 20 + 1?",
+        "choices": ["21", "22", "20", "19"],
+        "answer_index": 0,
+        "explanation": "20 + 1 = 21."
+      },
+      {
+        "topic": "primary school math",
+        "difficulty": "easy",
+        "question": "What is 11 − 5?",
+        "choices": ["5", "7", "6", "4"],
+        "answer_index": 2,
+        "explanation": "11 minus 5 equals 6."
+      },
+      {
+        "topic": "primary school math",
+        "difficulty": "easy",
+        "question": "What is 8 × 2?",
+        "choices": ["14", "15", "16", "18"],
+        "answer_index": 2,
+        "explanation": "8 times 2 equals 16."
+      },
+      {
+        "topic": "primary school math",
+        "difficulty": "easy",
+        "question": "What is 9 + 9?",
+        "choices": ["17", "19", "18", "16"],
+        "answer_index": 2,
+        "explanation": "9 + 9 = 18."
+      },
+      {
+        "topic": "primary school math",
+        "difficulty": "easy",
+        "question": "What is 6 × 2?",
+        "choices": ["10", "12", "14", "16"],
+        "answer_index": 1,
+        "explanation": "6 times 2 equals 12."
+      }
+    ],
+    "medium": [
+      {
+        "topic": "primary school math",
+        "difficulty": "medium",
+        "question": "A box has 24 pencils. If 9 are used, how many remain?",
+        "choices": ["13", "14", "15", "16"],
+        "answer_index": 2,
+        "explanation": "24 − 9 = 15 pencils remain."
+      },
+      {
+        "topic": "primary school math",
+        "difficulty": "medium",
+        "question": "What is 36 ÷ 6?",
+        "choices": ["5", "6", "7", "8"],
+        "answer_index": 1,
+        "explanation": "36 divided by 6 equals 6."
+      },
+      {
+        "topic": "primary school math",
+        "difficulty": "medium",
+        "question": "What is 14 × 3?",
+        "choices": ["42", "38", "36", "40"],
+        "answer_index": 0,
+        "explanation": "14 multiplied by 3 equals 42."
+      },
+      {
+        "topic": "primary school math",
+        "difficulty": "medium",
+        "question": "Emma has 45 stickers and gives 17 away. How many remain?",
+        "choices": ["28", "27", "29", "26"],
+        "answer_index": 0,
+        "explanation": "45 − 17 = 28."
+      },
+      {
+        "topic": "primary school math",
+        "difficulty": "medium",
+        "question": "What is 56 + 27?",
+        "choices": ["83", "82", "84", "81"],
+        "answer_index": 0,
+        "explanation": "56 + 27 = 83."
+      }
+    ],
+    "hard": [
+      {
+        "topic": "primary school math",
+        "difficulty": "hard",
+        "question": "A rectangle has length 12 m and width 9 m. What is its area?",
+        "choices": ["96", "108", "100", "120"],
+        "answer_index": 1,
+        "explanation": "Area = length × width = 12 × 9 = 108."
+      },
+      {
+        "topic": "primary school math",
+        "difficulty": "hard",
+        "question": "What is 3/4 of 32?",
+        "choices": ["20", "22", "24", "26"],
+        "answer_index": 2,
+        "explanation": "32 × 3/4 = 24."
+      },
+      {
+        "topic": "primary school math",
+        "difficulty": "hard",
+        "question": "A square has sides of 11 cm. What is its perimeter?",
+        "choices": ["44", "40", "42", "48"],
+        "answer_index": 0,
+        "explanation": "Perimeter = 4 × 11 = 44 cm."
+      },
+      {
+        "topic": "primary school math",
+        "difficulty": "hard",
+        "question": "If 5 notebooks cost $20, what is the cost of one notebook?",
+        "choices": ["3", "4", "5", "6"],
+        "answer_index": 1,
+        "explanation": "20 ÷ 5 = 4."
+      },
+      {
+        "topic": "primary school math",
+        "difficulty": "hard",
+        "question": "A rectangle has perimeter 30 m and length 10 m. What is the width?",
+        "choices": ["5", "6", "7", "4"],
+        "answer_index": 0,
+        "explanation": "2(L+W)=30 → L+W=15 → W=5."
+      }
+    ]
+  }
+}

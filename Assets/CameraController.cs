@@ -51,7 +51,6 @@ public class CameraController : MonoBehaviour
 
             yaw += mouseX;
 
-            // ✅ Inverted rotation: pull down = look down
             pitch -= mouseY;
 
             pitch = Mathf.Clamp(pitch, -80f, 80f);

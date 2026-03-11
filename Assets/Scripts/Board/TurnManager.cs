@@ -4,12 +4,8 @@ using System.Collections.Generic;
 
 public class TurnManager : MonoBehaviour
 {
-
-
-    // inside TurnManager
     private Dictionary<int, int> ladders = new Dictionary<int, int>()
     {
-        // format: {startTile, endTile}
         {9, 27},
         {18, 37},
         {25, 54},
@@ -45,13 +41,13 @@ public class TurnManager : MonoBehaviour
     public DiceRoller diceRoller;
     public List<Avatar> avatars;
     public BoardGenerator boardGenerator;
+    public QuestionManager questionManager;
 
     private int currentPlayerIndex = 0;
     private bool isMoving = false;
 
     void Start()
     {
-        // Make sure boardTiles exist before initializing avatars
         StartCoroutine(InitializeAvatars());
     }
 
@@ -67,51 +63,96 @@ public class TurnManager : MonoBehaviour
             avatars[i].Initialize(boardTiles, i);
         }
 
-        // Subscribe to dice roll event
         diceRoller.OnDiceRolled += OnDiceRolled;
     }
 
     void OnDiceRolled(int roll)
     {
         if (!isMoving)
-            StartCoroutine(MoveCurrentPlayer(roll));
+            StartCoroutine(HandleTurn(roll));
     }
 
-    IEnumerator MoveCurrentPlayer(int steps)
+    IEnumerator HandleTurn(int steps)
     {
         isMoving = true;
 
         Avatar currentAvatar = avatars[currentPlayerIndex];
 
+        Debug.Log("Player " + currentPlayerIndex + " rolled " + steps);
+
+        // EASY QUESTION BEFORE MOVING
+        questionManager.AskQuestion("easy");
+
+        yield return new WaitUntil(() => !questionManager.waitingForAnswer);
+
+        if (!questionManager.lastAnswerCorrect)
+        {
+            Debug.Log("Wrong answer. Turn skipped.");
+            NextPlayer();
+            yield break;
+        }
+
+        // MOVE PLAYER
         yield return StartCoroutine(currentAvatar.MoveSteps(steps));
 
-        int finalTile = currentAvatar.currentTileIndex + 1; // tile numbers are 1-based
+        int finalTile = currentAvatar.currentTileIndex + 1;
 
-        // check for ladder
+        // LADDER CHECK
         if (ladders.ContainsKey(finalTile))
         {
-            int destinationTile = ladders[finalTile];
+            Debug.Log("Ladder found!");
 
-            Debug.Log($"{currentAvatar.name} climbed a ladder to {destinationTile}!");
+            questionManager.AskQuestion("medium");
 
-            yield return new WaitForSeconds(0.3f); // small pause for effect
-            currentAvatar.JumpToTile(destinationTile);
+            yield return new WaitUntil(() => !questionManager.waitingForAnswer);
+
+            if (questionManager.lastAnswerCorrect)
+            {
+                int destinationTile = ladders[finalTile];
+
+                Debug.Log("Correct! Climbing ladder.");
+
+                yield return new WaitForSeconds(0.3f);
+
+                currentAvatar.JumpToTile(destinationTile);
+            }
+            else
+            {
+                Debug.Log("Wrong. Stay on tile.");
+            }
         }
 
-        // check for snake
+        // SNAKE CHECK
         else if (snakes.ContainsKey(finalTile))
         {
-            int destinationTile = snakes[finalTile];
+            Debug.Log("Snake found!");
 
-            Debug.Log($"{currentAvatar.name} slid down a snake to {destinationTile}!");
+            questionManager.AskQuestion("hard");
 
-            yield return new WaitForSeconds(0.3f);
-            currentAvatar.JumpToTile(destinationTile);
+            yield return new WaitUntil(() => !questionManager.waitingForAnswer);
+
+            if (!questionManager.lastAnswerCorrect)
+            {
+                int destinationTile = snakes[finalTile];
+
+                Debug.Log("Wrong! Sliding down snake.");
+
+                yield return new WaitForSeconds(0.3f);
+
+                currentAvatar.JumpToTile(destinationTile);
+            }
+            else
+            {
+                Debug.Log("Correct! Snake avoided.");
+            }
         }
 
-        // Next player's turn
-        currentPlayerIndex = (currentPlayerIndex + 1) % avatars.Count;
+        NextPlayer();
+    }
 
+    void NextPlayer()
+    {
+        currentPlayerIndex = (currentPlayerIndex + 1) % avatars.Count;
         isMoving = false;
     }
 }
