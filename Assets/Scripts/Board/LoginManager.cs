@@ -103,6 +103,11 @@ public class LoginManager : MonoBehaviour
 
         if (response.Contains("success") && endpoint == "/login")
         {
+            // Save username for the entire game session
+            SessionManager.Instance.CurrentUsername = username;
+
+            Debug.Log("Logged in as: " + username);
+            
             SceneManager.LoadScene("OutdoorsScene");
         }
         else if (response.Contains("account_created") && endpoint == "/register")

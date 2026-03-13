@@ -8,7 +8,7 @@ public class Avatar : MonoBehaviour
 
     public int playerIndex; // determines offset for stacking
 
-    private Tile[] boardTiles;
+    [HideInInspector] public Tile[] boardTiles;
     private float verticalOffset = 0.1f;
 
     public void Initialize(Tile[] tiles, int index)
@@ -26,13 +26,12 @@ public class Avatar : MonoBehaviour
 
         for (int i = 0; i < absSteps; i++)
         {
-            if (currentTileIndex <= 0 && direction == -1)
-                yield break;
+            int nextIndex = currentTileIndex + direction;
 
-            if (currentTileIndex >= boardTiles.Length - 1 && direction == 1)
-                yield break;
+            if (nextIndex < 0 || nextIndex >= boardTiles.Length)
+                yield break; // stop moving if out of bounds
 
-            currentTileIndex += direction;
+            currentTileIndex = nextIndex;
 
             Vector3 targetPos = GetTilePosition(currentTileIndex);
 
@@ -50,14 +49,21 @@ public class Avatar : MonoBehaviour
 
     public void JumpToTile(int tileNumber)
     {
-        currentTileIndex = tileNumber - 1;
+        if (boardTiles == null || boardTiles.Length == 0) return;
+
+        // Convert tileNumber (1-based) to 0-based index
+        currentTileIndex = Mathf.Clamp(tileNumber - 1, 0, boardTiles.Length - 1);
 
         MoveToCurrentTile();
     }
 
     Vector3 GetTilePosition(int tileIndex)
     {
-        Vector3 basePos = boardTiles[tileIndex].transform.position;
+        if (boardTiles == null || boardTiles.Length == 0)
+            return transform.position;
+
+        Vector3 basePos = boardTiles[Mathf.Clamp(tileIndex, 0, boardTiles.Length - 1)].transform.position;
+
 
         float spacing = 0.25f;
 

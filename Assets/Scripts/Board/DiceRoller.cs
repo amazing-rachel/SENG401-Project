@@ -12,6 +12,9 @@ public class DiceRoller : MonoBehaviour
     public int LastRoll { get; private set; }
     public bool IsRolling { get; private set; }
 
+    public bool playerCanRoll = true;
+    public bool isComputerRoll = false;
+
     public event Action<int> OnDiceRolled;
 
     private Quaternion[] faceRotations;
@@ -32,7 +35,7 @@ public class DiceRoller : MonoBehaviour
 
     void Update()
     {
-        if (IsRolling) return;
+        if (IsRolling || !playerCanRoll) return;
 
         if (Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame)
         {
@@ -41,9 +44,17 @@ public class DiceRoller : MonoBehaviour
             {
                 if (hit.transform == transform)
                 {
-                    StartCoroutine(RollDice());
+                    Roll();
                 }
             }
+        }
+    }
+
+    public void Roll()
+    {
+        if (!IsRolling && (playerCanRoll || isComputerRoll))
+        {
+            StartCoroutine(RollDice());
         }
     }
 

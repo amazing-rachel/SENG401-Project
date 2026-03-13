@@ -43,6 +43,8 @@ public class TurnManager : MonoBehaviour
     public BoardGenerator boardGenerator;
     public QuestionManager questionManager;
 
+    public ResultManager resultManager;
+
     private int currentPlayerIndex = 0;
     private bool isMoving = false;
 
@@ -78,18 +80,31 @@ public class TurnManager : MonoBehaviour
 
         Avatar currentAvatar = avatars[currentPlayerIndex];
 
+        bool isComputer = currentPlayerIndex == 1;
+
         Debug.Log("Player " + currentPlayerIndex + " rolled " + steps);
 
         // EASY QUESTION BEFORE MOVING
-        questionManager.AskQuestion("easy");
-
-        yield return new WaitUntil(() => !questionManager.waitingForAnswer);
-
-        if (!questionManager.lastAnswerCorrect)
+        if (isComputer)
         {
-            Debug.Log("Wrong answer. Turn skipped.");
-            NextPlayer();
-            yield break;
+            if (Random.value >= 0.8f) // Computer fails
+            {
+                Debug.Log("Computer failed easy question");
+                NextPlayer();
+                yield break;
+            }
+        }
+        else
+        {
+            questionManager.AskQuestion("easy");
+            yield return new WaitUntil(() => !questionManager.waitingForAnswer);
+
+            if (!questionManager.lastAnswerCorrect)
+            {
+                Debug.Log("Wrong answer. Turn skipped.");
+                NextPlayer();
+                yield break;
+            }
         }
 
         // MOVE PLAYER
@@ -100,51 +115,74 @@ public class TurnManager : MonoBehaviour
         // LADDER CHECK
         if (ladders.ContainsKey(finalTile))
         {
-            Debug.Log("Ladder found!");
-
-            questionManager.AskQuestion("medium");
-
-            yield return new WaitUntil(() => !questionManager.waitingForAnswer);
-
-            if (questionManager.lastAnswerCorrect)
+            if (isComputer)
             {
-                int destinationTile = ladders[finalTile];
+                bool climb = Random.value < 0.7f;
 
-                Debug.Log("Correct! Climbing ladder.");
+                if (climb)
+                {
+                    int destinationTile = ladders[finalTile];
 
-                yield return new WaitForSeconds(0.3f);
+                    Debug.Log("Computer climbs ladder");
 
-                currentAvatar.JumpToTile(destinationTile);
+                    yield return new WaitForSeconds(0.3f);
+                    currentAvatar.JumpToTile(destinationTile);
+                }
             }
             else
             {
-                Debug.Log("Wrong. Stay on tile.");
+                questionManager.AskQuestion("medium");
+                yield return new WaitUntil(() => !questionManager.waitingForAnswer);
+
+                if (questionManager.lastAnswerCorrect)
+                {
+                    int destinationTile = ladders[finalTile];
+
+                    yield return new WaitForSeconds(0.3f);
+                    currentAvatar.JumpToTile(destinationTile);
+                }
             }
         }
 
         // SNAKE CHECK
         else if (snakes.ContainsKey(finalTile))
         {
-            Debug.Log("Snake found!");
-
-            questionManager.AskQuestion("hard");
-
-            yield return new WaitUntil(() => !questionManager.waitingForAnswer);
-
-            if (!questionManager.lastAnswerCorrect)
+            if (isComputer)
             {
-                int destinationTile = snakes[finalTile];
+                bool avoidSnake = Random.value < 0.6f;
 
-                Debug.Log("Wrong! Sliding down snake.");
+                if (!avoidSnake)
+                {
+                    int destinationTile = snakes[finalTile];
 
-                yield return new WaitForSeconds(0.3f);
+                    Debug.Log("Computer slides down snake");
 
-                currentAvatar.JumpToTile(destinationTile);
+                    yield return new WaitForSeconds(0.3f);
+                    currentAvatar.JumpToTile(destinationTile);
+                }
             }
             else
             {
-                Debug.Log("Correct! Snake avoided.");
+                questionManager.AskQuestion("hard");
+                yield return new WaitUntil(() => !questionManager.waitingForAnswer);
+
+                if (!questionManager.lastAnswerCorrect)
+                {
+                    int destinationTile = snakes[finalTile];
+
+                    yield return new WaitForSeconds(0.3f);
+                    currentAvatar.JumpToTile(destinationTile);
+                }
             }
+        }
+
+        // CHECK WIN
+        if (currentAvatar.currentTileIndex >= 99)
+        {
+            bool playerWon = currentPlayerIndex == 0;
+
+            resultManager.EndGame(playerWon);
+            yield break;
         }
 
         NextPlayer();
@@ -152,7 +190,46 @@ public class TurnManager : MonoBehaviour
 
     void NextPlayer()
     {
+        // Switch player index
         currentPlayerIndex = (currentPlayerIndex + 1) % avatars.Count;
+
+        // Determine if it’s the computer’s turn
+        bool computerTurn = currentPlayerIndex == 1;
+
+        // Allow human to roll only on their turn
+        diceRoller.playerCanRoll = !computerTurn;
+
         isMoving = false;
+
+        if (computerTurn)
+        {
+            // Start computer's turn automatically
+            StartCoroutine(ComputerTurn());
+        }
+    }
+
+    IEnumerator ComputerTurn()
+    {
+        yield return new WaitForSeconds(1f); 
+
+        // Enable computer roll
+        diceRoller.isComputerRoll = true;
+
+        // Trigger dice animation
+        diceRoller.Roll();
+
+        // Wait until dice finishes rolling
+        yield return new WaitUntil(() => !diceRoller.IsRolling);
+
+        // TurnManager.OnDiceRolled will be triggered automatically
+        // Reset the flag
+        diceRoller.isComputerRoll = false;
+    }
+
+    public void ResetTurnManager()
+    {
+        currentPlayerIndex = 0;
+        isMoving = false;
+        diceRoller.playerCanRoll = true;
     }
 }
