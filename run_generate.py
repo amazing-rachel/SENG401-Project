@@ -1,6 +1,9 @@
+# this file only run for test if the API connected and generate question, it can only generate one qeustion, can delete after finish
 from question_generator import generate_mcq
 
+# function doesn't return anything
 def main() -> None:
+
     q = generate_mcq(topic="primary school math question", difficulty="hard")
     print(f"\nTopic: {q['topic']}")
     print(f"Difficulty: {q['difficulty']}\n")

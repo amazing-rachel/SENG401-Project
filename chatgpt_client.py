@@ -2,21 +2,21 @@
 import os
 # load_dotenv() reads the .env file and load key/value into environment variables
 from dotenv import load_dotenv
-# used to create gemini client
-from google import genai
+# used to create chatgpt client
+from openai import OpenAI
 
 
-def get_gemini_client() -> tuple[genai.Client, str]:
+def get_gpt_client() -> tuple[OpenAI, str]:
     """
     Returns (client, model_name).
-    Loads GEMINI_API_KEY and GEMINI_MODEL from .env or environment variables.
+    Loads GPT_API_KEY and GPT_MODEL from .env or environment variables.
     """
     load_dotenv()
 
     # get the api key from .env
-    api_key = os.getenv("GEMINI_API_KEY")
-    # look for gemini model, if not found, default to gemini-2.5-flash
-    model = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+    api_key = os.getenv("GPT_API_KEY")
+    # look for chatgpt model, if not found, default to gpt-4.1-mini
+    model = os.getenv("GPT_MODEL", "gpt-4.1-mini")
 
     if not api_key:
         raise RuntimeError(
@@ -24,5 +24,5 @@ def get_gemini_client() -> tuple[genai.Client, str]:
         )
 
     # create client to call the model
-    client = genai.Client(api_key=api_key)
+    client = OpenAI(api_key=api_key)
     return client, model

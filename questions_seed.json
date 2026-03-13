@@ -1,0 +1,1302 @@
+[
+  {
+    "topic": "addition within 20",
+    "difficulty": "easy",
+    "question": "What is 8 + 5?",
+    "choices": [
+      "13",
+      "12",
+      "15",
+      "14"
+    ],
+    "answer_index": 0,
+    "explanation": "When you add 8 and 5, you get 13."
+  },
+  {
+    "topic": "subtraction within 20",
+    "difficulty": "easy",
+    "question": "What is 15 minus 7?",
+    "choices": [
+      "8",
+      "7",
+      "9",
+      "6"
+    ],
+    "answer_index": 0,
+    "explanation": "15 minus 7 equals 8 because when you take 7 away from 15, 8 is left."
+  },
+  {
+    "topic": "counting",
+    "difficulty": "easy",
+    "question": "How many apples are there if you have 3 apples and you get 2 more?",
+    "choices": [
+      "5",
+      "4",
+      "3",
+      "6"
+    ],
+    "answer_index": 0,
+    "explanation": "If you start with 3 apples and get 2 more, you have 3 + 2 = 5 apples."
+  },
+  {
+    "topic": "number comparison",
+    "difficulty": "easy",
+    "question": "Which number is bigger: 8 or 5?",
+    "choices": [
+      "8",
+      "5",
+      "3",
+      "1"
+    ],
+    "answer_index": 0,
+    "explanation": "8 is bigger than 5 because 8 comes after 5 when counting."
+  },
+  {
+    "topic": "addition within 20",
+    "difficulty": "easy",
+    "question": "What is 7 + 5?",
+    "choices": [
+      "12",
+      "10",
+      "13",
+      "11"
+    ],
+    "answer_index": 0,
+    "explanation": "7 plus 5 equals 12 because when you add 7 and 5, you get 12."
+  },
+  {
+    "topic": "number comparison",
+    "difficulty": "easy",
+    "question": "Which number is greater?",
+    "choices": [
+      "12",
+      "9",
+      "7",
+      "5"
+    ],
+    "answer_index": 0,
+    "explanation": "12 is greater than 9, 7, and 5 because it is a bigger number."
+  },
+  {
+    "topic": "counting",
+    "difficulty": "easy",
+    "question": "How many apples are there in the basket if you see 3 red apples and 2 green apples?",
+    "choices": [
+      "5",
+      "4",
+      "3",
+      "6"
+    ],
+    "answer_index": 0,
+    "explanation": "There are 3 red apples and 2 green apples. 3 + 2 equals 5 apples in total."
+  },
+  {
+    "topic": "number comparison",
+    "difficulty": "easy",
+    "question": "Which number is bigger?",
+    "choices": [
+      "8",
+      "5",
+      "3",
+      "1"
+    ],
+    "answer_index": 0,
+    "explanation": "8 is bigger than 5, 3, and 1."
+  },
+  {
+    "topic": "counting",
+    "difficulty": "easy",
+    "question": "How many apples are there in the basket if you count 4 red apples and 3 green apples?",
+    "choices": [
+      "7",
+      "6",
+      "5",
+      "8"
+    ],
+    "answer_index": 0,
+    "explanation": "When you add 4 red apples and 3 green apples, you get 7 apples in total."
+  },
+  {
+    "topic": "addition within 20",
+    "difficulty": "easy",
+    "question": "What is 8 + 7?",
+    "choices": [
+      "15",
+      "14",
+      "16",
+      "13"
+    ],
+    "answer_index": 0,
+    "explanation": "8 plus 7 equals 15 because when you add 8 and 7 together, you get 15."
+  },
+  {
+    "topic": "number comparison",
+    "difficulty": "easy",
+    "question": "Which number is the biggest?",
+    "choices": [
+      "12",
+      "7",
+      "9",
+      "5"
+    ],
+    "answer_index": 0,
+    "explanation": "12 is the biggest number because it is greater than 7, 9, and 5."
+  },
+  {
+    "topic": "counting",
+    "difficulty": "easy",
+    "question": "How many apples are there in the basket if there are 3 red apples and 4 green apples?",
+    "choices": [
+      "7",
+      "6",
+      "8",
+      "5"
+    ],
+    "answer_index": 0,
+    "explanation": "There are 3 red apples and 4 green apples. Adding them together gives 3 + 4 = 7 apples in total."
+  },
+  {
+    "topic": "counting",
+    "difficulty": "easy",
+    "question": "How many apples are there if you have 3 apples and then get 2 more?",
+    "choices": [
+      "5",
+      "4",
+      "3",
+      "6"
+    ],
+    "answer_index": 0,
+    "explanation": "If you have 3 apples and get 2 more, you add 3 + 2 to get 5 apples in total."
+  },
+  {
+    "topic": "counting",
+    "difficulty": "easy",
+    "question": "How many apples are there in the basket if you add 3 apples to 4 apples?",
+    "choices": [
+      "7",
+      "6",
+      "8",
+      "5"
+    ],
+    "answer_index": 0,
+    "explanation": "When you add 3 apples to 4 apples, you have 7 apples in total."
+  },
+  {
+    "topic": "number comparison",
+    "difficulty": "easy",
+    "question": "Which number is bigger: 7 or 5?",
+    "choices": [
+      "7",
+      "5",
+      "3",
+      "6"
+    ],
+    "answer_index": 0,
+    "explanation": "7 is bigger than 5 because it comes after 5 when you count."
+  },
+  {
+    "topic": "addition within 20",
+    "difficulty": "easy",
+    "question": "What is 7 plus 5?",
+    "choices": [
+      "12",
+      "10",
+      "13",
+      "11"
+    ],
+    "answer_index": 0,
+    "explanation": "7 plus 5 equals 12 because when you add 7 and 5 together, you get 12."
+  },
+  {
+    "topic": "counting",
+    "difficulty": "easy",
+    "question": "How many apples are there if you have 3 apples and get 2 more?",
+    "choices": [
+      "5",
+      "4",
+      "3",
+      "2"
+    ],
+    "answer_index": 0,
+    "explanation": "If you start with 3 apples and get 2 more, you have 3 + 2 = 5 apples."
+  },
+  {
+    "topic": "counting",
+    "difficulty": "easy",
+    "question": "How many apples are there if you have 3 red apples and 2 green apples?",
+    "choices": [
+      "5",
+      "4",
+      "6",
+      "3"
+    ],
+    "answer_index": 0,
+    "explanation": "You add the red apples and green apples: 3 + 2 = 5 apples in total."
+  },
+  {
+    "topic": "counting",
+    "difficulty": "easy",
+    "question": "How many apples are there in the basket if you count 3 red apples and 2 green apples?",
+    "choices": [
+      "5",
+      "6",
+      "4",
+      "3"
+    ],
+    "answer_index": 0,
+    "explanation": "There are 3 red apples and 2 green apples, so 3 + 2 equals 5 apples in total."
+  },
+  {
+    "topic": "number comparison",
+    "difficulty": "easy",
+    "question": "Which number is greater than 8?",
+    "choices": [
+      "5",
+      "7",
+      "9",
+      "6"
+    ],
+    "answer_index": 2,
+    "explanation": "9 is greater than 8 because it comes after 8 when we count."
+  },
+  {
+    "topic": "addition and subtraction word problems",
+    "difficulty": "medium",
+    "question": "Sarah has 45 stickers. She gives 17 stickers to her friend. How many stickers does Sarah have now?",
+    "choices": [
+      "28",
+      "62",
+      "38",
+      "33"
+    ],
+    "answer_index": 0,
+    "explanation": "Sarah started with 45 stickers and gave away 17, so you subtract 17 from 45. 45 - 17 = 28, so Sarah has 28 stickers left."
+  },
+  {
+    "topic": "basic multiplication",
+    "difficulty": "medium",
+    "question": "What is 7 multiplied by 6?",
+    "choices": [
+      "42",
+      "36",
+      "48",
+      "40"
+    ],
+    "answer_index": 0,
+    "explanation": "7 multiplied by 6 is 42 because 7 times 6 equals 42."
+  },
+  {
+    "topic": "basic division",
+    "difficulty": "medium",
+    "question": "There are 24 apples and 6 baskets. If the apples are divided equally, how many apples go in each basket?",
+    "choices": [
+      "4",
+      "6",
+      "3",
+      "5"
+    ],
+    "answer_index": 0,
+    "explanation": "24 apples divided by 6 baskets equals 4 apples per basket because 24 ÷ 6 = 4."
+  },
+  {
+    "topic": "missing number equations",
+    "difficulty": "medium",
+    "question": "What number should replace the question mark in this equation: 7 × ? = 42?",
+    "choices": [
+      "6",
+      "5",
+      "7",
+      "8"
+    ],
+    "answer_index": 0,
+    "explanation": "7 times 6 equals 42, so the missing number is 6."
+  },
+  {
+    "topic": "addition and subtraction word problems",
+    "difficulty": "medium",
+    "question": "Lucy has 45 stickers. She gave 17 stickers to her friend and then bought 23 more stickers. How many stickers does Lucy have now?",
+    "choices": [
+      "51",
+      "61",
+      "39",
+      "55"
+    ],
+    "answer_index": 0,
+    "explanation": "Lucy started with 45 stickers, gave away 17, so she had 45 - 17 = 28 stickers left. Then she bought 23 more, so 28 + 23 = 51 stickers now."
+  },
+  {
+    "topic": "basic multiplication",
+    "difficulty": "medium",
+    "question": "What is 7 times 6?",
+    "choices": [
+      "42",
+      "36",
+      "48",
+      "54"
+    ],
+    "answer_index": 0,
+    "explanation": "7 times 6 means 7 added 6 times, which equals 42."
+  },
+  {
+    "topic": "missing number equations",
+    "difficulty": "medium",
+    "question": "What number should replace the question mark? 7 x ? = 42",
+    "choices": [
+      "6",
+      "5",
+      "7",
+      "8"
+    ],
+    "answer_index": 0,
+    "explanation": "To find the missing number, divide 42 by 7. 42 ÷ 7 equals 6, so the missing number is 6."
+  },
+  {
+    "topic": "addition and subtraction word problems",
+    "difficulty": "medium",
+    "question": "Sally has 15 apples. She gives 7 apples to her friend and then buys 10 more apples. How many apples does Sally have now?",
+    "choices": [
+      "18",
+      "22",
+      "17",
+      "8"
+    ],
+    "answer_index": 0,
+    "explanation": "Sally starts with 15 apples, gives away 7, so she has 15 - 7 = 8 apples left. Then she buys 10 more, so she has 8 + 10 = 18 apples now."
+  },
+  {
+    "topic": "basic division",
+    "difficulty": "medium",
+    "question": "There are 24 apples and 6 baskets. If the apples are divided equally into the baskets, how many apples will each basket have?",
+    "choices": [
+      "4",
+      "5",
+      "6",
+      "3"
+    ],
+    "answer_index": 0,
+    "explanation": "When you divide 24 apples by 6 baskets, each basket gets 24 ÷ 6 = 4 apples."
+  },
+  {
+    "topic": "missing number equations",
+    "difficulty": "medium",
+    "question": "What number should replace the question mark? 8 × ? = 56",
+    "choices": [
+      "7",
+      "6",
+      "8",
+      "9"
+    ],
+    "answer_index": 0,
+    "explanation": "To find the missing number, divide 56 by 8. 56 ÷ 8 = 7, so the missing number is 7."
+  },
+  {
+    "topic": "addition and subtraction word problems",
+    "difficulty": "medium",
+    "question": "Emma has 15 apples. She gives 7 apples to her friend and then buys 10 more apples. How many apples does Emma have now?",
+    "choices": [
+      "18",
+      "22",
+      "12",
+      "8"
+    ],
+    "answer_index": 0,
+    "explanation": "Emma starts with 15 apples, gives away 7 which leaves her with 8 apples. Then she buys 10 more, so 8 + 10 = 18 apples in total."
+  },
+  {
+    "topic": "basic multiplication",
+    "difficulty": "medium",
+    "question": "What is 8 times 7?",
+    "choices": [
+      "54",
+      "56",
+      "48",
+      "64"
+    ],
+    "answer_index": 1,
+    "explanation": "8 times 7 equals 56 because 8 multiplied by 7 means adding 8 seven times, which is 56."
+  },
+  {
+    "topic": "basic division",
+    "difficulty": "medium",
+    "question": "If you have 24 candies and want to share them equally among 6 friends, how many candies does each friend get?",
+    "choices": [
+      "4",
+      "6",
+      "5",
+      "3"
+    ],
+    "answer_index": 0,
+    "explanation": "Dividing 24 candies by 6 friends gives 24 ÷ 6 = 4 candies per friend."
+  },
+  {
+    "topic": "addition and subtraction word problems",
+    "difficulty": "medium",
+    "question": "Sara had 15 apples. She gave 7 apples to her friends and then bought 10 more apples. How many apples does Sara have now?",
+    "choices": [
+      "18",
+      "22",
+      "8",
+      "10"
+    ],
+    "answer_index": 0,
+    "explanation": "Sara started with 15 apples, gave away 7, so she had 15 - 7 = 8 apples. Then she bought 10 more, so 8 + 10 = 18 apples in total."
+  },
+  {
+    "topic": "basic division",
+    "difficulty": "medium",
+    "question": "A teacher has 24 pencils. She wants to put the same number of pencils into 6 boxes. How many pencils will go in each box?",
+    "choices": [
+      "4",
+      "6",
+      "3",
+      "5"
+    ],
+    "answer_index": 0,
+    "explanation": "To find out how many pencils go in each box, divide 24 pencils by 6 boxes. 24 ÷ 6 = 4 pencils in each box."
+  },
+  {
+    "topic": "missing number equations",
+    "difficulty": "medium",
+    "question": "What number should replace the question mark? 6 × ? = 42",
+    "choices": [
+      "7",
+      "6",
+      "8",
+      "5"
+    ],
+    "answer_index": 0,
+    "explanation": "To find the missing number, divide 42 by 6. 42 ÷ 6 = 7, so the missing number is 7."
+  },
+  {
+    "topic": "addition and subtraction word problems",
+    "difficulty": "medium",
+    "question": "Sarah has 15 apples. She gives 7 to her friend and then buys 10 more apples. How many apples does Sarah have now?",
+    "choices": [
+      "18",
+      "22",
+      "25",
+      "12"
+    ],
+    "answer_index": 0,
+    "explanation": "Sarah gave away 7 apples from 15, which leaves her with 8 apples. Then she bought 10 more, so 8 + 10 = 18 apples altogether."
+  },
+  {
+    "topic": "basic division",
+    "difficulty": "medium",
+    "question": "If 24 apples are shared equally by 6 children, how many apples does each child get?",
+    "choices": [
+      "4",
+      "6",
+      "8",
+      "3"
+    ],
+    "answer_index": 0,
+    "explanation": "When 24 apples are divided by 6 children, each child gets 24 ÷ 6 = 4 apples."
+  },
+  {
+    "topic": "missing number equations",
+    "difficulty": "medium",
+    "question": "What number should replace the question mark? 7 × ? = 49",
+    "choices": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "answer_index": 1,
+    "explanation": "7 times 7 equals 49, so the missing number is 7."
+  },
+  {
+    "topic": "addition and subtraction word problems",
+    "difficulty": "medium",
+    "question": "Sally has 24 apples. She gave 7 apples to her friend and then bought 15 more apples. How many apples does Sally have now?",
+    "choices": [
+      "32",
+      "22",
+      "16",
+      "46"
+    ],
+    "answer_index": 0,
+    "explanation": "Sally started with 24 apples, gave away 7 (24 - 7 = 17), and then bought 15 more (17 + 15 = 32). So, she has 32 apples now."
+  },
+  {
+    "topic": "basic division",
+    "difficulty": "medium",
+    "question": "There are 24 apples shared equally into 4 baskets. How many apples are in each basket?",
+    "choices": [
+      "6",
+      "8",
+      "4",
+      "12"
+    ],
+    "answer_index": 0,
+    "explanation": "24 apples divided by 4 baskets means each basket has 24 ÷ 4 = 6 apples."
+  },
+  {
+    "topic": "missing number equations",
+    "difficulty": "medium",
+    "question": "What number should replace the question mark? 8 + ? = 15",
+    "choices": [
+      "7",
+      "6",
+      "8",
+      "9"
+    ],
+    "answer_index": 0,
+    "explanation": "To find the missing number, subtract 8 from 15. 15 - 8 equals 7, so the missing number is 7."
+  },
+  {
+    "topic": "addition and subtraction word problems",
+    "difficulty": "medium",
+    "question": "Emma has 24 apples. She gives 9 apples to her friend and then buys 15 more apples. How many apples does Emma have now?",
+    "choices": [
+      "30",
+      "24",
+      "15",
+      "9"
+    ],
+    "answer_index": 0,
+    "explanation": "Emma starts with 24 apples, gives away 9 (24 - 9 = 15), then buys 15 more (15 + 15 = 30). So, she has 30 apples now."
+  },
+  {
+    "topic": "basic multiplication",
+    "difficulty": "medium",
+    "question": "If each box has 6 pencils, how many pencils are there in 7 boxes?",
+    "choices": [
+      "42",
+      "36",
+      "48",
+      "40"
+    ],
+    "answer_index": 0,
+    "explanation": "To find the total pencils, multiply 6 pencils by 7 boxes, which equals 42 pencils."
+  },
+  {
+    "topic": "basic division",
+    "difficulty": "medium",
+    "question": "There are 24 apples evenly put into 6 baskets. How many apples are in each basket?",
+    "choices": [
+      "4",
+      "5",
+      "6",
+      "3"
+    ],
+    "answer_index": 0,
+    "explanation": "When 24 apples are divided into 6 baskets equally, each basket has 24 ÷ 6 = 4 apples."
+  },
+  {
+    "topic": "missing number equations",
+    "difficulty": "medium",
+    "question": "Find the missing number: 7 × ___ = 56",
+    "choices": [
+      "8",
+      "7",
+      "6",
+      "9"
+    ],
+    "answer_index": 0,
+    "explanation": "7 times 8 equals 56, so the missing number is 8."
+  },
+  {
+    "topic": "addition and subtraction word problems",
+    "difficulty": "medium",
+    "question": "Lily has 24 stickers. She gave 9 stickers to her friend and then bought 15 more stickers. How many stickers does Lily have now?",
+    "choices": [
+      "30",
+      "18",
+      "15",
+      "9"
+    ],
+    "answer_index": 0,
+    "explanation": "Lily started with 24 stickers, gave away 9, so she had 24 - 9 = 15 stickers left. Then she bought 15 more, so 15 + 15 = 30 stickers now."
+  },
+  {
+    "topic": "basic division",
+    "difficulty": "medium",
+    "question": "There are 24 apples and 6 baskets. If the apples are divided equally, how many apples will be in each basket?",
+    "choices": [
+      "4",
+      "5",
+      "6",
+      "3"
+    ],
+    "answer_index": 0,
+    "explanation": "24 apples divided equally into 6 baskets means each basket gets 24 ÷ 6 = 4 apples."
+  },
+  {
+    "topic": "missing number equations",
+    "difficulty": "medium",
+    "question": "What number goes in the empty box? 6 × ___ = 42",
+    "choices": [
+      "7",
+      "6",
+      "8",
+      "5"
+    ],
+    "answer_index": 0,
+    "explanation": "6 times 7 equals 42, so the missing number is 7."
+  },
+  {
+    "topic": "addition and subtraction word problems",
+    "difficulty": "medium",
+    "question": "Sarah has 15 apples. She gave 7 apples to her friend and then bought 10 more apples. How many apples does Sarah have now?",
+    "choices": [
+      "18",
+      "22",
+      "10",
+      "12"
+    ],
+    "answer_index": 0,
+    "explanation": "Sarah started with 15 apples, gave away 7, so she had 15 - 7 = 8 apples left. Then she bought 10 more, so 8 + 10 = 18 apples in total."
+  },
+  {
+    "topic": "basic division",
+    "difficulty": "medium",
+    "question": "There are 24 cookies and 6 children. If the cookies are shared equally, how many cookies does each child get?",
+    "choices": [
+      "4",
+      "5",
+      "6",
+      "3"
+    ],
+    "answer_index": 0,
+    "explanation": "Divide 24 cookies by 6 children to get 4 cookies for each child."
+  },
+  {
+    "topic": "missing number equations",
+    "difficulty": "medium",
+    "question": "What number should replace the question mark in this equation? 8 × ? = 56",
+    "choices": [
+      "7",
+      "6",
+      "8",
+      "9"
+    ],
+    "answer_index": 0,
+    "explanation": "To find the missing number, divide 56 by 8, which gives 7. So, 8 × 7 = 56."
+  },
+  {
+    "topic": "addition and subtraction word problems",
+    "difficulty": "medium",
+    "question": "Emma has 24 apples. She gives 9 apples to her friend and then buys 7 more apples. How many apples does Emma have now?",
+    "choices": [
+      "22",
+      "31",
+      "16",
+      "20"
+    ],
+    "answer_index": 0,
+    "explanation": "Emma starts with 24 apples. She gives away 9, so 24 - 9 = 15. Then she buys 7 more, so 15 + 7 = 22 apples in total."
+  },
+  {
+    "topic": "basic division",
+    "difficulty": "medium",
+    "question": "There are 24 cookies. If 6 friends want to share them equally, how many cookies does each friend get?",
+    "choices": [
+      "4",
+      "6",
+      "3",
+      "5"
+    ],
+    "answer_index": 0,
+    "explanation": "When 24 cookies are shared equally among 6 friends, each friend gets 24 ÷ 6 = 4 cookies."
+  },
+  {
+    "topic": "missing number equations",
+    "difficulty": "medium",
+    "question": "What number should replace the question mark? 8 × ? = 64",
+    "choices": [
+      "7",
+      "6",
+      "8",
+      "9"
+    ],
+    "answer_index": 2,
+    "explanation": "8 times 8 equals 64, so the missing number is 8."
+  },
+  {
+    "topic": "addition and subtraction word problems",
+    "difficulty": "medium",
+    "question": "Sarah has 45 apples. She gave 17 apples to her friends and then bought 26 more. How many apples does Sarah have now?",
+    "choices": [
+      "54",
+      "58",
+      "62",
+      "45"
+    ],
+    "answer_index": 1,
+    "explanation": "Sarah gave away 17 apples, so she had 45 - 17 = 28 apples left. Then she bought 26 more, so she now has 28 + 26 = 54 apples."
+  },
+  {
+    "topic": "basic division",
+    "difficulty": "medium",
+    "question": "If 24 candies are shared equally among 6 friends, how many candies does each friend get?",
+    "choices": [
+      "4",
+      "6",
+      "5",
+      "3"
+    ],
+    "answer_index": 0,
+    "explanation": "To find out how many candies each friend gets, divide 24 candies by 6 friends. 24 ÷ 6 = 4 candies."
+  },
+  {
+    "topic": "missing number equations",
+    "difficulty": "medium",
+    "question": "What number should replace the question mark in this equation? 6 × ? = 42",
+    "choices": [
+      "7",
+      "6",
+      "8",
+      "5"
+    ],
+    "answer_index": 0,
+    "explanation": "To find the missing number, divide 42 by 6. Since 42 ÷ 6 = 7, the missing number is 7."
+  },
+  {
+    "topic": "addition and subtraction word problems",
+    "difficulty": "medium",
+    "question": "Sarah has 15 apples. She gives 7 apples to her friends and then buys 10 more apples. How many apples does Sarah have now?",
+    "choices": [
+      "18",
+      "8",
+      "22",
+      "10"
+    ],
+    "answer_index": 0,
+    "explanation": "Sarah starts with 15 apples, gives away 7, so she has 15 - 7 = 8 apples left. Then she buys 10 more apples, so 8 + 10 = 18 apples in total."
+  },
+  {
+    "topic": "basic division",
+    "difficulty": "medium",
+    "question": "There are 24 apples and 6 baskets. If the apples are divided equally into the baskets, how many apples go in each basket?",
+    "choices": [
+      "4",
+      "6",
+      "3",
+      "5"
+    ],
+    "answer_index": 0,
+    "explanation": "24 apples divided by 6 baskets equals 4 apples in each basket."
+  },
+  {
+    "topic": "mixed operations",
+    "difficulty": "hard",
+    "question": "Sara has 24 apples. She gives 1/3 of them to her friend and then buys 12 more apples. How many apples does she have now?",
+    "choices": [
+      "28",
+      "30",
+      "34",
+      "36"
+    ],
+    "answer_index": 3,
+    "explanation": "Sara gives away 1/3 of 24, which is 8 apples, so she has 24 - 8 = 16 apples left. Then she buys 12 more, so 16 + 12 = 28 apples."
+  },
+  {
+    "topic": "time word problems",
+    "difficulty": "hard",
+    "question": "Emma started reading at 3:45 PM and read for 1 hour and 35 minutes. What time did she finish reading?",
+    "choices": [
+      "5:20 PM",
+      "5:15 PM",
+      "4:50 PM",
+      "5:05 PM"
+    ],
+    "answer_index": 3,
+    "explanation": "Starting at 3:45 PM, adding 1 hour takes us to 4:45 PM. Adding 35 more minutes takes us to 5:20 PM."
+  },
+  {
+    "topic": "money word problems",
+    "difficulty": "hard",
+    "question": "Emma has $15. She buys 3 notebooks that cost $4 each and 2 pens that cost $2 each. How much money does she have left?",
+    "choices": [
+      "$1",
+      "$3",
+      "$5",
+      "$7"
+    ],
+    "answer_index": 0,
+    "explanation": "Emma spends 3 × $4 = $12 on notebooks and 2 × $2 = $4 on pens. Total spending is $12 + $4 = $16. Since Emma only has $15, she cannot afford all these items, so she spends $15 and has $0 left. However, since the question implies she bought all, it must mean she had enough or the question assumes she spends $15. The correct math using the prices given means she needs $16, which is more than she has, so the closest correct result assuming she bought them all is that she has $1 less than the total needed, so the correct answer is $1 left. This matches the choice of $1 left."
+  },
+  {
+    "topic": "two-step arithmetic problems",
+    "difficulty": "hard",
+    "question": "Sara has 3 packs of stickers. Each pack has 12 stickers. She gives 15 stickers to her friend. How many stickers does Sara have left?",
+    "choices": [
+      "21",
+      "36",
+      "33",
+      "27"
+    ],
+    "answer_index": 0,
+    "explanation": "First, multiply 3 packs by 12 stickers to get 36 stickers. Then subtract 15 stickers given away, so 36 - 15 = 21 stickers left."
+  },
+  {
+    "topic": "mixed operations",
+    "difficulty": "hard",
+    "question": "Lily has 3 packs of stickers. Each pack has 8 stickers. She gives 7 stickers to her friend. How many stickers does Lily have left?",
+    "choices": [
+      "17",
+      "24",
+      "15",
+      "18"
+    ],
+    "answer_index": 0,
+    "explanation": "Lily starts with 3 packs × 8 stickers = 24 stickers. She gives away 7, so 24 − 7 = 17 stickers are left."
+  },
+  {
+    "topic": "time word problems",
+    "difficulty": "hard",
+    "question": "Sarah started her homework at 3:45 PM and worked for 1 hour and 35 minutes. What time did she finish?",
+    "choices": [
+      "5:20 PM",
+      "5:00 PM",
+      "4:50 PM",
+      "5:30 PM"
+    ],
+    "answer_index": 0,
+    "explanation": "Starting at 3:45 PM, adding 1 hour brings us to 4:45 PM; adding 35 minutes more brings us to 5:20 PM."
+  },
+  {
+    "topic": "money word problems",
+    "difficulty": "hard",
+    "question": "Sara has $15. She buys 3 toys for $4 each. How much money does she have left?",
+    "choices": [
+      "$3",
+      "$7",
+      "$9",
+      "$12"
+    ],
+    "answer_index": 0,
+    "explanation": "Sara spends 3 toys × $4 = $12. She started with $15, so $15 − $12 = $3 left."
+  },
+  {
+    "topic": "two-step arithmetic problems",
+    "difficulty": "hard",
+    "question": "Emma bought 3 packs of pencils. Each pack has 12 pencils. She gave 5 pencils to her friend. How many pencils does Emma have now?",
+    "choices": [
+      "31",
+      "36",
+      "41",
+      "23"
+    ],
+    "answer_index": 0,
+    "explanation": "First, multiply 3 packs by 12 pencils to get 36 pencils. Then, subtract the 5 pencils Emma gave away. So, 36 - 5 = 31 pencils left."
+  },
+  {
+    "topic": "mixed operations",
+    "difficulty": "hard",
+    "question": "Sally has 12 apples. She gives 3 apples to her friend and then buys 7 more apples. How many apples does Sally have now?",
+    "choices": [
+      "16",
+      "22",
+      "19",
+      "26"
+    ],
+    "answer_index": 0,
+    "explanation": "First, subtract 3 apples that Sally gave away: 12 - 3 = 9. Then add 7 apples she bought: 9 + 7 = 16 apples in total."
+  },
+  {
+    "topic": "time word problems",
+    "difficulty": "hard",
+    "question": "Emma started her homework at 4:15 PM and finished at 6:50 PM. How long did she spend doing her homework?",
+    "choices": [
+      "2 hours and 35 minutes",
+      "2 hours and 15 minutes",
+      "1 hour and 45 minutes",
+      "3 hours and 10 minutes"
+    ],
+    "answer_index": 0,
+    "explanation": "Emma worked from 4:15 PM to 6:50 PM. This is 2 hours from 4:15 PM to 6:15 PM, plus 35 more minutes from 6:15 PM to 6:50 PM, which equals 2 hours and 35 minutes."
+  },
+  {
+    "topic": "money word problems",
+    "difficulty": "hard",
+    "question": "Emma has $5. She buys a toy for $3 and a book for $2. How much money does she have left?",
+    "choices": [
+      "$0",
+      "$2",
+      "$3",
+      "$1"
+    ],
+    "answer_index": 0,
+    "explanation": "Emma spends $3 on the toy and $2 on the book, which makes $5 total. She had $5, so now she has $0 left."
+  },
+  {
+    "topic": "two-step arithmetic problems",
+    "difficulty": "hard",
+    "question": "Sara has 24 apples. She gives 8 apples to her friend and then buys 15 more apples. How many apples does Sara have now?",
+    "choices": [
+      "31",
+      "39",
+      "15",
+      "41"
+    ],
+    "answer_index": 0,
+    "explanation": "First, Sara gives away 8 apples, so 24 - 8 = 16 apples are left. Then she buys 15 more, so 16 + 15 = 31 apples in total."
+  },
+  {
+    "topic": "mixed operations",
+    "difficulty": "hard",
+    "question": "Lily has 5 packs of stickers. Each pack has 12 stickers. She gives 18 stickers to her friend. How many stickers does Lily have left?",
+    "choices": [
+      "42",
+      "48",
+      "54",
+      "36"
+    ],
+    "answer_index": 0,
+    "explanation": "First, multiply 5 packs by 12 stickers: 5 × 12 = 60 stickers. Then subtract the 18 stickers she gave away: 60 - 18 = 42 stickers left."
+  },
+  {
+    "topic": "time word problems",
+    "difficulty": "hard",
+    "question": "Emma starts her homework at 3:15 PM and finishes it after 2 hours and 45 minutes. What time does Emma finish her homework?",
+    "choices": [
+      "6:00 PM",
+      "5:45 PM",
+      "6:15 PM",
+      "5:00 PM"
+    ],
+    "answer_index": 2,
+    "explanation": "If Emma starts at 3:15 PM and adds 2 hours and 45 minutes, she finishes at 6:00 PM plus 15 minutes, which is 6:15 PM."
+  },
+  {
+    "topic": "money word problems",
+    "difficulty": "hard",
+    "question": "Lily has $15. She buys a toy for $7 and a book for $5. How much money does she have left?",
+    "choices": [
+      "$3",
+      "$7",
+      "$5",
+      "$2"
+    ],
+    "answer_index": 0,
+    "explanation": "Lily starts with $15. She spends $7 on a toy and $5 on a book. So, $7 + $5 = $12. Then, $15 - $12 = $3 left."
+  },
+  {
+    "topic": "two-step arithmetic problems",
+    "difficulty": "hard",
+    "question": "Emma has 3 boxes of crayons. Each box has 12 crayons. She gives 15 crayons to her friend. How many crayons does Emma have left?",
+    "choices": [
+      "21",
+      "36",
+      "15",
+      "33"
+    ],
+    "answer_index": 0,
+    "explanation": "First, multiply 3 boxes by 12 crayons to get 36 crayons. Then, subtract 15 crayons given away: 36 - 15 = 21 crayons left."
+  },
+  {
+    "topic": "mixed operations",
+    "difficulty": "hard",
+    "question": "Lily has 15 apples. She gives 3 apples to each of her 4 friends. How many apples does she have left?",
+    "choices": [
+      "3",
+      "9",
+      "12",
+      "6"
+    ],
+    "answer_index": 3,
+    "explanation": "Lily gives away 3 apples to each of her 4 friends, so 3 × 4 = 12 apples are given away. She started with 15 apples, so 15 - 12 = 3 apples are left."
+  },
+  {
+    "topic": "time word problems",
+    "difficulty": "hard",
+    "question": "Sara started her homework at 3:45 PM. It took her 1 hour and 35 minutes to finish. What time did Sara finish her homework?",
+    "choices": [
+      "5:10 PM",
+      "5:00 PM",
+      "4:50 PM",
+      "5:30 PM"
+    ],
+    "answer_index": 0,
+    "explanation": "Sara finished her homework at 5:10 PM because 3:45 PM plus 1 hour and 35 minutes equals 5:10 PM."
+  },
+  {
+    "topic": "money word problems",
+    "difficulty": "hard",
+    "question": "Emma has $12. She buys 3 candies for $2 each and a drink for $4. How much money does Emma have left?",
+    "choices": [
+      "$2",
+      "$4",
+      "$6",
+      "$8"
+    ],
+    "answer_index": 0,
+    "explanation": "Emma spends 3 candies x $2 = $6, plus $4 for the drink, totaling $10. She started with $12, so $12 - $10 = $2 left."
+  },
+  {
+    "topic": "two-step arithmetic problems",
+    "difficulty": "hard",
+    "question": "Lisa has 3 boxes. Each box has 12 pencils. She gives 15 pencils to her friend. How many pencils does Lisa have left?",
+    "choices": [
+      "21",
+      "36",
+      "15",
+      "33"
+    ],
+    "answer_index": 0,
+    "explanation": "First, multiply 3 boxes by 12 pencils to get 36 pencils. Then, subtract the 15 pencils given away: 36 - 15 = 21. So, Lisa has 21 pencils left."
+  },
+  {
+    "topic": "mixed operations",
+    "difficulty": "hard",
+    "question": "Lily has 5 packs of stickers. Each pack has 12 stickers. She gives 18 stickers to her friends. How many stickers does she have left?",
+    "choices": [
+      "42",
+      "48",
+      "54",
+      "60"
+    ],
+    "answer_index": 0,
+    "explanation": "First, multiply 5 packs by 12 stickers: 5 × 12 = 60 stickers. Then subtract the 18 stickers given away: 60 - 18 = 42 stickers left."
+  },
+  {
+    "topic": "time word problems",
+    "difficulty": "hard",
+    "question": "Lisa started reading a book at 2:15 PM and read for 1 hour and 45 minutes. Then she took a break for 30 minutes. At what time did she finish her break?",
+    "choices": [
+      "4:30 PM",
+      "4:00 PM",
+      "3:45 PM",
+      "5:00 PM"
+    ],
+    "answer_index": 0,
+    "explanation": "Lisa read from 2:15 PM for 1 hour and 45 minutes, finishing at 4:00 PM. Then she took a 30-minute break, so she finished her break at 4:30 PM."
+  },
+  {
+    "topic": "money word problems",
+    "difficulty": "hard",
+    "question": "Lily has 5 coins. Each coin is either 10 cents or 25 cents. If she has exactly $1.10 in total, how many 25-cent coins does she have?",
+    "choices": [
+      "3",
+      "2",
+      "4",
+      "1"
+    ],
+    "answer_index": 1,
+    "explanation": "If Lily has 2 coins worth 25 cents each, that's 50 cents. The other 3 coins are 10 cents each, which is 30 cents. 50 cents + 30 cents = 80 cents, which is not correct. Let's try 3 coins of 25 cents: 3 x 25 cents = 75 cents, and 2 coins of 10 cents = 20 cents. 75 + 20 = 95 cents, still not $1.10. Try 4 coins of 25 cents: 4 x 25 = 100, and 1 coin of 10 cents = 10. 100 + 10 = $1.10 which matches exactly. So, Lily has 4 coins of 25 cents."
+  },
+  {
+    "topic": "two-step arithmetic problems",
+    "difficulty": "hard",
+    "question": "Sara has 24 apples. She gives 8 apples to her friend and then buys 15 more apples. How many apples does she have now?",
+    "choices": [
+      "31",
+      "15",
+      "9",
+      "39"
+    ],
+    "answer_index": 0,
+    "explanation": "Sara starts with 24 apples. She gives away 8, so 24 - 8 = 16 apples are left. Then she buys 15 more, so 16 + 15 = 31 apples total."
+  },
+  {
+    "topic": "time word problems",
+    "difficulty": "hard",
+    "question": "Sara started her homework at 4:15 PM. She worked for 45 minutes, took a 20-minute break, and then worked for another 30 minutes. At what time did Sara finish her homework?",
+    "choices": [
+      "6:10 PM",
+      "5:50 PM",
+      "5:30 PM",
+      "6:05 PM"
+    ],
+    "answer_index": 1,
+    "explanation": "Sara worked for 45 minutes starting at 4:15 PM, so she reached 5:00 PM. Then, she took a 20-minute break, making it 5:20 PM. After that, she worked another 30 minutes, finishing at 5:50 PM."
+  },
+  {
+    "topic": "money word problems",
+    "difficulty": "hard",
+    "question": "Lily has £5. She buys 3 notebooks for £1.20 each and a pen for £0.90. How much money does she have left?",
+    "choices": [
+      "£0.50",
+      "£1.50",
+      "£2.10",
+      "£3.40"
+    ],
+    "answer_index": 3,
+    "explanation": "The total cost of 3 notebooks is 3 × £1.20 = £3.60. Adding the pen at £0.90 makes £3.60 + £0.90 = £4.50. Lily started with £5, so she has £5 - £4.50 = £0.50 left."
+  },
+  {
+    "topic": "two-step arithmetic problems",
+    "difficulty": "hard",
+    "question": "Sophie has 12 apples. She gives 3 apples to each of her 2 friends. How many apples does Sophie have left?",
+    "choices": [
+      "6",
+      "9",
+      "18",
+      "3"
+    ],
+    "answer_index": 0,
+    "explanation": "Sophie gives away 3 apples to 2 friends, so she gives away 3 x 2 = 6 apples. She starts with 12 apples, so 12 - 6 = 6 apples are left."
+  },
+  {
+    "topic": "mixed operations",
+    "difficulty": "hard",
+    "question": "Sara has 5 packs of stickers. Each pack has 12 stickers. She gives 18 stickers to her friend. How many stickers does Sara have left?",
+    "choices": [
+      "42",
+      "30",
+      "60",
+      "24"
+    ],
+    "answer_index": 0,
+    "explanation": "First, find the total number of stickers by multiplying 5 packs by 12 stickers each: 5 × 12 = 60. Then subtract the 18 stickers given away: 60 - 18 = 42. So, Sara has 42 stickers left."
+  },
+  {
+    "topic": "time word problems",
+    "difficulty": "hard",
+    "question": "Sarah started her homework at 3:45 PM. She took a 20-minute break at 4:15 PM. If she finished her homework 1 hour after her break, what time did Sarah finish her homework?",
+    "choices": [
+      "5:15 PM",
+      "5:35 PM",
+      "5:45 PM",
+      "6:15 PM"
+    ],
+    "answer_index": 1,
+    "explanation": "Sarah took her break at 4:15 PM for 20 minutes, so she resumed homework at 4:35 PM. She finished 1 hour after that, which is at 5:35 PM."
+  },
+  {
+    "topic": "money word problems",
+    "difficulty": "hard",
+    "question": "Lily has $25. She buys 3 pens at $4 each and a notebook for $7. How much money does she have left?",
+    "choices": [
+      "$8",
+      "$10",
+      "$3",
+      "$5"
+    ],
+    "answer_index": 0,
+    "explanation": "The total spent is 3 × $4 = $12 for pens plus $7 for the notebook, which is $19. Subtract $19 from $25, Lily has $6 left."
+  },
+  {
+    "topic": "two-step arithmetic problems",
+    "difficulty": "hard",
+    "question": "Emma has 24 apples. She gives 8 apples to her friend and then divides the rest equally into 4 baskets. How many apples are in each basket?",
+    "choices": [
+      "4",
+      "6",
+      "8",
+      "16"
+    ],
+    "answer_index": 1,
+    "explanation": "Emma gives away 8 apples, so 24 - 8 = 16 apples remain. She divides these 16 apples equally into 4 baskets, so 16 ÷ 4 = 4 apples in each basket."
+  },
+  {
+    "topic": "mixed operations",
+    "difficulty": "hard",
+    "question": "Lily has 3 packs of stickers. Each pack has 24 stickers. She gives 15 stickers to her friend. How many stickers does she have left?",
+    "choices": [
+      "57",
+      "72",
+      "33",
+      "63"
+    ],
+    "answer_index": 0,
+    "explanation": "First, multiply 3 packs by 24 stickers to get 72 stickers. Then, subtract 15 stickers given away: 72 - 15 = 57 stickers left."
+  },
+  {
+    "topic": "time word problems",
+    "difficulty": "hard",
+    "question": "Sally started her homework at 4:15 PM and finished it 1 hour and 45 minutes later. What time did she finish her homework?",
+    "choices": [
+      "6:00 PM",
+      "5:30 PM",
+      "6:15 PM",
+      "5:45 PM"
+    ],
+    "answer_index": 3,
+    "explanation": "Starting at 4:15 PM, adding 1 hour makes it 5:15 PM, then adding 45 minutes makes it 5:45 PM."
+  },
+  {
+    "topic": "money word problems",
+    "difficulty": "hard",
+    "question": "Lily had $50. She bought a book for $17 and a toy for $23. How much money does she have left?",
+    "choices": [
+      "$10",
+      "$20",
+      "$15",
+      "$5"
+    ],
+    "answer_index": 0,
+    "explanation": "Lily spent $17 + $23 = $40. She started with $50, so $50 - $40 = $10 left."
+  },
+  {
+    "topic": "two-step arithmetic problems",
+    "difficulty": "hard",
+    "question": "Emma has 5 packs of stickers. Each pack has 12 stickers. She gave 18 stickers to her friend. How many stickers does Emma have left?",
+    "choices": [
+      "42",
+      "48",
+      "36",
+      "54"
+    ],
+    "answer_index": 0,
+    "explanation": "First, multiply 5 packs by 12 stickers each to get 60 stickers. Then subtract the 18 stickers she gave away: 60 - 18 = 42 stickers left."
+  },
+  {
+    "topic": "mixed operations",
+    "difficulty": "hard",
+    "question": "Sally has 12 apples. She buys 9 more and then gives 7 apples to her friend. How many apples does she have now?",
+    "choices": [
+      "14",
+      "28",
+      "4",
+      "21"
+    ],
+    "answer_index": 0,
+    "explanation": "Sally starts with 12 apples and buys 9 more, so she has 12 + 9 = 21 apples. Then she gives 7 apples away, so 21 - 7 = 14 apples are left."
+  },
+  {
+    "topic": "time word problems",
+    "difficulty": "hard",
+    "question": "Emma started her homework at 3:45 PM and finished at 5:20 PM. Then she took a 35-minute break. What time did Emma start her next homework session?",
+    "choices": [
+      "5:55 PM",
+      "5:45 PM",
+      "5:20 PM",
+      "6:00 PM"
+    ],
+    "answer_index": 0,
+    "explanation": "Emma finished her homework at 5:20 PM, and after a 35-minute break, the time is 5:20 PM plus 35 minutes, which equals 5:55 PM."
+  },
+  {
+    "topic": "money word problems",
+    "difficulty": "hard",
+    "question": "Lisa has $15. She wants to buy 3 notebooks that cost $4 each and 2 pens that cost $2 each. How much money will she have left after buying the notebooks and pens?",
+    "choices": [
+      "$1",
+      "$3",
+      "$5",
+      "$7"
+    ],
+    "answer_index": 1,
+    "explanation": "The total cost of 3 notebooks is 3 × $4 = $12, and the total cost of 2 pens is 2 × $2 = $4. So, the total money spent is $12 + $4 = $16. Lisa has $15, so she does not have enough money and will actually be short by $1. But since the question asks for how much she will have left, assuming she can only buy what she can afford, she can buy 3 notebooks for $12 and 1 pen for $2, spending $14, so she has $1 left. The closest correct answer considering the problem setup is $1."
+  },
+  {
+    "topic": "two-step arithmetic problems",
+    "difficulty": "hard",
+    "question": "Mia has 24 stickers. She gives 8 stickers to her friend and then buys 3 packs of stickers with 5 stickers in each pack. How many stickers does Mia have now?",
+    "choices": [
+      "31",
+      "29",
+      "27",
+      "33"
+    ],
+    "answer_index": 0,
+    "explanation": "Mia starts with 24 stickers and gives away 8, so she has 24 - 8 = 16 stickers left. Then she buys 3 packs with 5 stickers each, adding 3 × 5 = 15 stickers. Now Mia has 16 + 15 = 31 stickers."
+  },
+  {
+    "topic": "mixed operations",
+    "difficulty": "hard",
+    "question": "Jenny has 3 packs of pencils. Each pack has 8 pencils. She gives 7 pencils to her friend. How many pencils does Jenny have left?",
+    "choices": [
+      "17",
+      "24",
+      "18",
+      "31"
+    ],
+    "answer_index": 0,
+    "explanation": "Jenny starts with 3 packs × 8 pencils = 24 pencils. She gives away 7, so 24 − 7 = 17 pencils left."
+  }
+]
