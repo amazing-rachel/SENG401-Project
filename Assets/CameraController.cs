@@ -4,15 +4,16 @@ using UnityEngine.InputSystem;
 public class CameraController : MonoBehaviour
 {
     [Header("Movement")]
-    public float mainSpeed = 8f;
+    public float mainSpeed = 20f;
     public float shiftMultiplier = 3f;
-    public float maxSpeed = 20f;
+    public float maxSpeed = 100f;
 
     [Header("Mouse Look")]
-    public float camSensitivity = 0.15f;
+    public float camSensitivity = 0.2f;
+    public float smoothSpeed = 12f;
 
     [Header("Scroll")]
-    public float scrollSensitivity = 2f;
+    public float scrollSensitivity = 0.1f;
     public float minSpeed = 2f;
     public float maxScrollSpeed = 20f;
 
@@ -20,11 +21,17 @@ public class CameraController : MonoBehaviour
     private float yaw;
     private float pitch;
 
+    private float smoothYaw;
+    private float smoothPitch;
+
     void Start()
     {
         currentSpeed = mainSpeed;
         yaw = transform.eulerAngles.y;
         pitch = transform.eulerAngles.x;
+
+        smoothYaw = yaw;
+        smoothPitch = pitch;
     }
 
     void Update()
@@ -32,6 +39,11 @@ public class CameraController : MonoBehaviour
         HandleMouseLook();
         HandleMovement();
         HandleScrollSpeed();
+    }
+
+        void LateUpdate()
+    {
+        transform.rotation = Quaternion.Euler(smoothPitch, smoothYaw, 0f);
     }
 
     void HandleMouseLook()
@@ -44,10 +56,9 @@ public class CameraController : MonoBehaviour
             Cursor.visible = false;
 
             Vector2 delta = Mouse.current.delta.ReadValue();
-            delta = Vector2.ClampMagnitude(delta, 10f);
 
-            float mouseX = delta.x * camSensitivity * 60f * Time.deltaTime;
-            float mouseY = delta.y * camSensitivity * 60f * Time.deltaTime;
+            float mouseX = delta.x * camSensitivity;
+            float mouseY = delta.y * camSensitivity;
 
             yaw += mouseX;
 
@@ -55,7 +66,10 @@ public class CameraController : MonoBehaviour
 
             pitch = Mathf.Clamp(pitch, -80f, 80f);
 
-            transform.rotation = Quaternion.Euler(pitch, yaw, 0f);
+            float t = 1f - Mathf.Exp(-smoothSpeed * Time.deltaTime);
+
+            smoothYaw = Mathf.Lerp(smoothYaw, yaw, t);
+            smoothPitch = Mathf.Lerp(smoothPitch, pitch, t);
         }
         else
         {
@@ -82,16 +96,14 @@ public class CameraController : MonoBehaviour
 
         speed = Mathf.Clamp(speed, 0f, maxSpeed);
 
-        transform.Translate(input * speed * Time.deltaTime, Space.Self);
-    }
+        Vector3 move = transform.TransformDirection(input) * speed * Time.deltaTime;
+        transform.position += move;    }
 
     void HandleScrollSpeed()
     {
         if (Mouse.current == null) return;
 
         float scroll = Mouse.current.scroll.ReadValue().y;
-        scroll = Mathf.Clamp(scroll, -1f, 1f);
-
         currentSpeed += scroll * scrollSensitivity;
         currentSpeed = Mathf.Clamp(currentSpeed, minSpeed, maxScrollSpeed);
     }
