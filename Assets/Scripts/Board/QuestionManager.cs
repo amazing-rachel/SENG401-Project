@@ -11,6 +11,8 @@ public class Question
     public List<string> choices;
     public int answer_index;
     public string explanation;
+    public string hint;
+    public string learnMoreUrl;
 }
 
 [System.Serializable]
