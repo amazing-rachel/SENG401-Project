@@ -6,6 +6,10 @@ using UnityEngine.SceneManagement;
 
 public class LoginManager : MonoBehaviour
 {
+
+    [Header("UI Title")]
+    public TextMeshProUGUI GameTitle;
+
     [Header("Login Panel Inputs")]
     public TMP_InputField LoginUsernameInput;
     public TMP_InputField LoginPasswordInput;
