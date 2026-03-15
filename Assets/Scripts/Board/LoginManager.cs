@@ -47,7 +47,7 @@ public class LoginManager : MonoBehaviour
     {
         LoginPanel.SetActive(false);
         CreateAccountPanel.SetActive(false);
-        SubjectPanel.SetActive(false);
+        SubjectPanel.SetActive(true);
         ClearFields();
     }
 

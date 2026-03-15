@@ -3424,7 +3424,7 @@ MonoBehaviour:
   RegisterPasswordInput: {fileID: 657885812}
   LoginPanel: {fileID: 1022616034}
   CreateAccountPanel: {fileID: 1192435300}
-  SubjectPanel: {fileID: 0}
+  SubjectPanel: {fileID: 1453053695}
   api: https://game-login.onrender.com
 --- !u!4 &846459402
 Transform:
