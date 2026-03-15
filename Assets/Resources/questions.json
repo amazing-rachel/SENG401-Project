@@ -8,7 +8,8 @@
         "choices": ["12", "13", "14", "15"],
         "answer_index": 1,
         "explanation": "6 + 7 = 13.",
-        "hint": "Add 4 to 6 and then 3"
+        "hint": "Add 4 to 6 and then 3",
+        "learnMoreUrl": "https://www.khanacademy.org/math"
       },
       {
         "topic": "primary school math",
@@ -17,7 +18,8 @@
         "choices": ["6", "5", "4", "3"],
         "answer_index": 1,
         "explanation": "9 - 4 = 5.",
-        "hint": "Start at 9 and count backwards 4 steps"
+        "hint": "Start at 9 and count backwards 4 steps",
+        "learnMoreUrl": "https://www.khanacademy.org/math"
       },
       {
         "topic": "primary school math",
@@ -26,7 +28,8 @@
         "choices": ["7", "10", "12", "9"],
         "answer_index": 2,
         "explanation": "3 groups of 4 equals 12.",
-        "hint": "Think of 4 + 4 + 4"
+        "hint": "Think of 4 + 4 + 4",
+        "learnMoreUrl": "https://www.khanacademy.org/math"
       },
       {
         "topic": "primary school math",
@@ -35,7 +38,8 @@
         "choices": ["18", "19", "20", "21"],
         "answer_index": 2,
         "explanation": "15 + 5 = 20.",
-        "hint": "Add 5 more to 15"
+        "hint": "Add 5 more to 15",
+        "learnMoreUrl": "https://www.khanacademy.org/math"
       },
       {
         "topic": "primary school math",
@@ -44,7 +48,8 @@
         "choices": ["7", "9", "8", "6"],
         "answer_index": 2,
         "explanation": "18 minus 10 equals 8.",
-        "hint": "Removing 10 lowers the tens place by 1"
+        "hint": "Removing 10 lowers the tens place by 1",
+        "learnMoreUrl": "https://www.khanacademy.org/math"
       },
       {
         "topic": "primary school math",
@@ -53,7 +58,8 @@
         "choices": ["18", "16", "20", "17"],
         "answer_index": 0,
         "explanation": "2 multiplied by 9 equals 18.",
-        "hint": "Two groups of nine"
+        "hint": "Two groups of nine",
+        "learnMoreUrl": "https://www.khanacademy.org/math"
       },
       {
         "topic": "primary school math",
@@ -62,7 +68,8 @@
         "choices": ["8", "9", "10", "7"],
         "answer_index": 1,
         "explanation": "5 + 4 = 9 apples.",
-        "hint": "Add the apples he had and the apples he got"
+        "hint": "Add the apples he had and the apples he got",
+        "learnMoreUrl": "https://www.khanacademy.org/math"
       },
       {
         "topic": "primary school math",
@@ -71,7 +78,8 @@
         "choices": ["4", "3", "5", "6"],
         "answer_index": 2,
         "explanation": "10 divided by 2 equals 5.",
-        "hint": "Split 10 into 2 equal groups"
+        "hint": "Split 10 into 2 equal groups",
+        "learnMoreUrl": "https://www.khanacademy.org/math"
       },
       {
         "topic": "primary school math",
@@ -80,7 +88,8 @@
         "choices": ["12", "13", "14", "11"],
         "answer_index": 1,
         "explanation": "7 + 6 = 13.",
-        "hint": "Add 3 to 7 to reach 10, then add 3 more"
+        "hint": "Add 3 to 7 to reach 10, then add 3 more",
+        "learnMoreUrl": "https://www.khanacademy.org/math"
       },
       {
         "topic": "primary school math",
@@ -89,7 +98,8 @@
         "choices": ["6", "7", "8", "9"],
         "answer_index": 1,
         "explanation": "14 minus 7 equals 7.",
-        "hint": "14 is double 7"
+        "hint": "14 is double 7",
+        "learnMoreUrl": "https://www.khanacademy.org/math"
       },
       {
         "topic": "primary school math",
@@ -98,7 +108,8 @@
         "choices": ["15", "10", "12", "18"],
         "answer_index": 0,
         "explanation": "5 groups of 3 equals 15.",
-        "hint": "Add 5 three times or 3 five times"
+        "hint": "Add 5 three times or 3 five times",
+        "learnMoreUrl": "https://www.khanacademy.org/math"
       },
       {
         "topic": "primary school math",
@@ -107,7 +118,8 @@
         "choices": ["17", "18", "19", "16"],
         "answer_index": 1,
         "explanation": "12 + 6 = 18.",
-        "hint": "Add 6 to 12"
+        "hint": "Add 6 to 12",
+        "learnMoreUrl": "https://www.khanacademy.org/math"
       },
       {
         "topic": "primary school math",
@@ -116,7 +128,8 @@
         "choices": ["7", "6", "8", "9"],
         "answer_index": 2,
         "explanation": "16 minus 8 equals 8.",
-        "hint": "16 split into two equal halves"
+        "hint": "16 split into two equal halves",
+        "learnMoreUrl": "https://www.khanacademy.org/math"
       },
       {
         "topic": "primary school math",
@@ -125,7 +138,8 @@
         "choices": ["12", "14", "16", "18"],
         "answer_index": 2,
         "explanation": "4 multiplied by 4 equals 16.",
-        "hint": "Think of a square with 4 on each side"
+        "hint": "Think of a square with 4 on each side",
+        "learnMoreUrl": "https://www.khanacademy.org/math"
       },
       {
         "topic": "primary school math",
@@ -134,7 +148,8 @@
         "choices": ["5", "6", "7", "4"],
         "answer_index": 1,
         "explanation": "9 − 3 = 6.",
-        "hint": "Take away the candies she ate"
+        "hint": "Take away the candies she ate",
+        "learnMoreUrl": "https://www.khanacademy.org/math"
       },
       {
         "topic": "primary school math",
@@ -143,7 +158,8 @@
         "choices": ["21", "22", "20", "19"],
         "answer_index": 0,
         "explanation": "20 + 1 = 21.",
-        "hint": "One more than 20"
+        "hint": "One more than 20",
+        "learnMoreUrl": "https://www.khanacademy.org/math"
       },
       {
         "topic": "primary school math",
@@ -152,7 +168,8 @@
         "choices": ["5", "7", "6", "4"],
         "answer_index": 2,
         "explanation": "11 minus 5 equals 6.",
-        "hint": "Count backwards 5 from 11"
+        "hint": "Count backwards 5 from 11",
+        "learnMoreUrl": "https://www.khanacademy.org/math"
       },
       {
         "topic": "primary school math",
@@ -161,7 +178,8 @@
         "choices": ["14", "15", "16", "18"],
         "answer_index": 2,
         "explanation": "8 times 2 equals 16.",
-        "hint": "Double the number 8"
+        "hint": "Double the number 8",
+        "learnMoreUrl": "https://www.khanacademy.org/math"
       },
       {
         "topic": "primary school math",
@@ -170,7 +188,8 @@
         "choices": ["17", "19", "18", "16"],
         "answer_index": 2,
         "explanation": "9 + 9 = 18.",
-        "hint": "Double 9"
+        "hint": "Double 9",
+        "learnMoreUrl": "https://www.khanacademy.org/math"
       },
       {
         "topic": "primary school math",
@@ -179,7 +198,8 @@
         "choices": ["10", "12", "14", "16"],
         "answer_index": 1,
         "explanation": "6 times 2 equals 12.",
-        "hint": "Double 6"
+        "hint": "Double 6",
+        "learnMoreUrl": "https://www.khanacademy.org/math"
       }
     ],
     "medium": [
@@ -190,7 +210,8 @@
         "choices": ["13", "14", "15", "16"],
         "answer_index": 2,
         "explanation": "24 − 9 = 15 pencils remain.",
-        "hint": "Subtract the pencils used from the total"
+        "hint": "Subtract the pencils used from the total",
+        "learnMoreUrl": "https://www.khanacademy.org/math"
       },
       {
         "topic": "primary school math",
@@ -199,7 +220,8 @@
         "choices": ["5", "6", "7", "8"],
         "answer_index": 1,
         "explanation": "36 divided by 6 equals 6.",
-        "hint": "What number times 6 equals 36?"
+        "hint": "What number times 6 equals 36?",
+        "learnMoreUrl": "https://www.khanacademy.org/math"
       },
       {
         "topic": "primary school math",
@@ -208,7 +230,8 @@
         "choices": ["42", "38", "36", "40"],
         "answer_index": 0,
         "explanation": "14 multiplied by 3 equals 42.",
-        "hint": "Add 14 three times"
+        "hint": "Add 14 three times",
+        "learnMoreUrl": "https://www.khanacademy.org/math"
       },
       {
         "topic": "primary school math",
@@ -217,7 +240,8 @@
         "choices": ["28", "27", "29", "26"],
         "answer_index": 0,
         "explanation": "45 − 17 = 28.",
-        "hint": "Subtract 17 from 45"
+        "hint": "Subtract 17 from 45",
+        "learnMoreUrl": "https://www.khanacademy.org/math"
       },
       {
         "topic": "primary school math",
@@ -226,7 +250,8 @@
         "choices": ["83", "82", "84", "81"],
         "answer_index": 0,
         "explanation": "56 + 27 = 83.",
-        "hint": "Add tens first, then ones"
+        "hint": "Add tens first, then ones",
+        "learnMoreUrl": "https://www.khanacademy.org/math"
       }
     ],
     "hard": [
@@ -237,7 +262,8 @@
         "choices": ["96", "108", "100", "120"],
         "answer_index": 1,
         "explanation": "Area = length × width = 12 × 9 = 108.",
-        "hint": "Area of a rectangle = length × width"
+        "hint": "Area of a rectangle = length × width",
+        "learnMoreUrl": "https://www.khanacademy.org/math"
       },
       {
         "topic": "primary school math",
@@ -246,7 +272,8 @@
         "choices": ["20", "22", "24", "26"],
         "answer_index": 2,
         "explanation": "32 × 3/4 = 24.",
-        "hint": "First divide 32 by 4, then multiply by 3"
+        "hint": "First divide 32 by 4, then multiply by 3",
+        "learnMoreUrl": "https://www.khanacademy.org/math"
       },
       {
         "topic": "primary school math",
@@ -255,7 +282,8 @@
         "choices": ["44", "40", "42", "48"],
         "answer_index": 0,
         "explanation": "Perimeter = 4 × 11 = 44 cm.",
-        "hint": "Perimeter of a square = 4 × side"
+        "hint": "Perimeter of a square = 4 × side",
+        "learnMoreUrl": "https://www.khanacademy.org/math"
       },
       {
         "topic": "primary school math",
@@ -264,7 +292,8 @@
         "choices": ["3", "4", "5", "6"],
         "answer_index": 1,
         "explanation": "20 ÷ 5 = 4.",
-        "hint": "Divide the total cost by the number of notebooks"
+        "hint": "Divide the total cost by the number of notebooks",
+        "learnMoreUrl": "https://www.khanacademy.org/math"
       },
       {
         "topic": "primary school math",
@@ -273,7 +302,8 @@
         "choices": ["5", "6", "7", "4"],
         "answer_index": 0,
         "explanation": "2(L+W)=30 → L+W=15 → W=5.",
-        "hint": "Use the perimeter formula: 2(L + W)"
+        "hint": "Use the perimeter formula: 2(L + W)",
+        "learnMoreUrl": "https://www.khanacademy.org/math"
       }
     ]
   }
