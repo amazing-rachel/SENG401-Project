@@ -1,21 +1,64 @@
 using UnityEngine;
+using UnityEngine.Networking;
+using UnityEngine.UI;
+using TMPro;
+using System.Collections;
 using UnityEngine.SceneManagement;
 
 public class SubjectManager : MonoBehaviour {
 
-    public void ChooseMath()
-    {
+    [Header("Subject Buttons")]
+    public Button MathButton;
+    public Button ScienceButton;
+    public Button EnglishButton;
+    public Button GlobalCitizenshipButton;
+
+    private string chosenSubject = ""; // fix later
+
+    Color32 selectedColor = new Color32(145, 220, 106, 255); 
+    Color32 normalColor = new Color32(255, 255, 255, 255); 
+
+    public void ResetButtonColours() {
+        MathButton.image.color = normalColor;
+        ScienceButton.image.color = normalColor;
+        EnglishButton.image.color = normalColor;
+        GlobalCitizenshipButton.image.color = normalColor;
     }
 
-    public void ChooseScience()
-    {
+    public void ChooseMath() {
+        chosenSubject = "Math";
+        ResetButtonColours();
+        MathButton.image.color = selectedColor;
+        Debug.Log("Chosen subject = " + chosenSubject);    
     }
 
-    public void ChooseEnglish()
-    {
+    public void ChooseScience() {
+        chosenSubject = "Science";
+        ResetButtonColours();
+        ScienceButton.image.color = selectedColor;
+        Debug.Log("Chosen subject = " + chosenSubject);      
     }
 
-    public void ChooseGlobalCitizenship()
-    {
+    public void ChooseEnglish() {
+        chosenSubject = "English";
+        ResetButtonColours();
+        EnglishButton.image.color = selectedColor;
+        Debug.Log("Chosen subject = " + chosenSubject);      
+    }
+
+    public void ChooseGlobalCitizenship() {
+        chosenSubject = "GlobalCitizenship";
+        ResetButtonColours();
+        GlobalCitizenshipButton.image.color = selectedColor;
+        Debug.Log("Chosen subject = " + chosenSubject);  
+    }
+
+    public void Play(){
+        if (chosenSubject == "") {
+            Debug.Log("Subject hasn't been chosen yet!");
+            return;
+        }
+        Debug.Log("Loading game with subject: " + chosenSubject);
+        SceneManager.LoadScene("OutdoorsScene");    
     }
 }

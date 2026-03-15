@@ -4,7 +4,7 @@ using UnityEngine.InputSystem;
 public class CameraController : MonoBehaviour
 {
     [Header("Movement")]
-    public float mainSpeed = 20f;
+    public float mainSpeed = 10f;
     public float shiftMultiplier = 3f;
     public float maxSpeed = 100f;
 
