@@ -21,6 +21,7 @@ public class LoginManager : MonoBehaviour
     [Header("Panels")]
     public GameObject LoginPanel;
     public GameObject CreateAccountPanel;
+    public GameObject SubjectPanel;
 
     [Header("Backend API")]
     public string api = "https://game-login.onrender.com"; // Render link
@@ -39,6 +40,14 @@ public class LoginManager : MonoBehaviour
     {
         LoginPanel.SetActive(true);
         CreateAccountPanel.SetActive(false);
+        ClearFields();
+    }
+
+    public void ShowSubjects()
+    {
+        LoginPanel.SetActive(false);
+        CreateAccountPanel.SetActive(false);
+        SubjectPanel.SetActive(false);
         ClearFields();
     }
 
@@ -112,7 +121,7 @@ public class LoginManager : MonoBehaviour
 
             Debug.Log("Logged in as: " + username);
             
-            SceneManager.LoadScene("OutdoorsScene");
+            ShowSubjects();
         }
         else if (response.Contains("account_created") && endpoint == "/register")
         {
