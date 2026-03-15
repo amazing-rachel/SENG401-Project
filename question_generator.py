@@ -47,7 +47,9 @@ def _extract_json(text: str) -> str:
     if not match:
         raise ValueError("No JSON object found in model output.")
 
-    return match.group(0)
+    json_str = match.group(0).strip()
+    json_str = json_str.rstrip(",")
+    return json_str
 
 
 def _validate_question(data: dict[str, Any]) -> None:
@@ -96,6 +98,10 @@ def _validate_question(data: dict[str, Any]) -> None:
 
     if not isinstance(data["explanation"], str) or not data["explanation"].strip():
         raise ValueError("Field 'explanation' must be a non-empty string.")
+    
+    correct = data["choices"][data["answer_index"]]
+    if correct not in data["explanation"]:
+        raise ValueError("Explanation does not reference the correct answer.")
 
 
 def generate_mcq(topic: str, difficulty: str) -> dict[str, Any]:
