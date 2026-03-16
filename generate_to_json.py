@@ -1,49 +1,181 @@
-# generate 100 primary math questions in JSON
 import json
 from question_generator import generate_unique_questions
 
 
 def main() -> None:
-    easy_topics = [
+    all_questions = []
+
+
+    # Math & Logic
+
+    math_easy_topics = [
         "addition within 20",
         "subtraction within 20",
-        "counting",
-        "number comparison"
+        "number comparison",
+        "counting objects"
     ]
 
-    medium_topics = [
-        "addition and subtraction word problems",
-        "basic multiplication",
-        "basic division",
-        "missing number equations"
+    math_medium_topics = [
+        "multiplication basics",
+        "division basics",
+        "number patterns"
     ]
 
-    hard_topics = [
-        "mixed operations",
-        "time word problems",
-        "money word problems",
-        "two-step arithmetic problems"
+    math_hard_topics = [
+        "logic puzzles",
+        "multi-step word problems",
+        "pattern reasoning"
     ]
 
-    easy_questions = generate_unique_questions(
-        topic_list=easy_topics,
+    all_questions += generate_unique_questions(
+        subject="Math & Logic",
+        topic_list=math_easy_topics,
         difficulty="easy",
-        target_count=20
+        target_count=30
     )
 
-    medium_questions = generate_unique_questions(
-        topic_list=medium_topics,
+    all_questions += generate_unique_questions(
+        subject="Math & Logic",
+        topic_list=math_medium_topics,
         difficulty="medium",
         target_count=40
     )
 
-    hard_questions = generate_unique_questions(
-        topic_list=hard_topics,
+    all_questions += generate_unique_questions(
+        subject="Math & Logic",
+        topic_list=math_hard_topics,
         difficulty="hard",
+        target_count=30
+    )
+
+  
+    # English Grammar
+
+    english_easy_topics = [
+        "basic vocabulary",
+        "simple spelling",
+        "matching words"
+    ]
+
+    english_medium_topics = [
+        "sentence meaning",
+        "word choice",
+        "singular and plural nouns"
+    ]
+
+    english_hard_topics = [
+        "sentence completion",
+        "reading comprehension",
+        "grammar in context"
+    ]
+
+    all_questions += generate_unique_questions(
+        subject="English Grammar",
+        topic_list=english_easy_topics,
+        difficulty="easy",
+        target_count=30
+    )
+
+    all_questions += generate_unique_questions(
+        subject="English Grammar",
+        topic_list=english_medium_topics,
+        difficulty="medium",
         target_count=40
     )
 
-    all_questions = easy_questions + medium_questions + hard_questions
+    all_questions += generate_unique_questions(
+        subject="English Grammar",
+        topic_list=english_hard_topics,
+        difficulty="hard",
+        target_count=30
+    )
+
+
+    # Environmental Science
+
+    env_easy_topics = [
+        "plants and animals",
+        "weather",
+        "recycling"
+    ]
+
+    env_medium_topics = [
+        "habitats",
+        "pollution",
+        "saving energy"
+    ]
+
+    env_hard_topics = [
+        "conservation",
+        "environmental protection",
+        "cause and effect in nature"
+    ]
+
+    all_questions += generate_unique_questions(
+        subject="Environmental Science",
+        topic_list=env_easy_topics,
+        difficulty="easy",
+        target_count=30
+    )
+
+    all_questions += generate_unique_questions(
+        subject="Environmental Science",
+        topic_list=env_medium_topics,
+        difficulty="medium",
+        target_count=40
+    )
+
+    all_questions += generate_unique_questions(
+        subject="Environmental Science",
+        topic_list=env_hard_topics,
+        difficulty="hard",
+        target_count=30
+    )
+
+  
+    # Global Citizenship
+   
+    global_easy_topics = [
+        "kindness",
+        "sharing",
+        "respecting others"
+    ]
+
+    global_medium_topics = [
+        "teamwork",
+        "responsibility",
+        "fairness"
+    ]
+
+    global_hard_topics = [
+        "solving conflicts",
+        "empathy",
+        "community responsibility"
+    ]
+
+    all_questions += generate_unique_questions(
+        subject="Global Citizenship",
+        topic_list=global_easy_topics,
+        difficulty="easy",
+        target_count=30
+    )
+
+    all_questions += generate_unique_questions(
+        subject="Global Citizenship",
+        topic_list=global_medium_topics,
+        difficulty="medium",
+        target_count=40
+    )
+
+    all_questions += generate_unique_questions(
+        subject="Global Citizenship",
+        topic_list=global_hard_topics,
+        difficulty="hard",
+        target_count=30
+    )
+
+
+    # Save JSON
 
     with open("questions_seed.json", "w", encoding="utf-8") as f:
         json.dump(all_questions, f, indent=2, ensure_ascii=False)

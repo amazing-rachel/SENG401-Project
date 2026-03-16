@@ -1,10 +1,9 @@
-# use to get random questions from the databse. just used for test, or example methond to get qustions. can delete after finish
 import sqlite3
-import random
 
 conn = sqlite3.connect("database.db")
 cursor = conn.cursor()
 
+subject = "English Grammar"
 difficulty = "easy"
 
 cursor.execute("""
@@ -19,10 +18,10 @@ SELECT
     choice_d,
     correct_answer
 FROM question_bank
-WHERE difficulty = ?
+WHERE topic = ? AND difficulty = ?
 ORDER BY RANDOM()
 LIMIT 1
-""", (difficulty,))
+""", (subject, difficulty))
 
 row = cursor.fetchone()
 conn.close()

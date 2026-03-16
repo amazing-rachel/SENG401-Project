@@ -23,3 +23,16 @@ for row in rows:
     print(row)
 
 conn.close()
+
+cursor.execute("""
+SELECT topic, COUNT(*)
+FROM question_bank
+GROUP BY topic
+ORDER BY topic
+""")
+
+rows = cursor.fetchall()
+
+print("Count by topic:")
+for row in rows:
+    print(row)

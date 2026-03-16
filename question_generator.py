@@ -98,35 +98,89 @@ def _validate_question(data: dict[str, Any]) -> None:
         raise ValueError("Field 'explanation' must be a non-empty string.")
 
 
-def generate_mcq(topic: str, difficulty: str) -> dict[str, Any]:
+def generate_mcq(subject: str, topic: str, difficulty: str) -> dict[str, Any]:
     """
-    Generate one primary school math multiple-choice question.
+    Generate one primary school multiple-choice question for the given subject.
     """
+    if subject not in {"Math & Logic", "Environmental Science", "English Grammar", "Global Citizenship"}:
+        raise ValueError("subject must be 'Math & Logic', 'Environmental Science', 'English Grammar'or 'Global Citizenship'.")
+
     if difficulty not in {"easy", "medium", "hard"}:
         raise ValueError("difficulty must be 'easy', 'medium', or 'hard'.")
 
     client, model = get_gpt_client()
 
-    prompt = f"""
-You are a question generator for a quiz game.
-
+    if subject == "Math & Logic":
+        subject_rules = """
 Create exactly ONE primary school math multiple-choice question.
-
-Topic: {topic}
-Difficulty: {difficulty}
-
-{QUESTION_SCHEMA_RULES}
 
 Difficulty guide:
 - easy: simple addition/subtraction, small numbers, basic counting, number comparison
 - medium: mixed arithmetic, multiplication/division, simple word problems, missing number questions
 - hard: more challenging word problems, mixed operations, time or money problems, 2-step thinking
+"""
+    elif subject == "Environmental Science":
+        subject_rules = """
+Create exactly ONE primary school Environmental Science multiple-choice question.
+
+Difficulty guide:
+- easy: plants, animals, weather, recycling, water, air
+- medium: habitats, pollution, saving energy, protecting nature, natural resources
+- hard: environmental problems, cause and effect, conservation, simple sustainability ideas
+
+Additional subject requirements:
+- keep the environmental concepts simple and age-appropriate
+- focus on daily-life examples that primary school students can understand
+- avoid advanced scientific or technical terminology
+- keep the wording clear, short, and natural
+"""
+    elif subject == "English Grammar":
+        subject_rules = """
+Create exactly ONE primary school English Grammar multiple-choice question.
+
+Difficulty guide:
+- easy: simple vocabulary, spelling, matching common words
+- medium: sentence meaning, word choice, simple grammar, singular/plural
+- hard: reading comprehension, sentence completion, grammar in context
+
+Additional subject requirements:
+- use age-appropriate English for primary school students
+- avoid overly difficult or rare words
+- keep the question clear and short
+"""
+    else:
+        subject_rules = """
+Create exactly ONE primary school Global Citizenship multiple-choice question.
+
+Difficulty guide:
+- easy: kindness, helping others, respecting differences, sharing, community rules
+- medium: fairness, responsibility, teamwork, inclusion, understanding other cultures
+- hard: global awareness, empathy, solving conflicts, cooperation, being a responsible citizen
+
+Additional subject requirements:
+- keep the ideas simple and suitable for primary school students
+- focus on real-life school, family, and community situations
+- avoid political, controversial, or highly abstract topics
+- keep the wording clear, short, and natural
+"""
+
+    prompt = f"""
+You are a question generator for a quiz game.
+
+Subject: {subject}
+Topic: {topic}
+Difficulty: {difficulty}
+
+{QUESTION_SCHEMA_RULES}
+
+{subject_rules}
 
 Additional requirements:
 - make the question age-appropriate for primary school students
 - keep the wording simple and natural
 - ensure there is exactly one correct answer
 - make sure the explanation matches the correct answer exactly
+- set the "topic" field to "{subject}"
 """
 
     resp = client.responses.create(
@@ -142,11 +196,14 @@ Additional requirements:
     return data
 
 
+
 def generate_unique_questions(
+    subject: str,
     topic_list: list[str],
     difficulty: str,
     target_count: int
 ) -> list[dict[str, Any]]:
+
     """
     Generate multiple unique questions for the given difficulty.
     Uniqueness is checked by question text within the current run.
@@ -167,7 +224,7 @@ def generate_unique_questions(
         attempts += 1
 
         try:
-            question_data = generate_mcq(topic=topic, difficulty=difficulty)
+            question_data = generate_mcq(subject=subject, topic=topic, difficulty=difficulty)
             question_text = question_data["question"].strip()
 
             if question_text in seen_questions:
