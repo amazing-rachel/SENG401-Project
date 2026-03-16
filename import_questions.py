@@ -15,6 +15,10 @@ for q in questions:
     answer_index = q["answer_index"]
     correct_answer = choices[answer_index]
 
+    if len(set(choices)) != 4:
+        print("Skipping question with duplicate choices:", q["question"])
+        continue
+
     cursor.execute("""
     INSERT OR IGNORE INTO question_bank (
         topic,
