@@ -1,4 +1,4 @@
-# Testing Artifact – 3D Snakes & Ladders: Quality Education Edition
+# Testing Artifact for 3D Snakes & Ladders: Quality Education Edition
 
 ## Intro
 
