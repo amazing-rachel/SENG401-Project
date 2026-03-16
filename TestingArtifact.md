@@ -35,7 +35,7 @@ This testing artifact demonstrates that the **core functionality of the game wor
   - **Critical:** “Explain why photosynthesis is vital for humans” -> LLM evaluates answer as correct or incorrect  
 - **Gameboard positions:** start, ladder base, ladder top, snake head, snake tail  
 
-## 4. Validation Notes
+## Validation Notes
 
 - **Gameplay Mechanics:** Dice rolls, ladder climbs, snake slides, and token movements confirmed.  
 - **Question System:** All question types correctly validate answers and update scores.  
