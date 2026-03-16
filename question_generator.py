@@ -135,10 +135,14 @@ Additional requirements:
 - make sure the explanation matches the correct answer exactly
 """
 
-    resp = client.responses.create(
-        model=model,
-        input=prompt
-    )
+    try:
+        resp = client.responses.create(
+            model=model,
+            input=prompt,
+            timeout=50
+        )
+    except Exception as e:
+        raise RuntimeError(f"LLM request failed: {e}")
 
     raw_text = (resp.output_text or "").strip()
     json_str = _extract_json(raw_text)
