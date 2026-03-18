@@ -26,28 +26,28 @@ public class SubjectManager : MonoBehaviour {
     }
 
     public void ChooseMath() {
-        chosenSubject = "Math";
+        chosenSubject = "Math & Logic";
         ResetButtonColours();
         MathButton.image.color = selectedColor;
         Debug.Log("Chosen subject = " + chosenSubject);    
     }
 
     public void ChooseScience() {
-        chosenSubject = "Science";
+        chosenSubject = "Environmental Science";
         ResetButtonColours();
         ScienceButton.image.color = selectedColor;
         Debug.Log("Chosen subject = " + chosenSubject);      
     }
 
     public void ChooseEnglish() {
-        chosenSubject = "English";
+        chosenSubject = "English Grammar";
         ResetButtonColours();
         EnglishButton.image.color = selectedColor;
         Debug.Log("Chosen subject = " + chosenSubject);      
     }
 
     public void ChooseGlobalCitizenship() {
-        chosenSubject = "GlobalCitizenship";
+        chosenSubject = "Global Citizenship";
         ResetButtonColours();
         GlobalCitizenshipButton.image.color = selectedColor;
         Debug.Log("Chosen subject = " + chosenSubject);  
@@ -58,6 +58,8 @@ public class SubjectManager : MonoBehaviour {
             Debug.Log("Subject hasn't been chosen yet!");
             return;
         }
+        SessionManager.Instance.SelectedSubject = chosenSubject;
+        
         Debug.Log("Loading game with subject: " + chosenSubject);
         SceneManager.LoadScene("OutdoorsScene");    
     }

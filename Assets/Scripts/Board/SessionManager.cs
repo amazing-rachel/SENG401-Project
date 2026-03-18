@@ -4,6 +4,8 @@ public class SessionManager : MonoBehaviour
 {
     public static SessionManager Instance;
     public string CurrentUsername;
+    // used to pass the selected subject to next sence
+    public string SelectedSubject;
 
     private void Awake()
     {

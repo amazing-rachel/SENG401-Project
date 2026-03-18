@@ -23,7 +23,6 @@ public class QuestionDatabase
     public List<Question> hard;
 }
 
-// Wrapper class for JsonUtility
 [System.Serializable]
 public class QuestionCollection
 {
@@ -37,13 +36,17 @@ public class QuestionManager : MonoBehaviour
     [HideInInspector] public bool waitingForAnswer = false;
     [HideInInspector] public bool lastAnswerCorrect = false;
 
-    public QuestionUI questionUI; // assign in Inspector
+    public QuestionUI questionUI;
 
     private Question currentQuestion;
 
+    // key format: "subject|difficulty"
+    private Dictionary<string, List<Question>> remainingQuestionPools = new Dictionary<string, List<Question>>();
+
     void Start()
     {
-        TextAsset jsonFile = Resources.Load<TextAsset>("questions"); // accesses questions.json in Assets/Resources
+        TextAsset jsonFile = Resources.Load<TextAsset>("questions");
+
         if (jsonFile != null)
         {
             QuestionCollection qc = JsonUtility.FromJson<QuestionCollection>(jsonFile.text);
@@ -57,36 +60,106 @@ public class QuestionManager : MonoBehaviour
         }
     }
 
-    public Question GetRandomQuestion(string difficulty)
+    private string GetPoolKey(string subject, string difficulty)
     {
-        List<Question> list = null;
+        return subject.Trim() + "|" + difficulty.Trim().ToLower();
+    }
 
-        switch (difficulty)
+    private List<Question> GetSourceListByDifficulty(string difficulty)
+    {
+        switch (difficulty.ToLower())
         {
             case "easy":
-                list = database.easy;
-                break;
+                return database.easy;
             case "medium":
-                list = database.medium;
-                break;
+                return database.medium;
             case "hard":
-                list = database.hard;
-                break;
+                return database.hard;
+            default:
+                Debug.LogError("Invalid difficulty: " + difficulty);
+                return null;
+        }
+    }
+
+    private List<Question> BuildFilteredQuestionList(string subject, string difficulty)
+    {
+        List<Question> sourceList = GetSourceListByDifficulty(difficulty);
+
+        if (sourceList == null || sourceList.Count == 0)
+        {
+            return new List<Question>();
+        }
+
+        List<Question> filteredList = sourceList.FindAll(q =>
+            q != null &&
+            !string.IsNullOrEmpty(q.topic) &&
+            q.topic.Trim().ToLower() == subject.Trim().ToLower()
+        );
+
+        return filteredList;
+    }
+
+    private void ResetPoolForSubjectAndDifficulty(string subject, string difficulty)
+    {
+        string key = GetPoolKey(subject, difficulty);
+        remainingQuestionPools[key] = BuildFilteredQuestionList(subject, difficulty);
+    }
+
+    public Question GetRandomQuestion(string subject, string difficulty)
+    {
+        if (string.IsNullOrWhiteSpace(subject))
+        {
+            Debug.LogError("Subject is null or empty.");
+            return null;
+        }
+
+        if (string.IsNullOrWhiteSpace(difficulty))
+        {
+            Debug.LogError("Difficulty is null or empty.");
+            return null;
+        }
+
+        string key = GetPoolKey(subject, difficulty);
+
+        if (!remainingQuestionPools.ContainsKey(key))
+        {
+            ResetPoolForSubjectAndDifficulty(subject, difficulty);
+        }
+
+        List<Question> list = remainingQuestionPools[key];
+
+        if (list == null || list.Count == 0)
+        {
+            Debug.Log("All questions used for subject: " + subject + ", difficulty: " + difficulty + ". Resetting pool.");
+            ResetPoolForSubjectAndDifficulty(subject, difficulty);
+            list = remainingQuestionPools[key];
         }
 
         if (list == null || list.Count == 0)
         {
-            Debug.LogError("No questions found for difficulty: " + difficulty);
+            Debug.LogError("No questions found for subject: " + subject + " and difficulty: " + difficulty);
             return null;
         }
 
         int index = Random.Range(0, list.Count);
-        return list[index];
+        Question selectedQuestion = list[index];
+        list.RemoveAt(index);
+
+        return selectedQuestion;
     }
 
     public void AskQuestion(string difficulty)
     {
-        currentQuestion = GetRandomQuestion(difficulty);
+        if (SessionManager.Instance == null)
+        {
+            Debug.LogError("SessionManager.Instance is null.");
+            waitingForAnswer = false;
+            lastAnswerCorrect = false;
+            return;
+        }
+
+        string subject = SessionManager.Instance.SelectedSubject;
+        currentQuestion = GetRandomQuestion(subject, difficulty);
 
         if (currentQuestion == null)
         {
@@ -98,10 +171,12 @@ public class QuestionManager : MonoBehaviour
         if (questionUI != null)
         {
             questionUI.ShowQuestion(currentQuestion);
+            waitingForAnswer = true;
         }
         else
         {
-            Debug.Log("QUESTION (" + difficulty + "): " + currentQuestion.question);
+            Debug.Log("QUESTION (" + subject + " / " + difficulty + "): " + currentQuestion.question);
+
             for (int i = 0; i < currentQuestion.choices.Count; i++)
             {
                 Debug.Log(i + ": " + currentQuestion.choices[i]);
