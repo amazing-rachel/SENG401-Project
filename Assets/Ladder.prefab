@@ -126,7 +126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91ef5cea7fbce5641895e476694f834b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  editorTab: 1
+  editorTab: 0
   autoUpdate: 1
   hasLoaded: 1
   seed: 1288794444
@@ -147,5 +147,5 @@ MonoBehaviour:
   numberOfSteps: 12
   stepResolution: 12
   autoCenter: 1
-  editMode: 1
+  editMode: 0
   editOrientation: 1
