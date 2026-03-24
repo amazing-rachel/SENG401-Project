@@ -11,7 +11,6 @@ public class Question
     public List<string> choices;
     public int answer_index;
     public string explanation;
-    public string hint;
     public string learnMoreUrl;
 }
 
@@ -24,6 +23,11 @@ public class QuestionDatabase
 }
 
 [System.Serializable]
+public class SubjectInfo { public string subject; public string infoText; }
+[System.Serializable]
+public class SubjectInfoCollection { public List<SubjectInfo> subjects; }
+
+[System.Serializable]
 public class QuestionCollection
 {
     public QuestionDatabase database;
@@ -32,7 +36,7 @@ public class QuestionCollection
 public class QuestionManager : MonoBehaviour
 {
     public QuestionDatabase database;
-
+    public Dictionary<string, string> subjectInfoData = new Dictionary<string, string>();
     [HideInInspector] public bool waitingForAnswer = false;
     [HideInInspector] public bool lastAnswerCorrect = false;
 
@@ -58,7 +62,17 @@ public class QuestionManager : MonoBehaviour
         {
             Debug.LogError("questions.json not found in Resources!");
         }
+
+        // Load JSON file (subject_info)
+        TextAsset infoFile = Resources.Load<TextAsset>("subject_info");
+        if (infoFile != null)
+        {
+            SubjectInfoCollection sic = JsonUtility.FromJson<SubjectInfoCollection>(infoFile.text);
+            foreach (SubjectInfo info in sic.subjects)
+                subjectInfoData[info.subject.Trim().ToLower()] = info.infoText;
+        }
     }
+    
 
     private string GetPoolKey(string subject, string difficulty)
     {

@@ -1,0 +1,20 @@
+{
+  "subjects": [
+    {
+      "subject": "Math & Logic",
+      "infoText": "Formulas:\n Addition: a + b\n Subtraction: a - b\n Multiplication: a * b\n"
+    },
+    {
+      "subject": "English Grammar",
+      "infoText": "Definitions:\n Noun: Person/Place/Thing\n Verb: Action"
+    },
+    {
+        "subject": "Environmental Science",
+        "infoText": "Recycling: Plastic, paper"
+    },
+    {
+        "subject": "Global Citizenship",
+        "infoText": "Empathy: The ability to understand and share the feelings of another."
+    }
+  ]
+}
