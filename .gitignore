@@ -19,3 +19,6 @@ UserSettings/
 *.pdb
 *.opendb
 *.VC.db
+
+# macOS
+.DS_Store

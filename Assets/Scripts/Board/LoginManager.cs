@@ -108,11 +108,25 @@ public class LoginManager : MonoBehaviour
         request.uploadHandler = new UploadHandlerRaw(body);
         request.downloadHandler = new DownloadHandlerBuffer();
         request.SetRequestHeader("Content-Type", "application/json");
+        request.timeout = 60;
 
         yield return request.SendWebRequest();
 
-        string response = request.downloadHandler.text;
-        Debug.Log("Response from backend: " + response);
+        string response = request.downloadHandler != null ? request.downloadHandler.text : "";
+
+        if (request.result != UnityWebRequest.Result.Success)
+        {
+            Debug.LogError(
+                "HTTP/network error — result=" + request.result +
+                " httpCode=" + request.responseCode +
+                " error=" + request.error +
+                " body=" + response);
+            request.Dispose();
+            yield break;
+        }
+
+        Debug.Log("Response from backend (" + request.responseCode + "): " + response);
+        request.Dispose();
 
         if (response.Contains("success") && endpoint == "/login")
         {

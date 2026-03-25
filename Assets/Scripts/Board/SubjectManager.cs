@@ -1,8 +1,5 @@
 using UnityEngine;
-using UnityEngine.Networking;
 using UnityEngine.UI;
-using TMPro;
-using System.Collections;
 using UnityEngine.SceneManagement;
 
 public class SubjectManager : MonoBehaviour {
