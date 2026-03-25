@@ -93,6 +93,27 @@ public class QuestionUI : MonoBehaviour
         }
     }
 
+    private string GetSubjectLink(string topic)
+    {
+        if (string.IsNullOrEmpty(topic)) return "";
+
+        switch (topic)
+        {
+            case "Math & Logic": 
+                return "https://www.khanacademy.org/math";
+            case "Environmental Science": 
+                return "https://www.ducksters.com/science/environment/";
+            case "English Grammar":
+                return "https://www.geeksforgeeks.org/english/english-grammar/";
+            case "Global Citizenship":
+                return "https://www.unesco.org/en/global-citizenship-peace-education";
+            
+            // If it doesn't match any subject above, return nothing
+            default: 
+                return ""; 
+        }
+    }
+
     void ShowExplanation(bool isCorrect)
     {
         if (explanationPanel == null) return;
@@ -101,15 +122,17 @@ public class QuestionUI : MonoBehaviour
         string status = isCorrect ? "<color=green>Correct!</color> " : "<color=red>Incorrect.</color> ";
         explanationText.text = status + currentQuestion.explanation;
 
-        // Learn More logic
         if (learnMoreButton != null)
         {
-            bool hasUrl = !string.IsNullOrEmpty(currentQuestion.learnMoreUrl);
+            string categoryUrl = GetSubjectLink(currentQuestion.topic);
+            
+            bool hasUrl = !string.IsNullOrEmpty(categoryUrl);
             learnMoreButton.gameObject.SetActive(hasUrl);
+            
             if (hasUrl)
             {
                 learnMoreButton.onClick.RemoveAllListeners();
-                learnMoreButton.onClick.AddListener(() => Application.OpenURL(currentQuestion.learnMoreUrl));
+                learnMoreButton.onClick.AddListener(() => Application.OpenURL(categoryUrl));
             }
         }
     }
