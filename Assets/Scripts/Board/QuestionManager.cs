@@ -271,6 +271,7 @@ public class QuestionManager : MonoBehaviour
 
         int pick = Random.Range(0, candidates.Count);
         Question selectedQuestion = candidates[pick];
+
         list.Remove(selectedQuestion);
         usedInPool.Add(NormalizeQuestionText(selectedQuestion.question));
         if (SessionManager.Instance != null)

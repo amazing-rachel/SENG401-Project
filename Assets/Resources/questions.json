@@ -64,51 +64,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "easy",
-        "question": "Which number is greater: 8 or 5?",
-        "choices": [
-          "8",
-          "5",
-          "3",
-          "1"
-        ],
-        "answer_index": 0,
-        "explanation": "8 is greater than 5 because it has a higher value.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
-        "question": "Which number is greater?",
-        "choices": [
-          "7",
-          "4",
-          "5",
-          "3"
-        ],
-        "answer_index": 0,
-        "explanation": "7 is greater than 4, 5, and 3 because it has a higher value.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
-        "question": "Which number is greater: 7 or 5?",
-        "choices": [
-          "7",
-          "5",
-          "3",
-          "6"
-        ],
-        "answer_index": 0,
-        "explanation": "7 is greater than 5 because it comes after 5 when we count.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
         "question": "What is 8 plus 5?",
         "choices": [
           "13",
@@ -124,21 +79,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "easy",
-        "question": "Which number is bigger: 7 or 5?",
-        "choices": [
-          "7",
-          "5",
-          "3",
-          "6"
-        ],
-        "answer_index": 0,
-        "explanation": "7 is bigger than 5 because it comes after 5 when we count up.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
         "question": "How many apples are there if you have 3 apples and get 2 more?",
         "choices": [
           "5",
@@ -148,21 +88,6 @@
         ],
         "answer_index": 0,
         "explanation": "If you start with 3 apples and get 2 more, you have 3 + 2 = 5 apples in total.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
-        "question": "Which number is bigger?",
-        "choices": [
-          "8",
-          "5",
-          "3",
-          "6"
-        ],
-        "answer_index": 0,
-        "explanation": "8 is bigger than 5, 3, and 6.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -214,36 +139,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "easy",
-        "question": "Which number is greater: 15 or 9?",
-        "choices": [
-          "15",
-          "9",
-          "7",
-          "12"
-        ],
-        "answer_index": 0,
-        "explanation": "15 is greater than 9 because it is a bigger number.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
-        "question": "Which number is bigger: 8 or 5?",
-        "choices": [
-          "8",
-          "5",
-          "3",
-          "7"
-        ],
-        "answer_index": 0,
-        "explanation": "8 is bigger than 5 because 8 comes after 5 when counting.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
         "question": "Which number is greater: 12 or 15?",
         "choices": [
           "12",
@@ -268,21 +163,6 @@
         ],
         "answer_index": 2,
         "explanation": "9 is the biggest number because it is larger than 7, 3, and 5.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
-        "question": "Which number is bigger: 27 or 35?",
-        "choices": [
-          "27",
-          "35",
-          "20",
-          "15"
-        ],
-        "answer_index": 1,
-        "explanation": "35 is bigger than 27 because 35 comes after 27 when counting numbers.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -1684,36 +1564,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "easy",
-        "question": "Which number is greater: 15 or 19?",
-        "choices": [
-          "15",
-          "19",
-          "10",
-          "12"
-        ],
-        "answer_index": 1,
-        "explanation": "19 is greater than 15 because 19 is a bigger number.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
-        "question": "Which number is bigger: 12 or 9?",
-        "choices": [
-          "12",
-          "9",
-          "7",
-          "5"
-        ],
-        "answer_index": 0,
-        "explanation": "12 is bigger than 9 because 12 comes after 9 when counting.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
         "question": "What is 8 plus 7?",
         "choices": [
           "15",
@@ -1723,51 +1573,6 @@
         ],
         "answer_index": 0,
         "explanation": "When you add 8 and 7, you get 15.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
-        "question": "Which number is greater: 15 or 12?",
-        "choices": [
-          "15",
-          "12",
-          "10",
-          "8"
-        ],
-        "answer_index": 0,
-        "explanation": "15 is greater than 12 because it is a bigger number.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
-        "question": "Which number is bigger: 15 or 9?",
-        "choices": [
-          "15",
-          "9",
-          "12",
-          "7"
-        ],
-        "answer_index": 0,
-        "explanation": "15 is bigger than 9 because 15 comes after 9 when counting.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
-        "question": "Which number is greater: 12 or 9?",
-        "choices": [
-          "12",
-          "9",
-          "10",
-          "8"
-        ],
-        "answer_index": 0,
-        "explanation": "12 is greater than 9 because it is a bigger number.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -1798,21 +1603,6 @@
         ],
         "answer_index": 1,
         "explanation": "8 plus 7 equals 15 because when you add 7 to 8, you count up to 15.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
-        "question": "Which number is bigger: 7 or 4?",
-        "choices": [
-          "7",
-          "4",
-          "3",
-          "1"
-        ],
-        "answer_index": 0,
-        "explanation": "7 is bigger than 4 because it comes after 4 when we count.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -1894,21 +1684,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "easy",
-        "question": "Which number is bigger: 7 or 9?",
-        "choices": [
-          "7",
-          "9",
-          "5",
-          "6"
-        ],
-        "answer_index": 1,
-        "explanation": "9 is bigger than 7 because it comes after 7 when we count.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
         "question": "How many apples are there in the basket if you see 3 red apples and 4 green apples?",
         "choices": [
           "7",
@@ -1924,36 +1699,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "easy",
-        "question": "Which number is greater: 17 or 23?",
-        "choices": [
-          "17",
-          "23",
-          "15",
-          "20"
-        ],
-        "answer_index": 1,
-        "explanation": "23 is greater than 17 because 23 comes after 17 when counting numbers.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
-        "question": "Which number is greater: 12 or 7?",
-        "choices": [
-          "12",
-          "7",
-          "5",
-          "10"
-        ],
-        "answer_index": 0,
-        "explanation": "12 is greater than 7 because 12 is a bigger number.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
         "question": "How many apples are there if you have 4 apples and your friend gives you 3 more?",
         "choices": [
           "7",
@@ -1963,66 +1708,6 @@
         ],
         "answer_index": 0,
         "explanation": "You start with 4 apples and add 3 more, so 4 + 3 = 7 apples in total.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
-        "question": "Which number is greater: 27 or 35?",
-        "choices": [
-          "27",
-          "35",
-          "20",
-          "30"
-        ],
-        "answer_index": 1,
-        "explanation": "35 is greater than 27 because 35 comes after 27 when counting up.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
-        "question": "Which number is bigger: 14 or 9?",
-        "choices": [
-          "14",
-          "9",
-          "7",
-          "12"
-        ],
-        "answer_index": 0,
-        "explanation": "14 is bigger than 9 because it has a larger value.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
-        "question": "Which number is greater: 7 or 4?",
-        "choices": [
-          "7",
-          "4",
-          "5",
-          "3"
-        ],
-        "answer_index": 0,
-        "explanation": "7 is greater than 4 because it is a bigger number.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
-        "question": "How many apples are there in the basket if there are 3 red apples and 4 green apples?",
-        "choices": [
-          "7",
-          "6",
-          "8",
-          "5"
-        ],
-        "answer_index": 0,
-        "explanation": "There are 3 red apples and 4 green apples, so 3 + 4 = 7 apples in total.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -2224,15 +1909,15 @@
       {
         "topic": "English Grammar",
         "difficulty": "easy",
-        "question": "Which word matches with 'bird'?",
+        "question": "Which word describes how many birds move through the air?",
         "choices": [
           "fly",
           "run",
-          "sing",
-          "jump"
+          "swim",
+          "crawl"
         ],
         "answer_index": 0,
-        "explanation": "Birds can fly, so 'fly' matches with 'bird'.",
+        "explanation": "Many birds move through the air by flying, so 'fly' is the best fit.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -3589,21 +3274,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "easy",
-        "question": "Lily has 3 red balloons and 4 blue balloons. How many balloons does Lily have in total?",
-        "choices": [
-          "7",
-          "6",
-          "8",
-          "5"
-        ],
-        "answer_index": 0,
-        "explanation": "Lily has 3 red balloons and 4 blue balloons, so adding them together gives 7 balloons in total.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
         "question": "Lily had 15 balloons. She gave 7 to her friends. How many balloons does Lily have now?",
         "choices": [
           "8",
@@ -3664,21 +3334,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "easy",
-        "question": "Sofia has 3 red apples and 4 green apples. How many apples does she have in total?",
-        "choices": [
-          "7 apples",
-          "6 apples",
-          "8 apples",
-          "5 apples"
-        ],
-        "answer_index": 0,
-        "explanation": "Sofia has 3 red apples and 4 green apples, so together she has 7 apples in total.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
         "question": "Lily picks 8 strawberries from the garden and then picks 5 more. How many strawberries did Lily pick in total?",
         "choices": [
           "13",
@@ -3709,36 +3364,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "easy",
-        "question": "Liam has 7 apples and Emma has 12 apples. Who has more apples?",
-        "choices": [
-          "Emma has more apples",
-          "Liam has more apples",
-          "They have the same number of apples",
-          "Not enough information"
-        ],
-        "answer_index": 0,
-        "explanation": "Emma has more apples because 12 is greater than 7.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
-        "question": "Lily has 4 red balloons and 3 blue balloons. How many balloons does she have in total?",
-        "choices": [
-          "7",
-          "6",
-          "8",
-          "5"
-        ],
-        "answer_index": 0,
-        "explanation": "Lily has 4 red balloons and 3 blue balloons. When you add 4 and 3 together, you get 7. So, the total number of balloons Lily has is 7.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
         "question": "Lily had 15 balloons. She gave 7 balloons to her friend. How many balloons does Lily have now?",
         "choices": [
           "8",
@@ -3748,36 +3373,6 @@
         ],
         "answer_index": 0,
         "explanation": "Lily started with 15 balloons and gave away 7, so she has 8 balloons left.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
-        "question": "Emma has 7 apples and Liam has 9 apples. Who has more apples?",
-        "choices": [
-          "Emma has more apples",
-          "Liam has more apples",
-          "They have the same number of apples",
-          "Cannot tell from the information"
-        ],
-        "answer_index": 1,
-        "explanation": "Liam has more apples because 9 is greater than 7.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
-        "question": "Emma has 3 red balloons and 4 blue balloons. How many balloons does she have in total?",
-        "choices": [
-          "7 balloons",
-          "6 balloons",
-          "8 balloons",
-          "5 balloons"
-        ],
-        "answer_index": 0,
-        "explanation": "Emma has 3 red balloons and 4 blue balloons, so adding them together gives 7 balloons in total.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -3814,21 +3409,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "easy",
-        "question": "Lily has 3 red balloons and 4 blue balloons. How many balloons does she have in total?",
-        "choices": [
-          "7",
-          "6",
-          "8",
-          "5"
-        ],
-        "answer_index": 0,
-        "explanation": "Lily has 3 red balloons and 4 blue balloons. When you add 3 and 4, you get 7. So, she has 7 balloons in total.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
         "question": "Lily had 18 balloons. She gave 7 to her friend. How many balloons does Lily have now?",
         "choices": [
           "11",
@@ -3838,21 +3418,6 @@
         ],
         "answer_index": 0,
         "explanation": "Lily has 11 balloons now because 18 minus 7 equals 11.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
-        "question": "Lily has 8 apples, and Tom has 5 apples. Who has more apples?",
-        "choices": [
-          "Lily has more apples",
-          "Tom has more apples",
-          "They have the same number of apples",
-          "It cannot be decided"
-        ],
-        "answer_index": 0,
-        "explanation": "Lily has more apples because 8 is greater than 5, so 'Lily has more apples' is the correct answer.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -3889,21 +3454,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "easy",
-        "question": "Sally has 3 red balloons and 4 blue balloons. How many balloons does she have in total?",
-        "choices": [
-          "7",
-          "6",
-          "8",
-          "5"
-        ],
-        "answer_index": 0,
-        "explanation": "Sally has 3 red balloons and 4 blue balloons, so adding them together gives 7 balloons in total.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
         "question": "Emma has 9 red balloons and 6 blue balloons. How many balloons does she have in total?",
         "choices": [
           "15",
@@ -3928,21 +3478,6 @@
         ],
         "answer_index": 0,
         "explanation": "Liam gave away 7 balloons from his 15, so 15 minus 7 equals 8. The correct answer is 8.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
-        "question": "Lily has 8 apples and Max has 6 apples. Who has more apples?",
-        "choices": [
-          "Lily has more apples",
-          "Max has more apples",
-          "They have the same number",
-          "Not enough information"
-        ],
-        "answer_index": 0,
-        "explanation": "Lily has more apples because 8 is greater than 6.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -4048,21 +3583,6 @@
         ],
         "answer_index": 0,
         "explanation": "Emma started with 16 balloons and gave away 5, so 16 minus 5 equals 11. Therefore, Emma has 11 balloons now.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
-        "question": "Lucy has 3 red balloons and 4 blue balloons. How many balloons does she have in total?",
-        "choices": [
-          "7",
-          "6",
-          "8",
-          "5"
-        ],
-        "answer_index": 0,
-        "explanation": "Lucy has 3 red balloons and 4 blue balloons, so she has 7 balloons in total because 3 + 4 = 7.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -6439,21 +5959,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "easy",
-        "question": "Sarah has 3 red balloons and 4 blue balloons. How many balloons does she have in total?",
-        "choices": [
-          "7 balloons",
-          "6 balloons",
-          "8 balloons",
-          "5 balloons"
-        ],
-        "answer_index": 0,
-        "explanation": "Sarah has 3 red balloons and 4 blue balloons, so when we add them together, 3 + 4 equals 7 balloons in total.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
         "question": "Lily has 7 red balloons and her friend gave her 5 more. How many balloons does Lily have now?",
         "choices": [
           "12",
@@ -6889,21 +6394,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "easy",
-        "question": "Lily has 3 red balloons, and her brother gives her 4 more blue balloons. How many balloons does Lily have now?",
-        "choices": [
-          "7 balloons",
-          "6 balloons",
-          "5 balloons",
-          "8 balloons"
-        ],
-        "answer_index": 0,
-        "explanation": "Lily has 7 balloons because 3 red balloons plus 4 blue balloons equals 7 balloons in total.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
         "question": "Lily had 18 balloons at her party. If 7 balloons popped, how many balloons are left?",
         "choices": [
           "11",
@@ -6919,36 +6409,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "easy",
-        "question": "Anna has 8 apples and Tom has 12 apples. Who has more apples?",
-        "choices": [
-          "Anna has more apples",
-          "Tom has more apples",
-          "They have the same number of apples",
-          "Anna has no apples"
-        ],
-        "answer_index": 1,
-        "explanation": "Tom has more apples because 12 is greater than 8.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
-        "question": "Emily has 3 red balloons and 4 blue balloons. How many balloons does she have in total?",
-        "choices": [
-          "7",
-          "6",
-          "8",
-          "5"
-        ],
-        "answer_index": 0,
-        "explanation": "Emily has 3 red balloons and 4 blue balloons, so adding them together gives 7 balloons in total.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
         "question": "Lily has 7 apples and her friend gives her 5 more. How many apples does Lily have now?",
         "choices": [
           "12",
@@ -6958,21 +6418,6 @@
         ],
         "answer_index": 0,
         "explanation": "Lily has 7 apples and gets 5 more, so adding 7 and 5 gives 12 apples in total.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
-        "question": "Sara has 9 apples and Tom has 12 apples. Who has more apples?",
-        "choices": [
-          "Sara has more apples",
-          "Tom has more apples",
-          "They have the same number of apples",
-          "Not enough information"
-        ],
-        "answer_index": 1,
-        "explanation": "Tom has more apples because 12 is greater than 9.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -11848,8 +11293,8 @@
           "6",
           "8"
         ],
-        "answer_index": 3,
-        "explanation": "Dividing 24 apples by 6 baskets means each basket gets 24 ÷ 6 = 8 apples.",
+        "answer_index": 0,
+        "explanation": "Dividing 24 apples by 6 baskets means each basket gets 24 ÷ 6 = 4 apples.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -12283,8 +11728,8 @@
           "6",
           "8"
         ],
-        "answer_index": 3,
-        "explanation": "Dividing 24 apples by 6 baskets means each basket gets 24 ÷ 6 = 8 apples.",
+        "answer_index": 0,
+        "explanation": "Dividing 24 apples by 6 baskets means each basket gets 24 ÷ 6 = 4 apples.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -12733,8 +12178,8 @@
           "8",
           "12"
         ],
-        "answer_index": 2,
-        "explanation": "When 24 apples are divided equally into 6 baskets, each basket gets 24 ÷ 6 = 8 apples.",
+        "answer_index": 0,
+        "explanation": "When 24 apples are divided equally into 6 baskets, each basket gets 24 ÷ 6 = 4 apples.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -12763,8 +12208,8 @@
           "6",
           "8"
         ],
-        "answer_index": 3,
-        "explanation": "Dividing 24 apples by 6 baskets gives 24 ÷ 6 = 4 apples in each basket. But since 8 is the choice given as correct, let's check. Actually, 24 ÷ 6 = 4, so correct answer should be 4. Let's correct the answer_index to 0.",
+        "answer_index": 0,
+        "explanation": "Dividing 24 apples by 6 baskets gives 24 ÷ 6 = 4 apples in each basket.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -18283,8 +17728,8 @@
           "7",
           "8"
         ],
-        "answer_index": 3,
-        "explanation": "The correct answer is 8 because dividing 36 stickers into 6 equal groups means each group has 8 stickers.",
+        "answer_index": 0,
+        "explanation": "Divide 36 stickers into 6 equal groups: 36 ÷ 6 = 6 stickers in each group.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -20220,7 +19665,7 @@
           "36",
           "45"
         ],
-        "answer_index": 1,
+        "answer_index": 0,
         "explanation": "The pattern increases by adding 4, 6, 8, 10, so next add 12 to 30 which is 42.",
         "hint": "",
         "learnMoreUrl": ""
@@ -20265,7 +19710,7 @@
           "44",
           "36"
         ],
-        "answer_index": 1,
+        "answer_index": 0,
         "explanation": "The pattern adds consecutive even numbers: +4, +6, +8, +10, so the next number is 30 + 12 = 42.",
         "hint": "",
         "learnMoreUrl": ""
@@ -20340,8 +19785,8 @@
           "32",
           "26"
         ],
-        "answer_index": 1,
-        "explanation": "The pattern adds increasing even numbers: 2+4=6, 6+6=12, 12+8=20, so the next is 20+8=28.",
+        "answer_index": 0,
+        "explanation": "The differences between terms are +4, +6, +8, +10 (each step adds 2 more to the increment). After 20, add 10 to get 30.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -21885,8 +21330,8 @@
           "4",
           "7"
         ],
-        "answer_index": 1,
-        "explanation": "Sara must divide both red and green apples equally into baskets. The number of baskets must be a number that divides both 3 red apples and 4 green apples. The greatest number that divides 3 is 3 and also divides 4 is 1. So the greatest number of baskets with the same number of red apples is 1. However, since 3 cannot be divided evenly into baskets with red apples, and 4 green apples can't be divided evenly by 3, the only number that fits is 1 basket. But if we check the choices again, the only number that divides 3 red apples evenly is 1 or 3. Since 3 baskets means each basket has 1 red apple (3 ÷ 3 =1) and for green apples 4 ÷ 3 is not whole. So the greatest number is 1. So the correct answer is 1.",
+        "answer_index": 0,
+        "explanation": "She needs the same number of red apples in each basket, so the number of baskets must divide 3 (the red apples). It must also divide 4 (the green apples). The only positive integer that divides both 3 and 4 is 1 (gcd(3, 4) = 1). So the greatest number of baskets she can use is 1.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -21985,13 +21430,13 @@
         "difficulty": "hard",
         "question": "There are 3 boxes. Each box has 4 red balls and 2 green balls. If you take out 2 green balls from the first box and 1 red ball from the second box, how many balls are left in all the boxes together?",
         "choices": [
+          "15",
           "16",
-          "18",
-          "20",
-          "22"
+          "17",
+          "18"
         ],
-        "answer_index": 2,
-        "explanation": "Each box starts with 6 balls (4 red + 2 green), so 3 boxes have 18 balls. Removing 2 green balls from the first box and 1 red ball from the second box means 3 balls taken out in total. 18 - 3 = 15 balls left. The correct choice closest to this is 20, which means we need to recheck. Actually, each box has 6 balls, total 18. Taking out 2 green balls and 1 red ball makes 3 balls removed, so 18 - 3 = 15 balls, which is not among the choices. The correct solution is missing from the choices, so let's recalculate carefully. The question is to find how many balls are left in all boxes combined. 3 boxes × 6 balls = 18 balls total. Removing 2 green balls + 1 red ball = 3 balls removed, so 18 - 3 = 15 balls left. Since 15 is not an option, this is an error. The choices must include 15. Let's fix the choices to: [15, 16, 17, 18]. The correct answer is 15.",
+        "answer_index": 0,
+        "explanation": "Each box has 4 + 2 = 6 balls, so 3 boxes have 18 balls in total. You remove 2 green balls from the first box and 1 red ball from the second, so 3 balls are removed. 18 − 3 = 15 balls left.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -22425,8 +21870,8 @@
           "24",
           "36"
         ],
-        "answer_index": 2,
-        "explanation": "Sarah started with 3 boxes × 12 pencils = 36 pencils. After giving away 18 pencils, she has 36 − 18 = 24 pencils left.",
+        "answer_index": 0,
+        "explanation": "Sarah starts with 3 × 12 = 36 pencils. After giving away 18 pencils, she has 36 − 18 = 18 pencils left.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -22680,8 +22125,8 @@
           "2",
           "8"
         ],
-        "answer_index": 1,
-        "explanation": "First, the farmer puts 12 apples equally into 3 baskets, so each basket has 4 apples. Then he moves 2 apples from the first basket to the third basket. This means the third basket now has 4 + 2 = 6 apples. But the answer 6 is not listed correctly. Let's check again: initial equal distribution: each basket has 4 apples. Moving 2 apples from the first to the third basket makes the third basket have 4 + 2 = 6 apples, but 6 is choice 0. So the correct answer is 6.",
+        "answer_index": 0,
+        "explanation": "12 apples divided equally into 3 baskets gives 4 apples per basket. Moving 2 apples from the first basket to the third adds 2 to the third basket: 4 + 2 = 6 apples in the third basket.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -24705,7 +24150,7 @@
           "33",
           "36"
         ],
-        "answer_index": 1,
+        "answer_index": 0,
         "explanation": "Lila starts with 3 boxes of 12 crayons, which is 3 × 12 = 36 crayons. She gives 7 crayons away, so she has 36 - 7 = 29 crayons left. The correct answer is 29.",
         "hint": "",
         "learnMoreUrl": ""
@@ -24795,8 +24240,8 @@
           "24 stickers",
           "18 stickers"
         ],
-        "answer_index": 3,
-        "explanation": "Emma first puts 24 stickers equally in 4 albums, so each album has 6 stickers (24 ÷ 4 = 6). Then she gives 3 stickers from each album to her friend, so she gives away 3 × 4 = 12 stickers. The stickers left are 24 - 12 = 12 stickers in total. But since the choices include 18 stickers, which is 6 stickers (each album) after giving 3 from each album (6 - 3 = 3 stickers per album), total left in albums is 3 × 4 = 12 stickers. The correct answer is 12 stickers.",
+        "answer_index": 0,
+        "explanation": "24 stickers in 4 albums means 6 stickers per album. She gives away 3 from each album: 3 × 4 = 12 stickers given away. 24 − 12 = 12 stickers left in total.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -25005,8 +24450,8 @@
           "35",
           "40"
         ],
-        "answer_index": 3,
-        "explanation": "Lila has 4 boxes and each box has 5 blue balls. So, she has 4 times 5 blue balls, which is 40 blue balls in total.",
+        "answer_index": 0,
+        "explanation": "Each box has 5 blue balls and there are 4 boxes, so 4 × 5 = 20 blue balls in total. (7 red balls per box is extra information for this question.)",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -25065,7 +24510,7 @@
           "66 marbles",
           "30 marbles"
         ],
-        "answer_index": 1,
+        "answer_index": 0,
         "explanation": "Lucy starts with 48 marbles and gives away 3 marbles to each of her 6 friends, which means she gives away 3 × 6 = 18 marbles. So, 48 - 18 = 30 marbles left. Then, she buys 12 more marbles, so 30 + 12 = 42 marbles. The correct answer is 42 marbles.",
         "hint": "",
         "learnMoreUrl": ""
@@ -25080,7 +24525,7 @@
           "45",
           "50"
         ],
-        "answer_index": 2,
+        "answer_index": 0,
         "explanation": "Lila first has 4 chairs x 5 rows = 20 chairs. Then, she adds 3 chairs to each of the 5 rows, so 3 x 5 = 15 more chairs. Adding these together, 20 + 15 = 35 chairs. The correct answer is 35.",
         "hint": "",
         "learnMoreUrl": ""
@@ -26685,8 +26130,8 @@
           "41",
           "47"
         ],
-        "answer_index": 1,
-        "explanation": "Lena starts with 24 crayons and gives away 8, so she has 24 - 8 = 16 crayons left. Then she buys 15 more, so she has 16 + 15 = 31 crayons now. But since 31 is not the correct total, the correct steps show that 24 - 8 = 16 and 16 + 15 = 31. Therefore, the correct answer is 31.",
+        "answer_index": 0,
+        "explanation": "Lena has 24 − 8 = 16 crayons after giving some away, then 16 + 15 = 31 crayons after buying more.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -26700,8 +26145,8 @@
           "6",
           "36"
         ],
-        "answer_index": 3,
-        "explanation": "The second box has twice as many stickers as the first, so 24 × 2 = 48 stickers in the second box. The third box has 18 fewer than the second, so 48 - 18 = 30. But 30 is not an option, so let's re-check the subtraction: 48 - 18 = 30, which is correct. Since 30 is among the choices, the correct answer is 30.",
+        "answer_index": 0,
+        "explanation": "The second box has 24 × 2 = 48 stickers. The third has 48 − 18 = 30 stickers.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -26715,7 +26160,7 @@
           "31 crayons",
           "32 crayons"
         ],
-        "answer_index": 2,
+        "answer_index": 0,
         "explanation": "Jenny starts with 3 boxes of 12 crayons, which is 3 × 12 = 36 crayons. After giving 7 crayons away, she has 36 - 7 = 29 crayons left. Therefore, the correct answer is 29 crayons.",
         "hint": "",
         "learnMoreUrl": ""
@@ -26743,10 +26188,10 @@
           "14",
           "15",
           "16",
-          "17"
+          "21"
         ],
-        "answer_index": 2,
-        "explanation": "The pattern repeats every 15 beads (3 red + 5 blue + 7 green). In 50 beads, there are 3 full patterns (3 x 15 = 45) plus 5 extra beads. Each full pattern has 7 green beads, so 3 x 7 = 21 green beads. The next 5 beads will be the start of the pattern again: 3 red then 2 blue, so no green beads in the extra beads yet. Therefore, total green beads are 21. Since 21 is not an option, check carefully: the question asks how many green beads after 50 beads, so correct count is 3 full cycles × 7 green beads = 21 green beads, but none in next 5 beads. However, 21 is not a choice, re-check calculations. Actually, 50 beads means 3 full cycles (45 beads) with 5 beads extra that are red and blue, no green. The correct answer is 21 but since choices are 14, 15, 16, 17, the closest is 16, which means there was a mistake. Let's correct the question and choices to fit the math. Instead, for 45 beads, 3 full cycles, green beads are 21, so if question was 46 beads, green beads still 21. For 50 beads, green beads are 21 (from 3 cycles) plus 0 more green beads. So the correct answer is 21, but answer choices don't include 21. Adjust the question to 51 beads, so 3 full cycles (21 green beads) plus the 6th bead in the 4th pattern, which is the first green bead. So 21 + 1 = 22 green beads. Let's fix the question and choices accordingly.",
+        "answer_index": 3,
+        "explanation": "One full pattern is 3 red + 5 blue + 7 green = 15 beads, with 7 green beads per pattern. In 50 beads there are 3 complete patterns (45 beads), using 3 × 7 = 21 green beads. The remaining 5 beads are only red and blue, so no extra green beads.",
         "hint": "",
         "learnMoreUrl": ""
       },

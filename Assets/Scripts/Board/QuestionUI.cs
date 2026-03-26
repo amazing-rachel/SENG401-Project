@@ -16,15 +16,23 @@ public class QuestionUI : MonoBehaviour
     public TMP_Text explanationText;       // Text for why it was correct/incorrect
     public Button learnMoreButton;         // Button for external link
     public Button closeExplainBtn;         // Button to finish and move on
+    [Tooltip("Explanation body text size (applies after scroll setup).")]
+    [SerializeField] float explanationFontSize = 38f;
+    [SerializeField] float explanationLineSpacing = 4f;
 
     private Question currentQuestion;
     public QuestionManager questionManager; // assign in Inspector 
+
+    private ScrollRect _explanationScroll;
 
     void Start()
     {
         // Find QuestionManager if not assigned
         if(questionManager == null)
             questionManager = Object.FindFirstObjectByType<QuestionManager>();
+
+        EnsureExplanationScrollSetup();
+        ApplyExplanationPresentation();
 
         if(panel != null)
             panel.SetActive(false); // hide panel at start
@@ -93,6 +101,114 @@ public class QuestionUI : MonoBehaviour
         }
     }
 
+    void EnsureExplanationScrollSetup()
+    {
+        if (explanationText == null || explanationPanel == null) return;
+
+        if (explanationText.GetComponentInParent<ScrollRect>() != null)
+        {
+            _explanationScroll = explanationText.GetComponentInParent<ScrollRect>();
+            ConfigureExplanationScrollRect(_explanationScroll);
+            return;
+        }
+
+        var panelRt = explanationPanel.GetComponent<RectTransform>();
+        var textTransform = explanationText.rectTransform;
+        int siblingIndex = textTransform.GetSiblingIndex();
+
+        var scrollGo = new GameObject("ExplanationScroll", typeof(RectTransform));
+        scrollGo.transform.SetParent(panelRt, false);
+        scrollGo.transform.SetSiblingIndex(siblingIndex);
+
+        var scrollRt = scrollGo.GetComponent<RectTransform>();
+        scrollRt.anchorMin = Vector2.zero;
+        scrollRt.anchorMax = Vector2.one;
+        scrollRt.offsetMin = new Vector2(18f, 120f);
+        scrollRt.offsetMax = new Vector2(-18f, -18f);
+
+        var scrollRect = scrollGo.AddComponent<ScrollRect>();
+        scrollRect.horizontal = false;
+        scrollRect.vertical = true;
+        scrollRect.movementType = ScrollRect.MovementType.Clamped;
+        ConfigureExplanationScrollRect(scrollRect);
+
+        var bg = scrollGo.AddComponent<Image>();
+        bg.color = new Color(1f, 1f, 1f, 0.01f);
+        bg.raycastTarget = true;
+
+        var viewportGo = new GameObject("Viewport", typeof(RectTransform));
+        viewportGo.transform.SetParent(scrollGo.transform, false);
+        var viewportRt = viewportGo.GetComponent<RectTransform>();
+        viewportRt.anchorMin = Vector2.zero;
+        viewportRt.anchorMax = Vector2.one;
+        viewportRt.sizeDelta = Vector2.zero;
+        viewportRt.anchoredPosition = Vector2.zero;
+        viewportGo.AddComponent<RectMask2D>();
+
+        var contentGo = new GameObject("Content", typeof(RectTransform));
+        contentGo.transform.SetParent(viewportGo.transform, false);
+        var contentRt = contentGo.GetComponent<RectTransform>();
+        contentRt.anchorMin = new Vector2(0f, 1f);
+        contentRt.anchorMax = new Vector2(1f, 1f);
+        contentRt.pivot = new Vector2(0.5f, 1f);
+        contentRt.anchoredPosition = Vector2.zero;
+        contentRt.sizeDelta = Vector2.zero;
+
+        var vlg = contentGo.AddComponent<VerticalLayoutGroup>();
+        vlg.childAlignment = TextAnchor.UpperCenter;
+        vlg.childControlHeight = true;
+        vlg.childControlWidth = true;
+        vlg.childForceExpandWidth = true;
+        vlg.childForceExpandHeight = false;
+        vlg.padding = new RectOffset(16, 16, 12, 16);
+
+        var contentFitter = contentGo.AddComponent<ContentSizeFitter>();
+        contentFitter.verticalFit = ContentSizeFitter.FitMode.PreferredSize;
+        contentFitter.horizontalFit = ContentSizeFitter.FitMode.Unconstrained;
+
+        textTransform.SetParent(contentRt, false);
+        textTransform.anchorMin = new Vector2(0f, 1f);
+        textTransform.anchorMax = new Vector2(1f, 1f);
+        textTransform.pivot = new Vector2(0.5f, 1f);
+        textTransform.anchoredPosition = Vector2.zero;
+        textTransform.sizeDelta = Vector2.zero;
+
+        var textFitter = explanationText.gameObject.GetComponent<ContentSizeFitter>();
+        if (textFitter == null)
+            textFitter = explanationText.gameObject.AddComponent<ContentSizeFitter>();
+        textFitter.verticalFit = ContentSizeFitter.FitMode.PreferredSize;
+        textFitter.horizontalFit = ContentSizeFitter.FitMode.Unconstrained;
+
+        var le = explanationText.gameObject.GetComponent<LayoutElement>();
+        if (le == null)
+            le = explanationText.gameObject.AddComponent<LayoutElement>();
+        le.flexibleWidth = 1f;
+
+        explanationText.raycastTarget = false;
+
+        scrollRect.viewport = viewportRt;
+        scrollRect.content = contentRt;
+        _explanationScroll = scrollRect;
+    }
+
+    void ConfigureExplanationScrollRect(ScrollRect scrollRect)
+    {
+        if (scrollRect == null) return;
+        scrollRect.scrollSensitivity = 100f;
+        scrollRect.inertia = true;
+        scrollRect.decelerationRate = 0.135f;
+    }
+
+    void ApplyExplanationPresentation()
+    {
+        if (explanationText == null) return;
+        explanationText.fontSize = explanationFontSize;
+        explanationText.fontSizeMax = Mathf.Max(explanationText.fontSizeMax, explanationFontSize);
+        explanationText.lineSpacing = explanationLineSpacing;
+        if (_explanationScroll != null)
+            ConfigureExplanationScrollRect(_explanationScroll);
+    }
+
     private string GetSubjectLink(string topic)
     {
         if (string.IsNullOrEmpty(topic)) return "";
@@ -116,11 +232,18 @@ public class QuestionUI : MonoBehaviour
 
     void ShowExplanation(bool isCorrect)
     {
-        if (explanationPanel == null) return;
+        if (explanationPanel == null || explanationText == null) return;
 
         explanationPanel.SetActive(true);
         string status = isCorrect ? "<color=green>Correct!</color> " : "<color=red>Incorrect.</color> ";
         explanationText.text = status + currentQuestion.explanation;
+
+        Canvas.ForceUpdateCanvases();
+        if (_explanationScroll != null && _explanationScroll.content != null)
+        {
+            LayoutRebuilder.ForceRebuildLayoutImmediate(_explanationScroll.content);
+            _explanationScroll.verticalNormalizedPosition = 1f;
+        }
 
         if (learnMoreButton != null)
         {
