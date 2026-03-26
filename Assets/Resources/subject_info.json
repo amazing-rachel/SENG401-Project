@@ -2,19 +2,19 @@
   "subjects": [
     {
       "subject": "Math & Logic",
-      "infoText": "Formulas:\n Addition: a + b\n Subtraction: a - b\n Multiplication: a * b\n"
+      "infoText": "Formulas:\n\n Addition: a + b\n\n Subtraction:  a - b\n\n Multiplication: a * b\n\n Division: a / b"
     },
     {
       "subject": "English Grammar",
-      "infoText": "Definitions:\n Noun: Person/Place/Thing\n Verb: Action"
+      "infoText": "Definitions:\n\n Noun: Person/Place/Thing\n\n Verb: An action\n\n Adjective: Describes a noun"
     },
     {
         "subject": "Environmental Science",
-        "infoText": "Recycling: Plastic, paper"
+        "infoText": "Recycling: Plastic, paper\n\n Precipitation: Falls from the sky (snow, rain, hail)"
     },
     {
         "subject": "Global Citizenship",
-        "infoText": "Empathy: The ability to understand and share the feelings of another."
+        "infoText": "Empathy:\n\n The ability to understand and share the feelings of another."
     }
   ]
 }
