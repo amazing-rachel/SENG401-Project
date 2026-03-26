@@ -1,18 +1,26 @@
 from fastapi import FastAPI 
 from pydantic import BaseModel 
-import sqlite3 
+from motor.motor_asyncio import AsyncIOMotorClient
 from fastapi.middleware.cors import CORSMiddleware 
 import os 
+import bcrypt
 
 
 app = FastAPI() 
  
+MONGO_URL = os.getenv("MONGO_URL")
+
+client = AsyncIOMotorClient(MONGO_URL)
+db = client["game_db"]
+
+users_collection = db["users"]
+results_collection = db["game_results"]
 
 # Allow Unity / WebGL to access the backend 
 
 app.add_middleware( 
     CORSMiddleware, 
-    allow_origins=["*"],  # for testing only; replace with your site URL in production 
+    allow_origins=["*"],  # for testing only; replace with site URL when doing Itch.io stuff
     allow_methods=["*"], 
     allow_headers=["*"], 
 ) 
@@ -29,81 +37,43 @@ class GameResult(BaseModel):
     username: str
     result: str   # "win" or "loss"
 
-# Setup SQLite database 
-
-
-DB_PATH = os.path.join(os.getcwd(), "users.db")  # Render will create this automatically 
-
-conn = sqlite3.connect(DB_PATH, check_same_thread=False) 
-
-cursor = conn.cursor() 
-
-# Users Table
-cursor.execute(""" 
-
-CREATE TABLE IF NOT EXISTS users ( 
-    username TEXT PRIMARY KEY, 
-    password TEXT NOT NULL 
-) 
-
-""") 
-
-# Game Results Table
-cursor.execute("""
-CREATE TABLE IF NOT EXISTS game_results (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    username TEXT,
-    result TEXT,
-    played_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    FOREIGN KEY(username) REFERENCES users(username)
-)
-""")
-
-conn.commit() 
 
 
 # Register endpoint 
 
-
 @app.post("/register") 
 
-def register(user: User): 
+async def register(user: User): 
 
     username = user.username.strip() 
     password = user.password.strip() 
  
 
-    print(f"Register attempt: {repr(username)}, {repr(password)}") 
+    if not username or not password:
+        return {"status": "empty_fields"}
 
+    existing_user = await users_collection.find_one({"username": username})
 
-    if not username or not password: 
-        return {"status": "empty_fields"} 
+    if existing_user:
+        return {"status": "username_taken"}
+    
+    # Hash password before storing
+    hashed_password = bcrypt.hashpw(password.encode('utf-8'), bcrypt.gensalt())
 
- 
+    await users_collection.insert_one({
+        "username": username,
+        "password": hashed_password.decode('utf-8')
+    })
 
-    cursor.execute("SELECT * FROM users WHERE username=?", (username,)) 
-
-    if cursor.fetchone(): 
-        print("Username already exists in DB") 
-        return {"status": "username_taken"} 
-
-
-    cursor.execute("INSERT INTO users (username, password) VALUES (?, ?)", (username, password)) 
-
-    conn.commit() 
-
-    print("Account successfully created") 
-
-    return {"status": "account_created"} 
+    return {"status": "account_created"}
 
 
 
 # Login endpoint 
 
-
 @app.post("/login") 
 
-def login(user: User): 
+async def login(user: User): 
 
     username = user.username.strip() 
     password = user.password.strip() 
@@ -112,27 +82,19 @@ def login(user: User):
     if not username or not password: 
         return {"status": "empty_fields"} 
 
- 
+    existing_user = await users_collection.find_one({"username": username})
+    if existing_user:
+        stored_password = existing_user["password"].encode('utf-8')
+        if bcrypt.checkpw(password.encode('utf-8'), stored_password):
+            return {"status": "success"}
 
-    cursor.execute("SELECT * FROM users WHERE username=? AND password=?", (username, password)) 
-
-    if cursor.fetchone(): 
-        print("Login successful") 
-        return {"status": "success"} 
-
- 
-
-    print("Login failed") 
-
-    return {"status": "invalid"} 
-
+    return {"status": "invalid"}
 
 
 # Save Game Result endpoint
 
-
 @app.post("/save_results")
-def save_results(data: GameResult):
+async def save_results(data: GameResult):
 
     username = data.username.strip()
     result = data.result.strip().lower()
@@ -140,14 +102,10 @@ def save_results(data: GameResult):
     if result not in ["win", "loss"]:
         return {"status": "invalid_result"}
 
-    cursor.execute(
-        "INSERT INTO game_results (username, result) VALUES (?, ?)",
-        (username, result)
-    )
-
-    conn.commit()
-
-    print(f"Saved result: {username} -> {result}")
+    await results_collection.insert_one({
+        "username": username,
+        "result": result
+    })
 
     return {"status": "saved"}
 
@@ -155,20 +113,18 @@ def save_results(data: GameResult):
 
 # Show Player Stats
 
-
 @app.get("/stats/{username}")
-def get_stats(username: str):
-    cursor.execute(
-        "SELECT COUNT(*) FROM game_results WHERE username=? AND result='win'",
-        (username,)
-    )
-    wins = cursor.fetchone()[0]
+async def get_stats(username: str):
 
-    cursor.execute(
-        "SELECT COUNT(*) FROM game_results WHERE username=? AND result='loss'",
-        (username,)
-    )
-    losses = cursor.fetchone()[0]
+    wins = await results_collection.count_documents({
+        "username": username,
+        "result": "win"
+    })
+
+    losses = await results_collection.count_documents({
+        "username": username,
+        "result": "loss"
+    })
 
     return {
         "username": username,
