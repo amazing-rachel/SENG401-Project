@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System.Text.RegularExpressions;
 
 [System.Serializable]
 public class Question
@@ -46,9 +47,14 @@ public class QuestionManager : MonoBehaviour
 
     // key format: "subject|difficulty"
     private Dictionary<string, List<Question>> remainingQuestionPools = new Dictionary<string, List<Question>>();
+    // Per pool: normalized question texts already shown this round (until pool resets)
+    private Dictionary<string, HashSet<string>> usedQuestionTextsPerPool = new Dictionary<string, HashSet<string>>();
 
     void Start()
     {
+        if (SessionManager.Instance != null)
+            SessionManager.Instance.UsedQuestionKeysThisRun.Clear();
+
         TextAsset jsonFile = Resources.Load<TextAsset>("questions");
 
         if (jsonFile != null)
@@ -95,6 +101,28 @@ public class QuestionManager : MonoBehaviour
         }
     }
 
+    /// <summary>Used for dedup keys (session + pool).</summary>
+    public static string NormalizeQuestionText(string text)
+    {
+        if (string.IsNullOrEmpty(text))
+            return "";
+        string s = text.Trim().ToLowerInvariant();
+        // Merge near-identical stems ("apples, and" vs "apples and") so JSON duplicates don't slip through as different keys.
+        s = Regex.Replace(s, @"[,;:.!?""'()\[\]]", "");
+        s = Regex.Replace(s, @"\s+", " ");
+        return s.Trim();
+    }
+
+    /// <summary>Stable key: subject + normalized question (cross-difficulty dedup for one run).</summary>
+    public static string SessionQuestionKey(string subject, string questionText)
+    {
+        return subject.Trim().ToLowerInvariant() + "|" + NormalizeQuestionText(questionText);
+    }
+
+    /// <summary>
+    /// Same topic + difficulty: drop duplicate question strings (LLM often generated repeats).
+    /// Shuffle so order is not predictable.
+    /// </summary>
     private List<Question> BuildFilteredQuestionList(string subject, string difficulty)
     {
         List<Question> sourceList = GetSourceListByDifficulty(difficulty);
@@ -110,12 +138,61 @@ public class QuestionManager : MonoBehaviour
             q.topic.Trim().ToLower() == subject.Trim().ToLower()
         );
 
-        return filteredList;
+        var seen = new HashSet<string>();
+        var unique = new List<Question>();
+        foreach (Question q in filteredList)
+        {
+            string fp = NormalizeQuestionText(q.question);
+            if (string.IsNullOrEmpty(fp) || seen.Contains(fp))
+                continue;
+            seen.Add(fp);
+            unique.Add(q);
+        }
+
+        for (int i = unique.Count - 1; i > 0; i--)
+        {
+            int j = Random.Range(0, i + 1);
+            Question tmp = unique[i];
+            unique[i] = unique[j];
+            unique[j] = tmp;
+        }
+
+        return unique;
+    }
+
+    /// <summary>
+    /// Same as BuildFilteredQuestionList but drops questions already shown this run (session keys).
+    /// Used when the draw pool still has items but every remaining one is blocked by session dedup.
+    /// </summary>
+    private List<Question> BuildFilteredQuestionListExcludingSession(string subject, string difficulty)
+    {
+        List<Question> all = BuildFilteredQuestionList(subject, difficulty);
+        if (SessionManager.Instance == null)
+            return all;
+
+        var fresh = new List<Question>();
+        foreach (Question q in all)
+        {
+            if (!SessionManager.Instance.UsedQuestionKeysThisRun.Contains(SessionQuestionKey(subject, q.question)))
+                fresh.Add(q);
+        }
+
+        for (int i = fresh.Count - 1; i > 0; i--)
+        {
+            int j = Random.Range(0, i + 1);
+            Question tmp = fresh[i];
+            fresh[i] = fresh[j];
+            fresh[j] = tmp;
+        }
+
+        return fresh;
     }
 
     private void ResetPoolForSubjectAndDifficulty(string subject, string difficulty)
     {
         string key = GetPoolKey(subject, difficulty);
+        if (usedQuestionTextsPerPool.ContainsKey(key))
+            usedQuestionTextsPerPool[key].Clear();
         remainingQuestionPools[key] = BuildFilteredQuestionList(subject, difficulty);
     }
 
@@ -155,11 +232,67 @@ public class QuestionManager : MonoBehaviour
             return null;
         }
 
-        int index = Random.Range(0, list.Count);
-        Question selectedQuestion = list[index];
-        list.RemoveAt(index);
+        if (!usedQuestionTextsPerPool.ContainsKey(key))
+            usedQuestionTextsPerPool[key] = new HashSet<string>();
+        HashSet<string> usedInPool = usedQuestionTextsPerPool[key];
+
+        List<Question> candidates = BuildCandidates(list, usedInPool, subject);
+
+        // Pool was refilled but every entry was already shown this run — rebuild from unused only.
+        // Do NOT clear UsedQuestionKeysForSubject here; that caused the same question to appear twice in one round.
+        if (candidates.Count == 0 && list.Count > 0 && SessionManager.Instance != null)
+        {
+            list = BuildFilteredQuestionListExcludingSession(subject, difficulty);
+            remainingQuestionPools[key] = list;
+            usedInPool.Clear();
+            candidates = BuildCandidates(list, usedInPool, subject);
+        }
+
+        if (candidates.Count == 0)
+        {
+            usedInPool.Clear();
+            candidates = BuildCandidates(list, usedInPool, subject);
+        }
+
+        // Every question for this subject+difficulty was already used this run — reset pool and session for this subject so play can continue.
+        if (candidates.Count == 0 && list != null && list.Count == 0 && SessionManager.Instance != null)
+        {
+            SessionManager.Instance.ClearQuestionKeysForSubject(subject);
+            ResetPoolForSubjectAndDifficulty(subject, difficulty);
+            list = remainingQuestionPools[key];
+            candidates = BuildCandidates(list, usedInPool, subject);
+        }
+
+        if (candidates.Count == 0)
+        {
+            Debug.LogError("No drawable question for subject: " + subject + ", difficulty: " + difficulty);
+            return null;
+        }
+
+        int pick = Random.Range(0, candidates.Count);
+        Question selectedQuestion = candidates[pick];
+        list.Remove(selectedQuestion);
+        usedInPool.Add(NormalizeQuestionText(selectedQuestion.question));
+        if (SessionManager.Instance != null)
+            SessionManager.Instance.UsedQuestionKeysThisRun.Add(SessionQuestionKey(subject, selectedQuestion.question));
 
         return selectedQuestion;
+    }
+
+    private List<Question> BuildCandidates(List<Question> list, HashSet<string> usedInPool, string subject)
+    {
+        var candidates = new List<Question>();
+        foreach (Question q in list)
+        {
+            string fp = NormalizeQuestionText(q.question);
+            if (usedInPool.Contains(fp))
+                continue;
+            if (SessionManager.Instance != null &&
+                SessionManager.Instance.UsedQuestionKeysThisRun.Contains(SessionQuestionKey(subject, q.question)))
+                continue;
+            candidates.Add(q);
+        }
+        return candidates;
     }
 
     public void AskQuestion(string difficulty)
