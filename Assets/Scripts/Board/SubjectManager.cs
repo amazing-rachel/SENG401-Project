@@ -10,11 +10,13 @@ public class SubjectManager : MonoBehaviour {
     public Button EnglishButton;
     public Button GlobalCitizenshipButton;
 
-    private string chosenSubject = ""; // fix later
+    private string chosenSubject = ""; 
 
-    Color32 selectedColor = new Color32(145, 220, 106, 255); 
+    Color32 selectedColor = new Color32(145, 220, 106, 255); // green
     Color32 normalColor = new Color32(255, 255, 255, 255); 
 
+    // Reset button colours so only the chosen subject is highlighted green
+    // before clicking play
     public void ResetButtonColours() {
         MathButton.image.color = normalColor;
         ScienceButton.image.color = normalColor;
@@ -22,25 +24,26 @@ public class SubjectManager : MonoBehaviour {
         GlobalCitizenshipButton.image.color = normalColor;
     }
 
+    // Functions for selecting subject, chosen subject will be highlighted
     public void ChooseMath() {
         chosenSubject = "Math & Logic";
         ResetButtonColours();
         MathButton.image.color = selectedColor;
-        Debug.Log("Chosen subject = " + chosenSubject);    
+        Debug.Log("Chosen subject = " + chosenSubject);  
     }
 
     public void ChooseScience() {
         chosenSubject = "Environmental Science";
         ResetButtonColours();
         ScienceButton.image.color = selectedColor;
-        Debug.Log("Chosen subject = " + chosenSubject);      
+        Debug.Log("Chosen subject = " + chosenSubject);  
     }
 
     public void ChooseEnglish() {
         chosenSubject = "English Grammar";
         ResetButtonColours();
         EnglishButton.image.color = selectedColor;
-        Debug.Log("Chosen subject = " + chosenSubject);      
+        Debug.Log("Chosen subject = " + chosenSubject);  
     }
 
     public void ChooseGlobalCitizenship() {
@@ -50,6 +53,7 @@ public class SubjectManager : MonoBehaviour {
         Debug.Log("Chosen subject = " + chosenSubject);  
     }
 
+    // Play button, only moves forward if a subject has been chosen
     public void Play(){
         if (chosenSubject == "") {
             Debug.Log("Subject hasn't been chosen yet!");

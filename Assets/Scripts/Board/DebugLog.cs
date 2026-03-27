@@ -23,7 +23,7 @@ public class DebugOverlay : MonoBehaviour
     }
 
     void HandleLog(string logString, string stackTrace, LogType type) {
-        // normal Debug.Log messages
+        // normal Debug.Log messages, and the warnings from login
         if (type != LogType.Log && type != LogType.Warning)
             return;
 

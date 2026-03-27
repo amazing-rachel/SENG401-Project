@@ -4,8 +4,8 @@ using UnityEngine.InputSystem;
 public class CameraController : MonoBehaviour
 {
     [Header("Movement")]
-    public float mainSpeed = 10f;
-    public float shiftMultiplier = 3f;
+    public float mainSpeed = 10f; // main camera movement speed
+    public float shiftMultiplier = 3f; // boost for holding shift
     public float maxSpeed = 100f;
 
     [Header("Mouse Look")]
@@ -18,8 +18,8 @@ public class CameraController : MonoBehaviour
     public float maxScrollSpeed = 20f;
 
     private float currentSpeed;
-    private float yaw;
-    private float pitch;
+    private float yaw; // horizontal rotation
+    private float pitch; // vertical rotation
 
     private float smoothYaw;
     private float smoothPitch;
@@ -32,6 +32,7 @@ public class CameraController : MonoBehaviour
 
         smoothYaw = yaw;
         smoothPitch = pitch;
+
     }
 
     void Update()
@@ -41,6 +42,7 @@ public class CameraController : MonoBehaviour
         HandleScrollSpeed();
     }
 
+    // smoother rotation after update
         void LateUpdate()
     {
         transform.rotation = Quaternion.Euler(smoothPitch, smoothYaw, 0f);
@@ -52,7 +54,7 @@ public class CameraController : MonoBehaviour
 
         if (Mouse.current.rightButton.isPressed)
         {
-            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.lockState = CursorLockMode.Locked; // lock for camera control
             Cursor.visible = false;
 
             Vector2 delta = Mouse.current.delta.ReadValue();
@@ -78,6 +80,7 @@ public class CameraController : MonoBehaviour
         }
     }
 
+    // WASD Controls
     void HandleMovement()
     {
         Vector3 input = Vector3.zero;
@@ -91,13 +94,15 @@ public class CameraController : MonoBehaviour
 
         float speed = currentSpeed;
 
-        if (Keyboard.current.leftShiftKey.isPressed)
+        if (Keyboard.current.leftShiftKey.isPressed) // speed boost for holding shift
             speed *= shiftMultiplier;
 
         speed = Mathf.Clamp(speed, 0f, maxSpeed);
 
         Vector3 move = transform.TransformDirection(input) * speed * Time.deltaTime;
-        transform.position += move;    }
+        transform.position += move;    
+        
+    }
 
     void HandleScrollSpeed()
     {
