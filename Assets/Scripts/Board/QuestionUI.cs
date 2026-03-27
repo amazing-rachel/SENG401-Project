@@ -124,7 +124,7 @@ public class QuestionUI : MonoBehaviour
         scrollRt.anchorMin = Vector2.zero;
         scrollRt.anchorMax = Vector2.one;
         scrollRt.offsetMin = new Vector2(18f, 120f);
-        scrollRt.offsetMax = new Vector2(-18f, -80f);
+        scrollRt.offsetMax = new Vector2(-18f, -70f);
 
         var scrollRect = scrollGo.AddComponent<ScrollRect>();
         scrollRect.horizontal = false;
