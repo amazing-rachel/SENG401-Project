@@ -5,7 +5,7 @@ using System.Collections.Generic;
 public class DebugOverlay : MonoBehaviour
 {
     public TextMeshProUGUI debugText;
-    public float messageLifetime = 3f;
+    public float messageLifetime = 5f;
 
     private class LogEntry {
         public string message;
@@ -23,8 +23,8 @@ public class DebugOverlay : MonoBehaviour
     }
 
     void HandleLog(string logString, string stackTrace, LogType type) {
-        // normal Debug.Log messages, and the warnings from login
-        if (type != LogType.Log && type != LogType.Warning)
+        // normal Debug.Log messages
+        if (type != LogType.Log)
             return;
 
         if (logString.Contains("Request body")) return;
@@ -53,7 +53,17 @@ public class DebugOverlay : MonoBehaviour
         if (logs.Count == 0)
             return "";
 
-        // most recent message
-        return logs[logs.Count - 1].message;
+        int maxLines = 3;
+        int startIndex = Mathf.Max(0, logs.Count - maxLines);
+
+        System.Text.StringBuilder sb = new System.Text.StringBuilder();
+
+        for (int i = startIndex; i < logs.Count; i++)
+        {
+            sb.AppendLine(logs[i].message);
+        }
+
+        return sb.ToString().TrimEnd('\n');  // prevents empty bottom line
+
     }
 }

@@ -82,7 +82,11 @@ public class TurnManager : MonoBehaviour
 
         bool isComputer = currentPlayerIndex == 1;
 
-        Debug.Log("Player " + currentPlayerIndex + " rolled " + steps);
+        if (isComputer){
+            Debug.Log("Computer rolled " + steps);
+        } else {
+            Debug.Log("You rolled " + steps);
+        }
 
         // EASY QUESTION BEFORE MOVING
         if (isComputer)
@@ -90,7 +94,7 @@ public class TurnManager : MonoBehaviour
             if (Random.value >= 0.8f) // Computer fails
             {
                 Debug.Log("Computer failed easy question");
-                NextPlayer();
+                StartCoroutine(NextPlayerDelayed());
                 yield break;
             }
         }
@@ -102,7 +106,7 @@ public class TurnManager : MonoBehaviour
             if (!questionManager.lastAnswerCorrect)
             {
                 Debug.Log("Wrong answer. Turn skipped.");
-                NextPlayer();
+                StartCoroutine(NextPlayerDelayed());
                 yield break;
             }
         }
@@ -127,6 +131,8 @@ public class TurnManager : MonoBehaviour
 
                     yield return new WaitForSeconds(0.3f);
                     currentAvatar.JumpToTile(destinationTile);
+                } else {
+                    Debug.Log("Computer fails to climb ladder");
                 }
             }
             else
@@ -159,7 +165,10 @@ public class TurnManager : MonoBehaviour
 
                     yield return new WaitForSeconds(0.3f);
                     currentAvatar.JumpToTile(destinationTile);
+                } else {
+                    Debug.Log("Computer successfully avoids sliding down snake");
                 }
+
             }
             else
             {
@@ -185,7 +194,7 @@ public class TurnManager : MonoBehaviour
             yield break;
         }
 
-        NextPlayer();
+        StartCoroutine(NextPlayerDelayed());
     }
 
     void NextPlayer()
@@ -205,7 +214,16 @@ public class TurnManager : MonoBehaviour
         {
             // Start computer's turn automatically
             StartCoroutine(ComputerTurn());
+        } else {
+            Debug.Log("Your turn!");
         }
+
+    }
+
+    IEnumerator NextPlayerDelayed()
+    {
+        yield return new WaitForSeconds(1f); // delay so previous debug logs are shown
+        NextPlayer();
     }
 
     IEnumerator ComputerTurn()

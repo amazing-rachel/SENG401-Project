@@ -86,7 +86,7 @@ public class DiceRoller : MonoBehaviour
 
         IsRolling = false;
 
-        Debug.Log("Dice result: " + LastRoll);
+        //Debug.Log("Dice result: " + LastRoll);
 
         // Notify other systems
         OnDiceRolled?.Invoke(LastRoll);

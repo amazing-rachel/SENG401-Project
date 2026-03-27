@@ -69,7 +69,7 @@ public class LoginManager : MonoBehaviour
 
         if (string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(password))
         {
-            Debug.LogWarning("Login fields cannot be empty!");
+            Debug.Log("Login fields cannot be empty!");
             return;
         }
 
@@ -83,7 +83,7 @@ public class LoginManager : MonoBehaviour
 
         if (string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(password))
         {
-            Debug.LogWarning("Register fields cannot be empty!");
+            Debug.Log("Register fields cannot be empty!");
             return;
         }
 

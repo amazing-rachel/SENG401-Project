@@ -4039,7 +4039,7 @@
       {
         "topic": "English Grammar",
         "difficulty": "easy",
-        "question": "Lily wants to write about her pet cat. Which word is spelled correctly?",
+        "question": "Lily wants to write about her pet. Which word is spelled correctly?",
         "choices": [
           "cat",
           "kat",
@@ -4159,7 +4159,7 @@
       {
         "topic": "English Grammar",
         "difficulty": "easy",
-        "question": "Lily wrote a letter to her friend. Which word is spelled correctly?",
+        "question": "Lily wrote a letter to her peer. Which word is spelled correctly?",
         "choices": [
           "friend",
           "frend",
@@ -4249,7 +4249,7 @@
       {
         "topic": "English Grammar",
         "difficulty": "easy",
-        "question": "Lily wants to write a card for her dad. Which word is spelled correctly for 'friend'?",
+        "question": "Lily wants to write a card for her dad'a peer. Which word is spelled correctly, similar to 'peer'?",
         "choices": [
           "frend",
           "freind",
@@ -4257,7 +4257,7 @@
           "freand"
         ],
         "answer_index": 2,
-        "explanation": "The correct spelling for 'friend' is friend, which matches the choice exactly.",
+        "explanation": "The correct spelling is friend, which matches the choice exactly.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -6439,7 +6439,7 @@
       {
         "topic": "English Grammar",
         "difficulty": "easy",
-        "question": "Lily wants to write a card to her friend. Which word is spelled correctly for 'flower'?",
+        "question": "Lily wants to write a card to her friend. Which word is spelled correctly for plant?",
         "choices": [
           "flour",
           "flover",
@@ -6447,7 +6447,7 @@
           "flowar"
         ],
         "answer_index": 2,
-        "explanation": "The word spelled correctly for 'flower' is 'flower', which means a plant with pretty colors.",
+        "explanation": "The word spelled correctly for 'plant' is 'flower', which means a plant with pretty colors.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -6814,7 +6814,7 @@
       {
         "topic": "English Grammar",
         "difficulty": "easy",
-        "question": "Lily wants to write the name of a pet cat. Which word is spelled correctly?",
+        "question": "Lily wants to write the name of a pet. Which word is spelled correctly?",
         "choices": [
           "cat",
           "kat",
@@ -7084,7 +7084,7 @@
       {
         "topic": "English Grammar",
         "difficulty": "easy",
-        "question": "Lily wants to write a card to her friend. Which word is spelled correctly for the color of the sky?",
+        "question": "Which word is spelled correctly for the color of the sky?",
         "choices": [
           "blu",
           "blue",
@@ -7099,7 +7099,7 @@
       {
         "topic": "English Grammar",
         "difficulty": "easy",
-        "question": "Tom wants to write a letter. Which word is spelled correctly?",
+        "question": "Tom wants to write a ___. Which word is spelled correctly?",
         "choices": [
           "letter",
           "leter",
@@ -18411,7 +18411,7 @@
       {
         "topic": "English Grammar",
         "difficulty": "medium",
-        "question": "Sarah has one _____ and her brother has three _____ to play with in the park.",
+        "question": "Sarah has one kite and her brother has three _____ to play with in the park.",
         "choices": [
           "kite",
           "kites",
