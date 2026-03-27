@@ -23,9 +23,11 @@ public class DebugOverlay : MonoBehaviour
     }
 
     void HandleLog(string logString, string stackTrace, LogType type) {
-        // Only allow normal Debug.Log messages
-        if (type != LogType.Log)
+        // normal Debug.Log messages
+        if (type != LogType.Log && type != LogType.Warning)
             return;
+
+        if (logString.Contains("Request body")) return;
 
         logs.Add(new LogEntry
         {
@@ -35,7 +37,7 @@ public class DebugOverlay : MonoBehaviour
     }
 
     void Update(){
-        // Update timers and remove expired logs
+        // timers for removing expired logs
         for (int i = logs.Count - 1; i >= 0; i--)
         {
             logs[i].timeRemaining -= Time.deltaTime;
@@ -51,7 +53,7 @@ public class DebugOverlay : MonoBehaviour
         if (logs.Count == 0)
             return "";
 
-        // Show only the most recent message
+        // most recent message
         return logs[logs.Count - 1].message;
     }
 }
