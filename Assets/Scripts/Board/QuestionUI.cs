@@ -56,6 +56,7 @@ public class QuestionUI : MonoBehaviour
             return;
         }
 
+        // Store current question
         currentQuestion = question;
         panel.SetActive(true);
         if (explanationPanel != null) explanationPanel.SetActive(false);
@@ -63,6 +64,7 @@ public class QuestionUI : MonoBehaviour
         // Show question text
         questionText.text = question.question;
 
+        // Fill each button with the choices
         for (int i = 0; i < answerButtons.Count; i++)
         {
             if(i >= question.choices.Count)
@@ -78,18 +80,23 @@ public class QuestionUI : MonoBehaviour
             else
                 Debug.LogError("Button " + i + " is missing TMP_Text component!");
         }
+
+        // Update Info button for subject
         if (subjectInfoUI != null)
             subjectInfoUI.RefreshSubject(question.topic);
 
+        // Waiting for player to pick an answer
         if(questionManager != null)
             questionManager.waitingForAnswer = true;
     }
 
     void OnAnswerClicked(int choiceIndex)
     {
+        // Close subject info panel 
         if (subjectInfoUI != null && subjectInfoUI.infoPanel != null) 
             subjectInfoUI.infoPanel.SetActive(false);
-            
+
+        // Check if answer is correct   
         if(questionManager != null && currentQuestion != null)
         {
             bool isCorrect = (choiceIndex == currentQuestion.answer_index);
@@ -102,6 +109,7 @@ public class QuestionUI : MonoBehaviour
 
     void ApplyExplanationPresentation()
     {
+        // Apply font settings from Inspector to explanation text
         if (explanationText == null) return;
         explanationText.fontSize = explanationFontSize;
         explanationText.fontSizeMax = Mathf.Max(explanationText.fontSizeMax, explanationFontSize);
@@ -135,6 +143,7 @@ public class QuestionUI : MonoBehaviour
     {
         if (explanationPanel == null || explanationText == null) return;
 
+        // Show a green Correct or red Incorrect 
         explanationPanel.SetActive(true);
         string status = isCorrect ? "<color=green>Correct!</color> " : "<color=red>Incorrect.</color> ";
         explanationText.text = status + currentQuestion.explanation;
@@ -146,8 +155,10 @@ public class QuestionUI : MonoBehaviour
             _explanationScroll.verticalNormalizedPosition = 1f;
         }
 
+        // Learn More button logic
         if (learnMoreButton != null)
         {
+            // Get link for website based on subject
             string categoryUrl = GetSubjectLink(currentQuestion.topic);
             
             bool hasUrl = !string.IsNullOrEmpty(categoryUrl);
