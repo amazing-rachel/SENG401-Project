@@ -6,6 +6,7 @@ using System.Text.RegularExpressions;
 [System.Serializable]
 public class Question
 {
+    // Info for a question
     public string topic;
     public string difficulty;
     public string question;
@@ -18,6 +19,7 @@ public class Question
 [System.Serializable]
 public class QuestionDatabase
 {
+    // Sorts questions into difficulty levels
     public List<Question> easy;
     public List<Question> medium;
     public List<Question> hard;

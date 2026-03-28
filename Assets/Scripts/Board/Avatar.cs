@@ -11,6 +11,7 @@ public class Avatar : MonoBehaviour
     [HideInInspector] public Tile[] boardTiles;
     private float verticalOffset = 0.1f;
 
+    // Set up player at the start of the game
     public void Initialize(Tile[] tiles, int index)
     {
         boardTiles = tiles;
@@ -19,6 +20,7 @@ public class Avatar : MonoBehaviour
         MoveToCurrentTile();
     }
 
+    // Move player one tile at a time
     public IEnumerator MoveSteps(int steps)
     {
         int direction = steps >= 0 ? 1 : -1;
@@ -47,6 +49,7 @@ public class Avatar : MonoBehaviour
         MoveToCurrentTile();
     }
 
+    // Jumps to tile in the event of a ladder or snake
     public void JumpToTile(int tileNumber)
     {
         if (boardTiles == null || boardTiles.Length == 0) return;
@@ -57,6 +60,7 @@ public class Avatar : MonoBehaviour
         MoveToCurrentTile();
     }
 
+    // Calculate where player stands on the tile
     Vector3 GetTilePosition(int tileIndex)
     {
         if (boardTiles == null || boardTiles.Length == 0)

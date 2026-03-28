@@ -17,6 +17,7 @@ public class BoardGenerator : MonoBehaviour
 
     void GenerateBoard()
     {
+        // Create an array to hold tiles
         tiles = new Tile[boardSize * boardSize];
         int tileNumber = 1;
 
