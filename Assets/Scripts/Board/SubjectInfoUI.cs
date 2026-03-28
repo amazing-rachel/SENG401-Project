@@ -4,15 +4,16 @@ using UnityEngine.UI;
 
 public class SubjectInfoUI : MonoBehaviour
 {
-    public GameObject infoPanel;
-    public TMP_Text infoText;
-    public Button infoButton; 
-    public Button closeInfoBtn;
+    public GameObject infoPanel; // Info Panel Window
+    public TMP_Text infoText;    // Info Text Component
+    public Button infoButton;    // Button to Open Info Panel
+    public Button closeInfoBtn;  // Button to Close Info Panel
 
-    private QuestionManager qm;
+    private QuestionManager qm;  // Refers to QuestionManager
 
     void Awake()
     {
+        // Accesses subject info dictionary
         qm = Object.FindFirstObjectByType<QuestionManager>();
 
         if (infoPanel != null) 
