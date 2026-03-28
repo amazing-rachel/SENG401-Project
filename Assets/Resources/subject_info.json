@@ -1,0 +1,20 @@
+{
+  "subjects": [
+    {
+      "subject": "Math & Logic",
+      "infoText": "Formulas:\n\nAddition: 'add, get, take' a + b\n\nSubtraction: 'subtract, remove, give' a - b\n\nMultiplication: 'multiply', a * b\n\nDivision: 'divide', a / b\n\na < b means b is greater\n\na > b means a is greater"
+    },
+    {
+      "subject": "English Grammar",
+      "infoText": "Noun: Person/Place/Thing\n\nVerb: An action\n\nAdjective: Describes a noun\n\nPlurals:\n\nAdd 's' to most words\n\nFor words ending in 'y', change the 'y' to 'ies'\n\nAdd 'es' for words ending in 'x'\n\nPast Tense: Add '-ed' to regular verbs"
+    },
+    {
+      "subject": "Environmental Science",
+      "infoText": "Recycling: Plastic, paper\n\nPrecipitation: Falls from the sky (snow, rain, hail)\n\nHabitats: Ponds (frogs, ducks), Forests (deer, birds)\n\nPollution: Cars, factories, trash and chemicals cause pollution\n\nPlants: Leaves use sunlight for food and roots take in water"
+    },
+    {
+      "subject": "Global Citizenship",
+      "infoText": "Empathy: The ability to share the feelings of another\n\nTeamwork: Listen to everyone's ideas and share tasks fairly\n\nFairness: Take turns and share so everyone is equal\n\nResponsibility: Take care of your chores and tasks\n\nSolving Conflicts: Talk calmly and listen to each other"
+    }
+  ]
+}
