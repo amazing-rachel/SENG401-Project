@@ -1579,21 +1579,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "easy",
-        "question": "How many apples are there if you have 3 red apples and 4 green apples?",
-        "choices": [
-          "7",
-          "6",
-          "5",
-          "8"
-        ],
-        "answer_index": 0,
-        "explanation": "Adding 3 red apples and 4 green apples gives a total of 7 apples.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
         "question": "What is 8 + 7?",
         "choices": [
           "14",
@@ -1618,21 +1603,6 @@
         ],
         "answer_index": 0,
         "explanation": "14 minus 6 is 8 because when you take away 6 from 14, you count the leftover and get 8.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
-        "question": "What is 7 + 8?",
-        "choices": [
-          "15",
-          "14",
-          "16",
-          "13"
-        ],
-        "answer_index": 0,
-        "explanation": "When you add 7 and 8 together, you get 15.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -1678,36 +1648,6 @@
         ],
         "answer_index": 0,
         "explanation": "9 plus 6 equals 15 because when you add 9 and 6 together, you get 15.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
-        "question": "How many apples are there in the basket if you see 3 red apples and 4 green apples?",
-        "choices": [
-          "7",
-          "6",
-          "8",
-          "5"
-        ],
-        "answer_index": 0,
-        "explanation": "Adding 3 red apples and 4 green apples gives a total of 7 apples in the basket.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
-        "question": "How many apples are there if you have 4 apples and your friend gives you 3 more?",
-        "choices": [
-          "7",
-          "6",
-          "8",
-          "5"
-        ],
-        "answer_index": 0,
-        "explanation": "You start with 4 apples and add 3 more, so 4 + 3 = 7 apples in total.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -3229,111 +3169,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "easy",
-        "question": "Sally has 3 red apples and 4 green apples. How many apples does she have in total?",
-        "choices": [
-          "7 apples",
-          "6 apples",
-          "8 apples",
-          "5 apples"
-        ],
-        "answer_index": 0,
-        "explanation": "Sally has 3 red apples and 4 green apples, so in total she has 7 apples.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
-        "question": "Lila has 7 red balloons and 8 blue balloons. How many balloons does she have in total?",
-        "choices": [
-          "15",
-          "14",
-          "16",
-          "13"
-        ],
-        "answer_index": 0,
-        "explanation": "Lila has 7 red balloons and 8 blue balloons. When you add 7 and 8 together, you get 15. So, the correct answer is 15.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
-        "question": "Lucy had 14 balloons at her party. She gave 6 balloons to her friends. How many balloons does Lucy have now?",
-        "choices": [
-          "8",
-          "10",
-          "6",
-          "9"
-        ],
-        "answer_index": 0,
-        "explanation": "Lucy had 14 balloons and gave away 6, so she has 8 balloons left. The correct answer is 8.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
-        "question": "Lily had 15 balloons. She gave 7 to her friends. How many balloons does Lily have now?",
-        "choices": [
-          "8",
-          "7",
-          "9",
-          "6"
-        ],
-        "answer_index": 0,
-        "explanation": "Lily had 15 balloons and gave away 7, so 15 minus 7 equals 8. Therefore, Lily has 8 balloons now.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
-        "question": "Lily has 3 red balloons and 5 green balloons. How many balloons does she have in total?",
-        "choices": [
-          "8",
-          "7",
-          "5",
-          "3"
-        ],
-        "answer_index": 0,
-        "explanation": "Lily has 3 red balloons and 5 green balloons, so when we add them together, 3 + 5 equals 8. Therefore, Lily has 8 balloons in total.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
-        "question": "Lily has 7 red balloons and 8 blue balloons. How many balloons does she have in total?",
-        "choices": [
-          "15",
-          "14",
-          "16",
-          "13"
-        ],
-        "answer_index": 0,
-        "explanation": "Lily has 7 red balloons and 8 blue balloons, so 7 plus 8 equals 15 balloons in total.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
-        "question": "Liam had 17 stickers. He gave 5 stickers to his friend. How many stickers does Liam have now?",
-        "choices": [
-          "12",
-          "22",
-          "10",
-          "7"
-        ],
-        "answer_index": 0,
-        "explanation": "Liam had 17 stickers and gave away 5, so he now has 12 stickers left.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
         "question": "Lily picks 8 strawberries from the garden and then picks 5 more. How many strawberries did Lily pick in total?",
         "choices": [
           "13",
@@ -3343,21 +3178,6 @@
         ],
         "answer_index": 0,
         "explanation": "Lily picked 8 strawberries and then 5 more, so adding them together, 8 + 5 equals 13. Therefore, the correct answer is 13.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
-        "question": "Lily had 14 stickers. She gave 5 stickers to her friend. How many stickers does Lily have now?",
-        "choices": [
-          "9",
-          "10",
-          "8",
-          "7"
-        ],
-        "answer_index": 0,
-        "explanation": "Lily has 9 stickers now because 14 minus 5 equals 9.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -3379,66 +3199,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "easy",
-        "question": "Liam has 7 red balloons and 8 blue balloons. How many balloons does he have in total?",
-        "choices": [
-          "15",
-          "14",
-          "16",
-          "13"
-        ],
-        "answer_index": 0,
-        "explanation": "Liam has 7 red balloons and 8 blue balloons, so he has 15 balloons in total because 7 + 8 equals 15.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
-        "question": "There were 18 balloons at a party. 7 balloons popped. How many balloons are left?",
-        "choices": [
-          "11",
-          "10",
-          "12",
-          "9"
-        ],
-        "answer_index": 0,
-        "explanation": "There are 11 balloons left because 18 minus 7 equals 11.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
-        "question": "Lily had 18 balloons. She gave 7 to her friend. How many balloons does Lily have now?",
-        "choices": [
-          "11",
-          "12",
-          "10",
-          "9"
-        ],
-        "answer_index": 0,
-        "explanation": "Lily has 11 balloons now because 18 minus 7 equals 11.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
-        "question": "Sally has 8 red balloons and 5 blue balloons. How many balloons does she have in total?",
-        "choices": [
-          "13",
-          "12",
-          "14",
-          "11"
-        ],
-        "answer_index": 0,
-        "explanation": "Sally has 8 red balloons and 5 blue balloons, so she has 8 + 5 = 13 balloons in total. The correct answer is 13.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
         "question": "Lily had 18 balloons. She gave 5 balloons to her friend. How many balloons does Lily have now?",
         "choices": [
           "13",
@@ -3448,21 +3208,6 @@
         ],
         "answer_index": 0,
         "explanation": "Lily had 18 balloons and gave away 5, so 18 minus 5 equals 13. That means Lily has 13 balloons now.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
-        "question": "Emma has 9 red balloons and 6 blue balloons. How many balloons does she have in total?",
-        "choices": [
-          "15",
-          "14",
-          "16",
-          "13"
-        ],
-        "answer_index": 0,
-        "explanation": "Emma has 15 balloons in total because 9 red balloons plus 6 blue balloons equals 15.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -3514,21 +3259,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "easy",
-        "question": "Lily has 9 red balloons and 7 blue balloons. How many balloons does she have in total?",
-        "choices": [
-          "16",
-          "15",
-          "17",
-          "14"
-        ],
-        "answer_index": 0,
-        "explanation": "Lily has 9 red balloons and 7 blue balloons, so 9 + 7 equals 16. Therefore, the correct answer is 16.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
         "question": "Lily has 7 apples and Tom has 10 apples. Who has more apples?",
         "choices": [
           "Lily has more apples",
@@ -3538,21 +3268,6 @@
         ],
         "answer_index": 1,
         "explanation": "Tom has more apples because 10 is greater than 7.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
-        "question": "Lisa has 5 red balloons and 3 blue balloons. How many balloons does she have in total?",
-        "choices": [
-          "8",
-          "7",
-          "6",
-          "9"
-        ],
-        "answer_index": 0,
-        "explanation": "Lisa has 5 red balloons and 3 blue balloons, so she has 8 balloons in total.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -3589,21 +3304,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "easy",
-        "question": "Lily has 8 red balloons and 5 blue balloons. How many balloons does she have in total?",
-        "choices": [
-          "13",
-          "12",
-          "14",
-          "15"
-        ],
-        "answer_index": 0,
-        "explanation": "Lily has 8 red balloons and 5 blue balloons, so adding them together gives 8 + 5 = 13. The correct answer is 13.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
         "question": "Lily had 18 balloons. She gave 5 balloons to her friends. How many balloons does she have left?",
         "choices": [
           "13",
@@ -3613,21 +3313,6 @@
         ],
         "answer_index": 0,
         "explanation": "Lily started with 18 balloons and gave away 5, so she has 13 balloons left.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
-        "question": "Emma has 8 red balloons and 5 blue balloons. How many balloons does she have in total?",
-        "choices": [
-          "13",
-          "14",
-          "15",
-          "12"
-        ],
-        "answer_index": 0,
-        "explanation": "Emma has 8 red balloons and 5 blue balloons, so we add 8 + 5 to find the total. The total number of balloons is 13.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -5929,21 +5614,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "easy",
-        "question": "Liam has 7 toy cars and buys 5 more. How many toy cars does Liam have now?",
-        "choices": [
-          "12",
-          "10",
-          "11",
-          "13"
-        ],
-        "answer_index": 0,
-        "explanation": "Liam had 7 toy cars and bought 5 more, so 7 plus 5 equals 12. Therefore, Liam now has 12 toy cars.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
         "question": "Lisa had 15 stickers. She gave 6 stickers to her friend. How many stickers does Lisa have now?",
         "choices": [
           "9",
@@ -5953,21 +5623,6 @@
         ],
         "answer_index": 0,
         "explanation": "Lisa started with 15 stickers and gave away 6, so 15 minus 6 equals 9. Therefore, the correct answer is 9.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
-        "question": "Lily has 7 red balloons and her friend gave her 5 more. How many balloons does Lily have now?",
-        "choices": [
-          "12",
-          "10",
-          "13",
-          "11"
-        ],
-        "answer_index": 0,
-        "explanation": "Lily has 7 red balloons and receives 5 more. Adding 7 and 5 gives 12, so the correct answer is 12.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -5989,21 +5644,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "easy",
-        "question": "Lily has 3 red balloons and 5 blue balloons. How many balloons does she have in total?",
-        "choices": [
-          "8",
-          "5",
-          "3",
-          "7"
-        ],
-        "answer_index": 0,
-        "explanation": "Lily has 3 red balloons and 5 blue balloons, so to find the total number of balloons, you add them together: 3 + 5 = 8. Therefore, the correct answer is 8.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
         "question": "Emma had 19 stickers. She gave 7 stickers to her friend. How many stickers does Emma have now?",
         "choices": [
           "12",
@@ -6013,21 +5653,6 @@
         ],
         "answer_index": 0,
         "explanation": "Emma started with 19 stickers and gave away 7, so she has 12 stickers left. The correct answer is 12.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
-        "question": "Lily has 7 red balloons and 3 blue balloons. How many balloons does she have in total?",
-        "choices": [
-          "10",
-          "9",
-          "7",
-          "3"
-        ],
-        "answer_index": 0,
-        "explanation": "Lily has 7 red balloons and 3 blue balloons, so the total number of balloons is 7 plus 3, which is 10.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -6049,21 +5674,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "easy",
-        "question": "Lily has 8 red balloons and 7 blue balloons. How many balloons does she have in total?",
-        "choices": [
-          "15",
-          "14",
-          "16",
-          "13"
-        ],
-        "answer_index": 0,
-        "explanation": "Lily has 8 red balloons and 7 blue balloons. Adding them together gives 15 balloons in total, so the correct answer is 15.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
         "question": "Lily had 14 balloons. She gave 5 balloons to her friend. How many balloons does Lily have left?",
         "choices": [
           "9",
@@ -6073,21 +5683,6 @@
         ],
         "answer_index": 0,
         "explanation": "Lily had 14 balloons and gave away 5, so she has 9 balloons left.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
-        "question": "Emma has 7 red balloons and 6 blue balloons. How many balloons does she have in total?",
-        "choices": [
-          "13",
-          "12",
-          "14",
-          "15"
-        ],
-        "answer_index": 0,
-        "explanation": "Emma has 7 red balloons and 6 blue balloons, so adding them together gives 7 + 6 = 13 balloons in total.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -6118,21 +5713,6 @@
         ],
         "answer_index": 0,
         "explanation": "Lily has 7 red balloons and 3 blue balloons, so she has a total of 10 balloons because 7 + 3 equals 10.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
-        "question": "Lily has 3 red balloons and 2 blue balloons. How many balloons does she have in total?",
-        "choices": [
-          "5 balloons",
-          "6 balloons",
-          "4 balloons",
-          "3 balloons"
-        ],
-        "answer_index": 0,
-        "explanation": "Lily has 3 red balloons and 2 blue balloons, so together she has 5 balloons in total.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -6229,51 +5809,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "easy",
-        "question": "Lilly had 18 balloons. She gave 7 balloons to her friend. How many balloons does Lilly have now?",
-        "choices": [
-          "11",
-          "12",
-          "10",
-          "9"
-        ],
-        "answer_index": 0,
-        "explanation": "Lilly started with 18 balloons and gave away 7, so 18 minus 7 equals 11. Therefore, Lilly has 11 balloons now.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
-        "question": "Sophie has 3 red apples and 4 green apples. How many apples does she have in total?",
-        "choices": [
-          "7",
-          "6",
-          "8",
-          "5"
-        ],
-        "answer_index": 0,
-        "explanation": "Sophie has 3 red apples and 4 green apples. When you add 3 and 4, you get 7. So, the correct answer is 7.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
-        "question": "Emma has 7 red balloons and 8 blue balloons. How many balloons does she have in total?",
-        "choices": [
-          "15",
-          "14",
-          "16",
-          "13"
-        ],
-        "answer_index": 0,
-        "explanation": "Emma has 7 red balloons and 8 blue balloons. When you add 7 and 8, you get 15. So, the total number of balloons is 15.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
         "question": "Anna had 15 balloons. She gave 7 balloons to her friend. How many balloons does Anna have now?",
         "choices": [
           "8",
@@ -6304,21 +5839,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "easy",
-        "question": "Sara has 3 red apples and 4 green apples. How many apples does she have in total?",
-        "choices": [
-          "7",
-          "6",
-          "8",
-          "9"
-        ],
-        "answer_index": 0,
-        "explanation": "Sara has 3 red apples and 4 green apples, so in total she has 7 apples.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
         "question": "Lily has 7 balloons and her friend gives her 8 more. How many balloons does Lily have now?",
         "choices": [
           "15",
@@ -6343,81 +5863,6 @@
         ],
         "answer_index": 0,
         "explanation": "Emma has 7 apples in total because 4 red apples plus 3 green apples equals 7 apples.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
-        "question": "Emma had 18 balloons. She gave 7 balloons to her friend. How many balloons does Emma have now?",
-        "choices": [
-          "11",
-          "13",
-          "9",
-          "7"
-        ],
-        "answer_index": 0,
-        "explanation": "Emma started with 18 balloons and gave away 7, so she has 11 balloons left.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
-        "question": "Emma has 4 red balloons and 3 blue balloons. How many balloons does she have in total?",
-        "choices": [
-          "7",
-          "6",
-          "8",
-          "5"
-        ],
-        "answer_index": 0,
-        "explanation": "Emma has 7 balloons in total because 4 red balloons plus 3 blue balloons add up to 7.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
-        "question": "Emma has 7 balloons and her friend gives her 5 more. How many balloons does Emma have now?",
-        "choices": [
-          "12",
-          "10",
-          "11",
-          "13"
-        ],
-        "answer_index": 0,
-        "explanation": "Emma has 7 balloons and gets 5 more, so 7 plus 5 equals 12. That means Emma has 12 balloons now.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
-        "question": "Lily had 18 balloons at her party. If 7 balloons popped, how many balloons are left?",
-        "choices": [
-          "11",
-          "7",
-          "10",
-          "12"
-        ],
-        "answer_index": 0,
-        "explanation": "Lily started with 18 balloons and 7 popped, so 18 - 7 equals 11 balloons left. The correct answer is 11.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "easy",
-        "question": "Lily has 7 apples and her friend gives her 5 more. How many apples does Lily have now?",
-        "choices": [
-          "12",
-          "10",
-          "13",
-          "11"
-        ],
-        "answer_index": 0,
-        "explanation": "Lily has 7 apples and gets 5 more, so adding 7 and 5 gives 12 apples in total.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -8685,6 +8130,51 @@
         "explanation": "Lily should share one of her sandwiches with her friend because sharing helps others and shows kindness.",
         "hint": "",
         "learnMoreUrl": ""
+      },
+      {
+        "topic": "Math & Logic",
+        "difficulty": "easy",
+        "question": "There are 8 boxes. Each box has 6 stickers. How many stickers are there in total?",
+        "choices": [
+          "48 stickers",
+          "36 stickers",
+          "56 stickers",
+          "42 stickers"
+        ],
+        "answer_index": 0,
+        "explanation": "There are 8 boxes with 6 stickers each, so 8 × 6 = 48 stickers in total.",
+        "hint": "",
+        "learnMoreUrl": ""
+      },
+      {
+        "topic": "Math & Logic",
+        "difficulty": "easy",
+        "question": "Lily had 18 balloons at her party. If 7 balloons popped, how many balloons are left?",
+        "choices": [
+          "11",
+          "7",
+          "10",
+          "12"
+        ],
+        "answer_index": 0,
+        "explanation": "Lily started with 18 balloons and 7 popped, so 18 - 7 equals 11 balloons left. The correct answer is 11.",
+        "hint": "",
+        "learnMoreUrl": ""
+      },
+      {
+        "topic": "Math & Logic",
+        "difficulty": "easy",
+        "question": "Lily has 7 apples and her friend gives her 5 more. How many apples does Lily have now?",
+        "choices": [
+          "12",
+          "10",
+          "13",
+          "11"
+        ],
+        "answer_index": 0,
+        "explanation": "Lily has 7 apples and gets 5 more, so adding 7 and 5 gives 12 apples in total.",
+        "hint": "",
+        "learnMoreUrl": ""
       }
     ],
     "medium": [
@@ -8751,21 +8241,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "medium",
-        "question": "There are 24 apples and 6 baskets. If apples are divided equally, how many apples will each basket have?",
-        "choices": [
-          "4",
-          "5",
-          "6",
-          "3"
-        ],
-        "answer_index": 0,
-        "explanation": "Dividing 24 apples by 6 baskets gives 24 ÷ 6 = 4 apples per basket.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
         "question": "What number comes next in the pattern: 2, 4, 8, 16, ?",
         "choices": [
           "32",
@@ -8781,21 +8256,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "medium",
-        "question": "What is 7 multiplied by 6?",
-        "choices": [
-          "42",
-          "36",
-          "48",
-          "40"
-        ],
-        "answer_index": 0,
-        "explanation": "7 multiplied by 6 equals 42 because 7 groups of 6 objects make 42 objects in total.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
         "question": "If you divide 36 apples equally into 6 baskets, how many apples will be in each basket?",
         "choices": [
           "6",
@@ -8805,21 +8265,6 @@
         ],
         "answer_index": 0,
         "explanation": "Dividing 36 apples into 6 baskets means dividing 36 by 6, which equals 6 apples in each basket.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "What number comes next in the pattern? 3, 6, 9, 12, __?",
-        "choices": [
-          "15",
-          "18",
-          "14",
-          "13"
-        ],
-        "answer_index": 0,
-        "explanation": "The pattern increases by 3 each time, so after 12 comes 15.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -8856,141 +8301,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "medium",
-        "question": "What number comes next in this pattern? 2, 4, 8, 16, __",
-        "choices": [
-          "18",
-          "20",
-          "32",
-          "24"
-        ],
-        "answer_index": 2,
-        "explanation": "Each number doubles the one before it. After 16, doubling gives 32.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "What number should come next in the pattern? 3, 6, 9, 12, __",
-        "choices": [
-          "15",
-          "14",
-          "18",
-          "13"
-        ],
-        "answer_index": 0,
-        "explanation": "The pattern increases by 3 each time, so after 12 comes 12 + 3 = 15.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "If you have 36 candies and want to share them equally among 6 friends, how many candies does each friend get?",
-        "choices": [
-          "6",
-          "7",
-          "5",
-          "8"
-        ],
-        "answer_index": 0,
-        "explanation": "Dividing 36 candies by 6 friends means each friend gets 36 ÷ 6 = 6 candies.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "What is the next number in this pattern? 3, 6, 12, 24, ?",
-        "choices": [
-          "36",
-          "48",
-          "72",
-          "96"
-        ],
-        "answer_index": 1,
-        "explanation": "Each number in the pattern is multiplied by 2 to get the next number. So, 24 × 2 = 48.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "If 36 apples are divided equally into 6 baskets, how many apples will be in each basket?",
-        "choices": [
-          "6",
-          "5",
-          "7",
-          "8"
-        ],
-        "answer_index": 0,
-        "explanation": "Dividing 36 apples equally into 6 baskets means dividing 36 by 6, which equals 6 apples in each basket.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "What is the next number in the pattern? 2, 4, 8, 16, ?",
-        "choices": [
-          "20",
-          "24",
-          "32",
-          "40"
-        ],
-        "answer_index": 2,
-        "explanation": "Each number is multiplied by 2 to get the next number. 16 times 2 equals 32.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "If you have 24 candies and want to share them equally with 6 friends, how many candies does each friend get?",
-        "choices": [
-          "4",
-          "6",
-          "5",
-          "3"
-        ],
-        "answer_index": 0,
-        "explanation": "Dividing 24 candies by 6 friends gives 4 candies for each friend.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "What number comes next in the pattern? 3, 6, 9, 12, __",
-        "choices": [
-          "15",
-          "14",
-          "18",
-          "20"
-        ],
-        "answer_index": 0,
-        "explanation": "The pattern increases by 3 each time. After 12, adding 3 gives 15, so the next number is 15.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "If you have 48 candies and share them equally among 6 friends, how many candies does each friend get?",
-        "choices": [
-          "8",
-          "7",
-          "6",
-          "9"
-        ],
-        "answer_index": 0,
-        "explanation": "Dividing 48 candies by 6 friends gives 48 ÷ 6 = 8 candies per friend.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
         "question": "If there are 7 bags and each bag has 8 apples, how many apples are there in total?",
         "choices": [
           "54",
@@ -9006,246 +8316,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "medium",
-        "question": "A baker made 48 cookies and packed them evenly into 6 boxes. How many cookies are in each box?",
-        "choices": [
-          "6",
-          "8",
-          "12",
-          "18"
-        ],
-        "answer_index": 2,
-        "explanation": "To find out how many cookies are in each box, divide the total cookies (48) by the number of boxes (6). 48 ÷ 6 = 8 cookies in each box.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "What is the missing number in the pattern: 3, 6, 9, __, 15?",
-        "choices": [
-          "12",
-          "13",
-          "14",
-          "10"
-        ],
-        "answer_index": 0,
-        "explanation": "The pattern increases by 3 each time: 3, 6, 9, then 12, and finally 15.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "If you have 24 apples and want to share them equally among 6 friends, how many apples does each friend get?",
-        "choices": [
-          "4",
-          "5",
-          "6",
-          "3"
-        ],
-        "answer_index": 0,
-        "explanation": "Dividing 24 apples by 6 friends gives each friend 4 apples because 24 ÷ 6 = 4.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "If you have 24 apples and 6 friends, how many apples does each friend get if you share equally?",
-        "choices": [
-          "4",
-          "5",
-          "6",
-          "3"
-        ],
-        "answer_index": 0,
-        "explanation": "When you divide 24 apples by 6 friends, each friend gets 24 ÷ 6 = 4 apples.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "What is the next number in the pattern? 3, 6, 12, 24, __?",
-        "choices": [
-          "30",
-          "48",
-          "36",
-          "60"
-        ],
-        "answer_index": 1,
-        "explanation": "Each number is multiplied by 2 to get the next number. 24 × 2 = 48.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "If you have 24 apples and you put them equally into 6 baskets, how many apples will be in each basket?",
-        "choices": [
-          "4",
-          "6",
-          "12",
-          "18"
-        ],
-        "answer_index": 0,
-        "explanation": "Dividing 24 apples into 6 baskets means you divide 24 by 6, which equals 4 apples in each basket.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "There are 24 apples, and 6 children want to share them equally. How many apples will each child get?",
-        "choices": [
-          "4",
-          "6",
-          "8",
-          "12"
-        ],
-        "answer_index": 0,
-        "explanation": "If 24 apples are divided equally among 6 children, each child gets 24 ÷ 6 = 4 apples.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "What is the next number in the pattern: 3, 6, 12, 24, __?",
-        "choices": [
-          "36",
-          "48",
-          "30",
-          "42"
-        ],
-        "answer_index": 1,
-        "explanation": "The pattern doubles each number: 3 × 2 = 6, 6 × 2 = 12, 12 × 2 = 24, so the next number is 24 × 2 = 48.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "If you have 24 candies and want to share them equally among 6 friends, how many candies does each friend get?",
-        "choices": [
-          "4",
-          "5",
-          "6",
-          "8"
-        ],
-        "answer_index": 0,
-        "explanation": "Dividing 24 candies by 6 friends gives 24 ÷ 6 = 4 candies per friend.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "What is the next number in this pattern? 3, 6, 12, 24, __?",
-        "choices": [
-          "48",
-          "42",
-          "36",
-          "30"
-        ],
-        "answer_index": 0,
-        "explanation": "Each number in the pattern is multiplied by 2 to get the next number. So, 24 times 2 equals 48.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "If you have 48 apples and want to divide them equally into 6 baskets, how many apples will each basket have?",
-        "choices": [
-          "8",
-          "7",
-          "6",
-          "9"
-        ],
-        "answer_index": 0,
-        "explanation": "To find out how many apples go in each basket, you divide 48 by 6. 48 ÷ 6 = 8, so each basket has 8 apples.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "What is the next number in this pattern: 3, 6, 12, 24, ?",
-        "choices": [
-          "30",
-          "36",
-          "48",
-          "60"
-        ],
-        "answer_index": 2,
-        "explanation": "The pattern doubles each time: 3 × 2 = 6, 6 × 2 = 12, 12 × 2 = 24, so next is 24 × 2 = 48.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "If 24 apples are divided equally into 6 baskets, how many apples will be in each basket?",
-        "choices": [
-          "4",
-          "6",
-          "5",
-          "8"
-        ],
-        "answer_index": 0,
-        "explanation": "When you divide 24 apples by 6 baskets, each basket will have 24 ÷ 6 = 4 apples.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "What number comes next in the pattern? 2, 4, 8, 16, ___",
-        "choices": [
-          "32",
-          "20",
-          "24",
-          "30"
-        ],
-        "answer_index": 0,
-        "explanation": "The pattern multiplies each number by 2. After 16, the next number is 16 × 2 = 32.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "If 24 apples are divided equally into 6 baskets, how many apples will each basket have?",
-        "choices": [
-          "4",
-          "6",
-          "8",
-          "12"
-        ],
-        "answer_index": 2,
-        "explanation": "24 apples divided by 6 baskets equals 4 apples in each basket.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "What is the next number in this pattern? 3, 6, 12, 24, __",
-        "choices": [
-          "36",
-          "48",
-          "30",
-          "60"
-        ],
-        "answer_index": 1,
-        "explanation": "The pattern multiplies the previous number by 2, so 24 multiplied by 2 is 48.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
         "question": "If you have 24 apples and want to divide them equally into 4 baskets, how many apples will each basket have?",
         "choices": [
           "6",
@@ -9255,36 +8325,6 @@
         ],
         "answer_index": 0,
         "explanation": "Dividing 24 apples by 4 baskets gives 6 apples in each basket, because 24 ÷ 4 = 6.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "What is the next number in the pattern: 2, 4, 8, 16, ?",
-        "choices": [
-          "32",
-          "24",
-          "20",
-          "18"
-        ],
-        "answer_index": 0,
-        "explanation": "Each number in the pattern doubles the previous number. After 16, doubling gives 32.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "If 36 candies are shared equally among 6 friends, how many candies does each friend get?",
-        "choices": [
-          "6",
-          "7",
-          "5",
-          "8"
-        ],
-        "answer_index": 0,
-        "explanation": "Dividing 36 candies by 6 friends gives 6 candies per friend because 36 ÷ 6 = 6.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -11061,195 +10101,15 @@
       {
         "topic": "Math & Logic",
         "difficulty": "medium",
-        "question": "A farmer has 48 apples and puts them equally into 6 baskets. How many apples are in each basket?",
-        "choices": [
-          "8",
-          "6",
-          "12",
-          "7"
-        ],
-        "answer_index": 0,
-        "explanation": "To find out how many apples go into each basket, divide the total apples (48) by the number of baskets (6). 48 ÷ 6 = 8 apples in each basket.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "What is the next number in the pattern? 3, 6, 12, 24, ...",
-        "choices": [
-          "30",
-          "36",
-          "48",
-          "72"
-        ],
-        "answer_index": 2,
-        "explanation": "Each number is multiplied by 2 to get the next number. After 24, multiplying by 2 gives 48.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "If you have 24 candies and want to share them equally between 4 friends, how many candies does each friend get?",
+        "question": "If you have 48 candies and want to share them equally between 4 friends, how many candies does each friend get?",
         "choices": [
           "6",
           "8",
           "4",
           "12"
         ],
-        "answer_index": 0,
-        "explanation": "24 divided by 4 equals 6, so each friend gets 6 candies.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "What is the next number in the pattern: 3, 6, 9, 12, ?",
-        "choices": [
-          "15",
-          "14",
-          "18",
-          "13"
-        ],
-        "answer_index": 0,
-        "explanation": "The pattern increases by 3 each time. After 12, adding 3 gives 15.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "What is the next number in this pattern? 3, 6, 12, 24, ...",
-        "choices": [
-          "48",
-          "36",
-          "30",
-          "72"
-        ],
-        "answer_index": 0,
-        "explanation": "This pattern doubles each number to get the next. 24 times 2 is 48.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "What number comes next in the pattern? 3, 6, 12, 24, __?",
-        "choices": [
-          "48",
-          "36",
-          "30",
-          "60"
-        ],
-        "answer_index": 0,
-        "explanation": "Each number is multiplied by 2 to get the next number. After 24, the next number is 24 times 2, which is 48.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "What is the next number in the pattern? 3, 6, 12, 24, __",
-        "choices": [
-          "36",
-          "48",
-          "60",
-          "72"
-        ],
-        "answer_index": 1,
-        "explanation": "Each number is multiplied by 2 to get the next number, so 24 times 2 equals 48.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "If you have 56 candies and want to share them equally among 7 friends, how many candies does each friend get?",
-        "choices": [
-          "8",
-          "6",
-          "7",
-          "9"
-        ],
-        "answer_index": 0,
-        "explanation": "Dividing 56 candies by 7 friends means each friend gets 56 ÷ 7 = 8 candies.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "What number comes next in the pattern? 2, 4, 8, 16, __?",
-        "choices": [
-          "32",
-          "24",
-          "20",
-          "18"
-        ],
-        "answer_index": 0,
-        "explanation": "The pattern doubles each time: 2 × 2 = 4, 4 × 2 = 8, 8 × 2 = 16, so the next number is 16 × 2 = 32.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "If you have 36 cookies and you want to share them equally among 6 friends, how many cookies does each friend get?",
-        "choices": [
-          "6",
-          "7",
-          "5",
-          "8"
-        ],
-        "answer_index": 0,
-        "explanation": "Dividing 36 cookies by 6 friends means each friend gets 36 ÷ 6 = 6 cookies.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "What number comes next in the pattern: 3, 6, 9, 12, ?",
-        "choices": [
-          "15",
-          "18",
-          "14",
-          "13"
-        ],
-        "answer_index": 0,
-        "explanation": "The pattern increases by 3 each time, so after 12 comes 15.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "What is 48 divided by 6?",
-        "choices": [
-          "8",
-          "6",
-          "7",
-          "9"
-        ],
-        "answer_index": 0,
-        "explanation": "48 divided by 6 equals 8 because 6 times 8 is 48.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "Find the missing number in the pattern: 3, 6, 12, 24, __, 96.",
-        "choices": [
-          "48",
-          "36",
-          "72",
-          "60"
-        ],
-        "answer_index": 0,
-        "explanation": "Each number is multiplied by 2 to get the next number, so 24 times 2 is 48.",
+        "answer_index": 3,
+        "explanation": "48 divided by 4 equals 12, so each friend gets 12 candies.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -11271,186 +10131,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "medium",
-        "question": "A teacher has 24 pencils and wants to divide them equally into 6 boxes. How many pencils will be in each box?",
-        "choices": [
-          "4",
-          "6",
-          "8",
-          "5"
-        ],
-        "answer_index": 0,
-        "explanation": "To find the number of pencils in each box, you divide 24 by 6. 24 ÷ 6 = 4 pencils per box.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "If you have 24 apples and want to put them equally into 6 baskets, how many apples go in each basket?",
-        "choices": [
-          "4",
-          "5",
-          "6",
-          "8"
-        ],
-        "answer_index": 0,
-        "explanation": "Dividing 24 apples by 6 baskets means each basket gets 24 ÷ 6 = 4 apples.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "What is the next number in the pattern? 2, 4, 8, 16, __?",
-        "choices": [
-          "18",
-          "24",
-          "32",
-          "20"
-        ],
-        "answer_index": 2,
-        "explanation": "Each number doubles the previous one, so after 16 comes 32.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "What is 7 multiplied by 8?",
-        "choices": [
-          "54",
-          "56",
-          "64",
-          "58"
-        ],
-        "answer_index": 1,
-        "explanation": "7 multiplied by 8 equals 56 because multiplication is repeated addition (7 added 8 times or 8 added 7 times).",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "If 36 candies are shared equally into 6 bags, how many candies will each bag have?",
-        "choices": [
-          "6",
-          "5",
-          "7",
-          "8"
-        ],
-        "answer_index": 0,
-        "explanation": "Dividing 36 candies by 6 bags gives 6 candies in each bag because 36 ÷ 6 = 6.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "If 48 candies are shared equally among 6 children, how many candies does each child get?",
-        "choices": [
-          "8",
-          "7",
-          "6",
-          "9"
-        ],
-        "answer_index": 0,
-        "explanation": "When 48 candies are shared equally among 6 children, each child gets 48 ÷ 6 = 8 candies.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "If 48 apples are divided equally into 6 baskets, how many apples are in each basket?",
-        "choices": [
-          "8",
-          "6",
-          "12",
-          "9"
-        ],
-        "answer_index": 0,
-        "explanation": "Dividing 48 apples by 6 baskets means each basket has 48 ÷ 6 = 8 apples.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "What is the next number in the pattern? 2, 4, 8, 16, ___",
-        "choices": [
-          "32",
-          "20",
-          "18",
-          "24"
-        ],
-        "answer_index": 0,
-        "explanation": "The pattern doubles each number. 2 doubled is 4, 4 doubled is 8, 8 doubled is 16, so 16 doubled is 32.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "If you divide 36 candies equally into 6 bags, how many candies will be in each bag?",
-        "choices": [
-          "6",
-          "7",
-          "5",
-          "8"
-        ],
-        "answer_index": 0,
-        "explanation": "Dividing 36 candies by 6 bags means 36 ÷ 6 = 6 candies per bag.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "What number comes next in the pattern? 2, 4, 8, 16, __",
-        "choices": [
-          "18",
-          "24",
-          "32",
-          "20"
-        ],
-        "answer_index": 2,
-        "explanation": "The pattern multiplies each number by 2. After 16, the next number is 16 × 2 = 32.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "If you have 24 cookies and want to divide them equally into 6 bags, how many cookies will each bag have?",
-        "choices": [
-          "4",
-          "6",
-          "8",
-          "12"
-        ],
-        "answer_index": 0,
-        "explanation": "Dividing 24 cookies into 6 bags means 24 ÷ 6, which equals 4 cookies in each bag.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "What number comes next in the pattern? 3, 6, 12, 24, ...",
-        "choices": [
-          "48",
-          "36",
-          "30",
-          "60"
-        ],
-        "answer_index": 0,
-        "explanation": "The pattern doubles each number: 3 × 2 = 6, 6 × 2 = 12, 12 × 2 = 24, so next is 24 × 2 = 48.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
         "question": "If you have 6 boxes and each box has 4 apples, how many apples do you have in total?",
         "choices": [
           "24",
@@ -11460,126 +10140,6 @@
         ],
         "answer_index": 0,
         "explanation": "You multiply 6 boxes by 4 apples each to get 24 apples in total.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "There are 24 apples to be shared equally among 6 friends. How many apples will each friend get?",
-        "choices": [
-          "4",
-          "5",
-          "6",
-          "3"
-        ],
-        "answer_index": 0,
-        "explanation": "Dividing 24 apples by 6 friends means each friend gets 24 ÷ 6 = 4 apples.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "There are 24 apples and 6 baskets. If the apples are divided equally, how many apples go into each basket?",
-        "choices": [
-          "4",
-          "5",
-          "6",
-          "8"
-        ],
-        "answer_index": 0,
-        "explanation": "When 24 apples are divided equally into 6 baskets, each basket gets 24 ÷ 6 = 4 apples.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "If you have 36 candies and want to share them equally into 6 bags, how many candies will each bag have?",
-        "choices": [
-          "6",
-          "5",
-          "7",
-          "8"
-        ],
-        "answer_index": 0,
-        "explanation": "Dividing 36 candies into 6 bags means each bag gets 36 ÷ 6 = 6 candies.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "What is the next number in the pattern? 2, 4, 8, 16, __",
-        "choices": [
-          "20",
-          "24",
-          "32",
-          "36"
-        ],
-        "answer_index": 2,
-        "explanation": "The pattern is doubling each number, so after 16 comes 32.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "If you have 24 candies and share them equally with 6 friends, how many candies does each friend get?",
-        "choices": [
-          "4",
-          "5",
-          "6",
-          "3"
-        ],
-        "answer_index": 0,
-        "explanation": "24 candies divided by 6 friends equals 4 candies for each friend.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "If 48 candies are divided equally among 6 friends, how many candies does each friend get?",
-        "choices": [
-          "8",
-          "6",
-          "12",
-          "9"
-        ],
-        "answer_index": 0,
-        "explanation": "Dividing 48 candies by 6 friends means each friend gets 48 ÷ 6 = 8 candies.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "If 48 candies are divided equally among 6 children, how many candies does each child get?",
-        "choices": [
-          "8",
-          "6",
-          "12",
-          "10"
-        ],
-        "answer_index": 0,
-        "explanation": "When 48 candies are divided equally among 6 children, you divide 48 by 6, which equals 8 candies per child.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "What number comes next in the pattern? 3, 6, 12, 24, ___",
-        "choices": [
-          "30",
-          "36",
-          "48",
-          "50"
-        ],
-        "answer_index": 2,
-        "explanation": "Each number in the pattern is multiplied by 2 to get the next number, so 24 times 2 equals 48.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -11601,195 +10161,15 @@
       {
         "topic": "Math & Logic",
         "difficulty": "medium",
-        "question": "What number comes next in the pattern? 2, 4, 8, 16, ...",
-        "choices": [
-          "32",
-          "20",
-          "24",
-          "18"
-        ],
-        "answer_index": 0,
-        "explanation": "The pattern doubles each time: 2 × 2 = 4, 4 × 2 = 8, 8 × 2 = 16, so the next number is 16 × 2 = 32.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "If you have 36 candies and want to share them equally among 6 friends, how many candies will each friend get?",
-        "choices": [
-          "6",
-          "5",
-          "7",
-          "8"
-        ],
-        "answer_index": 0,
-        "explanation": "Dividing 36 candies equally among 6 friends means each friend gets 36 ÷ 6 = 6 candies.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "What is the next number in the pattern? 3, 6, 9, 12, __?",
-        "choices": [
-          "15",
-          "16",
-          "18",
-          "14"
-        ],
-        "answer_index": 0,
-        "explanation": "The pattern increases by 3 each time, so after 12 comes 15.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "What is 56 divided by 7?",
-        "choices": [
-          "8",
-          "6",
-          "9",
-          "7"
-        ],
-        "answer_index": 0,
-        "explanation": "56 divided by 7 is 8 because 7 times 8 equals 56.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "If you have 24 candies and share them equally among 6 friends, how many candies does each friend get?",
-        "choices": [
-          "4",
-          "6",
-          "8",
-          "12"
-        ],
-        "answer_index": 0,
-        "explanation": "Dividing 24 candies by 6 friends means each friend gets 24 ÷ 6 = 4 candies.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "What is the next number in the pattern? 3, 6, 9, 12, __",
-        "choices": [
-          "15",
-          "14",
-          "18",
-          "20"
-        ],
-        "answer_index": 0,
-        "explanation": "The pattern adds 3 each time, so after 12 the next number is 15.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "What is 7 times 8?",
+        "question": "What is 8 times 9?",
         "choices": [
           "54",
-          "56",
+          "72",
           "64",
           "48"
         ],
         "answer_index": 1,
         "explanation": "7 times 8 equals 56 because multiplication is repeated addition and 7 groups of 8 add up to 56.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "If you have 24 cookies and want to share them equally among 6 friends, how many cookies does each friend get?",
-        "choices": [
-          "4",
-          "6",
-          "8",
-          "5"
-        ],
-        "answer_index": 0,
-        "explanation": "To find out how many cookies each friend gets, divide the total cookies 24 by the number of friends 6. 24 ÷ 6 = 4 cookies per friend.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "If you have 24 apples and you want to put them equally into 6 baskets, how many apples will go in each basket?",
-        "choices": [
-          "4",
-          "5",
-          "6",
-          "8"
-        ],
-        "answer_index": 0,
-        "explanation": "Dividing 24 apples by 6 baskets means each basket gets 24 ÷ 6 = 4 apples.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "If you have 48 pencils and you put them equally into 6 boxes, how many pencils are in each box?",
-        "choices": [
-          "8",
-          "6",
-          "7",
-          "9"
-        ],
-        "answer_index": 0,
-        "explanation": "Dividing 48 pencils into 6 equal boxes means 48 ÷ 6 = 8 pencils per box.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "What is the next number in the pattern? 3, 6, 12, 24, _____",
-        "choices": [
-          "36",
-          "48",
-          "30",
-          "42"
-        ],
-        "answer_index": 1,
-        "explanation": "The pattern doubles each number. 3 x 2 = 6, 6 x 2 = 12, 12 x 2 = 24, so 24 x 2 = 48.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "If 36 apples are equally divided into 6 baskets, how many apples will be in each basket?",
-        "choices": [
-          "6",
-          "5",
-          "7",
-          "8"
-        ],
-        "answer_index": 0,
-        "explanation": "Dividing 36 apples by 6 baskets means each basket gets 36 ÷ 6 = 6 apples.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "If you divide 48 candies equally into 6 bags, how many candies will be in each bag?",
-        "choices": [
-          "8",
-          "6",
-          "12",
-          "7"
-        ],
-        "answer_index": 0,
-        "explanation": "Dividing 48 candies by 6 bags means each bag gets 48 ÷ 6 = 8 candies.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -11811,381 +10191,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "medium",
-        "question": "If one pack has 7 pencils, how many pencils are there in 6 packs?",
-        "choices": [
-          "42",
-          "36",
-          "48",
-          "40"
-        ],
-        "answer_index": 0,
-        "explanation": "To find the total pencils, multiply 7 pencils by 6 packs: 7 × 6 = 42 pencils.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "If 36 apples are shared equally among 6 friends, how many apples does each friend get?",
-        "choices": [
-          "6",
-          "5",
-          "7",
-          "8"
-        ],
-        "answer_index": 0,
-        "explanation": "36 divided by 6 equals 6, so each friend gets 6 apples.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "What is the next number in the pattern? 3, 6, 12, 24, ____?",
-        "choices": [
-          "36",
-          "48",
-          "30",
-          "42"
-        ],
-        "answer_index": 1,
-        "explanation": "Each number is multiplied by 2 to get the next number. 24 times 2 is 48.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "What is 36 divided by 6?",
-        "choices": [
-          "6",
-          "5",
-          "7",
-          "8"
-        ],
-        "answer_index": 0,
-        "explanation": "36 divided by 6 equals 6 because 6 times 6 equals 36.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "What number comes next in the pattern: 3, 6, 9, 12, __?",
-        "choices": [
-          "15",
-          "18",
-          "14",
-          "13"
-        ],
-        "answer_index": 0,
-        "explanation": "The pattern increases by 3 each time. After 12, adding 3 gives 15.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "What number comes next in the pattern? 3, 6, 12, 24, ?",
-        "choices": [
-          "30",
-          "36",
-          "48",
-          "60"
-        ],
-        "answer_index": 2,
-        "explanation": "Each number doubles the previous one: 3 × 2 = 6, 6 × 2 = 12, 12 × 2 = 24, so the next number is 24 × 2 = 48.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "If you divide 36 cookies equally into 6 bags, how many cookies will be in each bag?",
-        "choices": [
-          "6",
-          "5",
-          "7",
-          "8"
-        ],
-        "answer_index": 0,
-        "explanation": "Dividing 36 cookies into 6 bags means 36 ÷ 6, which equals 6 cookies in each bag.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "What number comes next in the pattern? 3, 6, 9, 12, ...",
-        "choices": [
-          "15",
-          "14",
-          "13",
-          "16"
-        ],
-        "answer_index": 0,
-        "explanation": "The pattern adds 3 each time: 3, 6, 9, 12, so the next number is 12 + 3 = 15.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "There are 24 apples that need to be divided evenly into 6 baskets. How many apples will each basket have?",
-        "choices": [
-          "4",
-          "5",
-          "6",
-          "3"
-        ],
-        "answer_index": 0,
-        "explanation": "Dividing 24 apples by 6 baskets means each basket gets 24 ÷ 6 = 4 apples.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "What number should come next in the pattern? 3, 6, 12, 24, __",
-        "choices": [
-          "48",
-          "36",
-          "30",
-          "54"
-        ],
-        "answer_index": 0,
-        "explanation": "Each number is double the one before it. 24 times 2 equals 48.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "There are 24 cookies and 6 children. If the cookies are shared equally, how many cookies does each child get?",
-        "choices": [
-          "4",
-          "6",
-          "3",
-          "5"
-        ],
-        "answer_index": 0,
-        "explanation": "Dividing 24 cookies by 6 children means each child gets 24 ÷ 6 = 4 cookies.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "There are 24 candies and 6 children. If the candies are divided equally, how many candies does each child get?",
-        "choices": [
-          "4",
-          "6",
-          "5",
-          "3"
-        ],
-        "answer_index": 0,
-        "explanation": "Dividing 24 candies equally among 6 children means each child gets 24 divided by 6, which is 4 candies.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "There are 24 apples divided equally into 6 baskets. How many apples are in each basket?",
-        "choices": [
-          "4",
-          "6",
-          "3",
-          "5"
-        ],
-        "answer_index": 0,
-        "explanation": "Dividing 24 apples by 6 baskets means each basket has 24 ÷ 6 = 4 apples.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "If you divide 48 cookies equally into 6 boxes, how many cookies will be in each box?",
-        "choices": [
-          "8",
-          "6",
-          "12",
-          "7"
-        ],
-        "answer_index": 0,
-        "explanation": "When you divide 48 cookies by 6 boxes, you get 48 ÷ 6 = 8 cookies in each box.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "What number comes next in the pattern? 3, 6, 12, 24, __",
-        "choices": [
-          "48",
-          "36",
-          "30",
-          "60"
-        ],
-        "answer_index": 0,
-        "explanation": "Each number is double the previous one, so after 24 comes 48.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "If one pack has 6 pencils, how many pencils are there in 7 packs?",
-        "choices": [
-          "42",
-          "36",
-          "48",
-          "40"
-        ],
-        "answer_index": 0,
-        "explanation": "7 packs each having 6 pencils means 7 × 6 = 42 pencils in total.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "A teacher has 48 stickers and wants to share them equally among 6 students. How many stickers does each student get?",
-        "choices": [
-          "8",
-          "6",
-          "12",
-          "7"
-        ],
-        "answer_index": 0,
-        "explanation": "To find how many stickers each student gets, divide 48 by 6. 48 ÷ 6 = 8, so each student gets 8 stickers.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "What is the next number in the pattern: 2, 4, 8, 16, ...?",
-        "choices": [
-          "20",
-          "24",
-          "30",
-          "32"
-        ],
-        "answer_index": 3,
-        "explanation": "Each number in the pattern doubles the previous number. After 16, the next number is 16 × 2 = 32.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "If you have 24 candies and want to divide them equally into 6 bags, how many candies will be in each bag?",
-        "choices": [
-          "4",
-          "6",
-          "12",
-          "8"
-        ],
-        "answer_index": 0,
-        "explanation": "Dividing 24 candies into 6 bags means each bag gets 24 ÷ 6 = 4 candies.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "If 36 candies are divided equally into 6 bags, how many candies will each bag have?",
-        "choices": [
-          "6",
-          "5",
-          "7",
-          "8"
-        ],
-        "answer_index": 0,
-        "explanation": "Dividing 36 by 6 gives 6, so each bag will have 6 candies.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "If you have 48 candies and want to share them equally among 6 friends, how many candies does each friend get?",
-        "choices": [
-          "6",
-          "7",
-          "8",
-          "9"
-        ],
-        "answer_index": 2,
-        "explanation": "Dividing 48 candies by 6 friends gives 48 ÷ 6 = 8 candies for each friend.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "What is the next number in this pattern? 2, 4, 8, 16, ?",
-        "choices": [
-          "18",
-          "24",
-          "32",
-          "20"
-        ],
-        "answer_index": 2,
-        "explanation": "The pattern doubles each number: 2×2=4, 4×2=8, 8×2=16, so the next number is 16×2=32.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "If you have 24 apples and divide them equally into 6 baskets, how many apples will be in each basket?",
-        "choices": [
-          "4",
-          "5",
-          "6",
-          "8"
-        ],
-        "answer_index": 0,
-        "explanation": "Dividing 24 apples evenly into 6 baskets means 24 ÷ 6 = 4 apples in each basket.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "What number should come next in the pattern? 2, 4, 8, 16, __",
-        "choices": [
-          "20",
-          "24",
-          "32",
-          "36"
-        ],
-        "answer_index": 2,
-        "explanation": "Each number is multiplied by 2 to get the next number. After 16, multiplying by 2 gives 32.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "If 24 apples are divided equally into 6 baskets, how many apples are in each basket?",
-        "choices": [
-          "4",
-          "6",
-          "8",
-          "12"
-        ],
-        "answer_index": 0,
-        "explanation": "When 24 apples are divided equally into 6 baskets, each basket gets 24 ÷ 6 = 4 apples.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
         "question": "If you have 6 bags and each bag has 7 apples, how many apples do you have in total?",
         "choices": [
           "42",
@@ -12201,55 +10206,10 @@
       {
         "topic": "Math & Logic",
         "difficulty": "medium",
-        "question": "If you have 24 apples and want to put them equally into 6 baskets, how many apples will go in each basket?",
-        "choices": [
-          "4",
-          "5",
-          "6",
-          "8"
-        ],
-        "answer_index": 0,
-        "explanation": "Dividing 24 apples by 6 baskets gives 24 ÷ 6 = 4 apples in each basket.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "If you have 24 apples and you want to divide them equally into 6 baskets, how many apples will go in each basket?",
-        "choices": [
-          "6",
-          "4",
-          "5",
-          "8"
-        ],
-        "answer_index": 1,
-        "explanation": "Dividing 24 apples by 6 baskets means each basket gets 24 ÷ 6 = 4 apples.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "What is the next number in the pattern? 3, 6, 12, 24, ?",
-        "choices": [
-          "48",
-          "36",
-          "30",
-          "60"
-        ],
-        "answer_index": 0,
-        "explanation": "Each number is multiplied by 2 to get the next number. So, 24 multiplied by 2 equals 48.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "What is 8 times 7?",
+        "question": "What is 8 times 9?",
         "choices": [
           "54",
-          "56",
+          "72",
           "48",
           "63"
         ],
@@ -15861,21 +13821,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "medium",
-        "question": "Lily has 7 boxes. Each box contains 6 apples. How many apples does Lily have in total?",
-        "choices": [
-          "42 apples",
-          "36 apples",
-          "13 apples",
-          "49 apples"
-        ],
-        "answer_index": 0,
-        "explanation": "Lily has 7 boxes with 6 apples each, so multiplying 7 by 6 gives 42 apples in total.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
         "question": "Maya has 24 stickers and wants to put them in 6 equal groups. How many stickers will be in each group?",
         "choices": [
           "4",
@@ -15885,66 +13830,6 @@
         ],
         "answer_index": 0,
         "explanation": "When 24 stickers are divided into 6 equal groups, each group has 4 stickers.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "Liam is stacking blocks in a pattern. He puts 3 blocks in the first row, 6 blocks in the second, 9 blocks in the third. How many blocks will be in the fifth row?",
-        "choices": [
-          "15",
-          "12",
-          "18",
-          "10"
-        ],
-        "answer_index": 0,
-        "explanation": "The pattern increases by 3 blocks each row (3, 6, 9, ...). The fifth row will have 15 blocks.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "Emily has 7 boxes. Each box contains 6 crayons. How many crayons does Emily have in total?",
-        "choices": [
-          "42 crayons",
-          "36 crayons",
-          "48 crayons",
-          "40 crayons"
-        ],
-        "answer_index": 0,
-        "explanation": "Emily has 7 boxes with 6 crayons each, so multiplying 7 by 6 gives 42 crayons. Therefore, the answer is 42 crayons.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "Lena has 24 candies, and she wants to share them equally with 6 friends. How many candies will each friend get?",
-        "choices": [
-          "4 candies",
-          "5 candies",
-          "6 candies",
-          "3 candies"
-        ],
-        "answer_index": 0,
-        "explanation": "Each friend will get 4 candies because 24 divided by 6 equals 4, so the correct answer is 4 candies.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "Lily has a pattern of stickers: 3 stars, 6 hearts, 9 stars, 12 hearts. What number of stars should come next?",
-        "choices": [
-          "15 stars",
-          "18 hearts",
-          "15 hearts",
-          "12 stars"
-        ],
-        "answer_index": 0,
-        "explanation": "The pattern for stars increases by 3 each time (3, 9, ...), so the next number of stars should be 15 stars.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -15966,21 +13851,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "medium",
-        "question": "Lily has 24 cupcakes and wants to pack them equally into 6 boxes. How many cupcakes will go in each box?",
-        "choices": [
-          "4 cupcakes",
-          "6 cupcakes",
-          "8 cupcakes",
-          "12 cupcakes"
-        ],
-        "answer_index": 2,
-        "explanation": "Dividing 24 cupcakes into 6 equal boxes means each box has 8 cupcakes. So, the correct answer is 8 cupcakes.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
         "question": "Lila planted flowers in her garden. On the first day, she planted 3 flowers, on the second day 6 flowers, and on the third day 9 flowers. How many flowers will she plant on the fifth day if the pattern continues?",
         "choices": [
           "15",
@@ -15996,36 +13866,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "medium",
-        "question": "Lily has 7 boxes. Each box contains 6 pencils. How many pencils does Lily have in total?",
-        "choices": [
-          "42 pencils",
-          "36 pencils",
-          "48 pencils",
-          "56 pencils"
-        ],
-        "answer_index": 0,
-        "explanation": "Lily has 7 boxes with 6 pencils each, so the total number of pencils is 42 pencils.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "Sara has 24 apples and wants to put them into 6 equal boxes. How many apples will be in each box?",
-        "choices": [
-          "4",
-          "5",
-          "6",
-          "8"
-        ],
-        "answer_index": 0,
-        "explanation": "When Sara divides 24 apples equally into 6 boxes, each box will have 4 apples because 24 divided by 6 equals 4.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
         "question": "Lily has a pattern of beads: 2 red, 4 blue, 6 red, 8 blue, and so on. What is the number of blue beads in the 5th blue bead group?",
         "choices": [
           "10",
@@ -16033,38 +13873,8 @@
           "14",
           "16"
         ],
-        "answer_index": 1,
-        "explanation": "The blue beads increase by 2 each time, starting from 4. The 5th blue bead group will have 12 beads.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "Lily has 6 boxes. Each box has 7 toy cars inside. How many toy cars does Lily have in total?",
-        "choices": [
-          "42",
-          "36",
-          "13",
-          "49"
-        ],
         "answer_index": 0,
-        "explanation": "Lily has 6 boxes with 7 toy cars each, so the total number of toy cars is 6 times 7, which equals 42.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "Lily baked 36 cookies and wants to pack them evenly into 6 boxes. How many cookies will she put in each box?",
-        "choices": [
-          "6",
-          "5",
-          "7",
-          "8"
-        ],
-        "answer_index": 3,
-        "explanation": "Lily will put 8 cookies in each box because 36 divided by 6 equals 8.",
+        "explanation": "The blue beads increase by 2 each time, starting from 4. The 5th blue bead group will have 12 beads.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -16078,8 +13888,8 @@
           "18",
           "17"
         ],
-        "answer_index": 2,
-        "explanation": "The pattern starts at 2 and you add 5 each time. The numbers are 2, 7, 12, 17, and then 22. So, the 5th number in the pattern is 18.",
+        "answer_index": 0,
+        "explanation": "The pattern starts at 2 and you add 5 each time. The numbers are 2, 7, 12, 17, and then 22. So, the 5th number in the pattern is 22.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -16101,21 +13911,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "medium",
-        "question": "Sara has 24 stickers and wants to share them equally among 6 friends. How many stickers will each friend get?",
-        "choices": [
-          "4 stickers",
-          "5 stickers",
-          "6 stickers",
-          "3 stickers"
-        ],
-        "answer_index": 0,
-        "explanation": "Each friend will get 4 stickers because 24 divided by 6 equals 4, so sharing 24 stickers equally among 6 friends means '4 stickers' per friend.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
         "question": "Liam is making bracelets with beads. He puts 3 red beads, then 2 blue beads, then 3 red beads, then 2 blue beads, and keeps repeating. What color is the 9th bead?",
         "choices": [
           "Red",
@@ -16131,45 +13926,15 @@
       {
         "topic": "Math & Logic",
         "difficulty": "medium",
-        "question": "Ella has 7 packs of stickers. Each pack contains 8 stickers. How many stickers does Ella have in total?",
+        "question": "Ella has 7 packs of stickers. Each pack contains 9 stickers. How many stickers does Ella have in total?",
         "choices": [
-          "56",
+          "63",
           "48",
           "15",
           "72"
         ],
         "answer_index": 0,
-        "explanation": "Ella has 7 packs with 8 stickers each, so the total number of stickers is 7 multiplied by 8, which equals 56.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "Lily has 24 stickers and wants to share them equally in 6 albums. How many stickers will go in each album?",
-        "choices": [
-          "4 stickers",
-          "6 stickers",
-          "8 stickers",
-          "12 stickers"
-        ],
-        "answer_index": 0,
-        "explanation": "To find out how many stickers go in each album, divide the total stickers (24) by the number of albums (6). 24 divided by 6 is 4, so each album gets 4 stickers.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "Lily is stacking blocks in a pattern: first 2 blocks, then 4 blocks, then 6 blocks. How many blocks will she stack next if the pattern continues?",
-        "choices": [
-          "8 blocks",
-          "7 blocks",
-          "10 blocks",
-          "6 blocks"
-        ],
-        "answer_index": 0,
-        "explanation": "The pattern increases by 2 blocks each time: 2, 4, 6, so the next number is 8 blocks.",
+        "explanation": "Ella has 7 packs with 9 stickers each, so the total number of stickers is 7 multiplied by 9, which equals 63.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -16191,120 +13956,15 @@
       {
         "topic": "Math & Logic",
         "difficulty": "medium",
-        "question": "Liam has 24 candies. He wants to share them equally among 6 friends. How many candies will each friend get?",
+        "question": "Liam is packing boxes with 7 toys in each. If he packs 5 boxes, how many toys does he pack in total?",
         "choices": [
-          "4",
-          "6",
-          "5",
-          "3"
-        ],
-        "answer_index": 0,
-        "explanation": "Each friend will get 4 candies because 24 divided by 6 equals 4.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "Lily notices a pattern in the numbers: 3, 6, 12, 24, ... What number comes next in the pattern?",
-        "choices": [
-          "48",
-          "36",
-          "30",
-          "72"
-        ],
-        "answer_index": 0,
-        "explanation": "The pattern doubles each number to get the next one. Since 24 doubled is 48, the next number in the pattern is 48.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "Sally has 7 boxes of crayons. Each box contains 6 crayons. How many crayons does she have in total?",
-        "choices": [
-          "42 crayons",
-          "36 crayons",
-          "48 crayons",
-          "52 crayons"
-        ],
-        "answer_index": 0,
-        "explanation": "Sally has 7 boxes with 6 crayons each, so 7 multiplied by 6 equals 42 crayons in total.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "Sara has 48 candies and she wants to share them equally with 6 friends. How many candies will each friend get?",
-        "choices": [
-          "8 candies",
-          "6 candies",
-          "7 candies",
-          "9 candies"
-        ],
-        "answer_index": 0,
-        "explanation": "Each friend will get 8 candies because dividing 48 candies by 6 friends equals 8 candies each.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "Liam is counting in a pattern: 3, 6, 12, 24, __. What number comes next?",
-        "choices": [
-          "48",
-          "36",
-          "30",
-          "72"
-        ],
-        "answer_index": 0,
-        "explanation": "The pattern doubles each number, so after 24 comes 48.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "Liam is packing boxes with 7 toys in each. If he packs 8 boxes, how many toys does he pack in total?",
-        "choices": [
-          "56",
+          "35",
           "48",
           "64",
           "72"
         ],
         "answer_index": 0,
-        "explanation": "Liam packs 7 toys in each of the 8 boxes, so the total number of toys packed is 7 times 8, which is 56.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "Liam has 48 stickers and wants to put them equally into 6 albums. How many stickers will each album have?",
-        "choices": [
-          "8 stickers",
-          "6 stickers",
-          "12 stickers",
-          "10 stickers"
-        ],
-        "answer_index": 0,
-        "explanation": "Each album will have 8 stickers because dividing 48 stickers by 6 albums gives 8 stickers per album.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "Lily plants flowers in a pattern: 2 flowers the first day, 4 flowers the second day, 6 flowers the third day. How many flowers will she plant on the fifth day?",
-        "choices": [
-          "10",
-          "8",
-          "12",
-          "14"
-        ],
-        "answer_index": 0,
-        "explanation": "Lily plants flowers by adding 2 more each day, so on the fifth day she will plant 10 flowers.",
+        "explanation": "Liam packs 7 toys in each of the 5 boxes, so the total number of toys packed is 7 times 5, which is 35.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -17676,21 +15336,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "medium",
-        "question": "Lily has 24 crayons and wants to share them equally among 6 friends. How many crayons does each friend get?",
-        "choices": [
-          "4 crayons",
-          "6 crayons",
-          "8 crayons",
-          "5 crayons"
-        ],
-        "answer_index": 0,
-        "explanation": "Each friend gets 4 crayons because dividing 24 crayons equally among 6 friends means 24 ÷ 6 = 4 crayons per friend.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
         "question": "Lina has 3 red pencils, and she buys 2 more packs with 4 pencils in each pack. How many pencils does Lina have now?",
         "choices": [
           "11 pencils",
@@ -17715,21 +15360,6 @@
         ],
         "answer_index": 0,
         "explanation": "Lucy has 7 boxes with 9 pencils each, so she has 7 times 9 pencils. Multiplying 7 by 9 equals 63, so the correct answer is 63.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "Lily has 36 stickers and wants to put them in 6 equal groups. How many stickers will be in each group?",
-        "choices": [
-          "6",
-          "5",
-          "7",
-          "8"
-        ],
-        "answer_index": 0,
-        "explanation": "Divide 36 stickers into 6 equal groups: 36 ÷ 6 = 6 stickers in each group.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -17766,21 +15396,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "medium",
-        "question": "Lila has 24 cupcakes and wants to put them equally into 6 boxes. How many cupcakes will go in each box?",
-        "choices": [
-          "4 cupcakes",
-          "5 cupcakes",
-          "6 cupcakes",
-          "8 cupcakes"
-        ],
-        "answer_index": 0,
-        "explanation": "Dividing 24 cupcakes into 6 boxes means each box gets 4 cupcakes. So, the correct answer is 4 cupcakes.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
         "question": "Emma has a pattern of numbers: 5, 10, 20, 40, ... What number comes next?",
         "choices": [
           "80",
@@ -17790,36 +15405,6 @@
         ],
         "answer_index": 0,
         "explanation": "The pattern doubles each time, so after 40, the next number is 80.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "Lisa has 7 boxes. Each box has 6 pencils inside. How many pencils does Lisa have in total?",
-        "choices": [
-          "42 pencils",
-          "36 pencils",
-          "48 pencils",
-          "56 pencils"
-        ],
-        "answer_index": 0,
-        "explanation": "Lisa has 42 pencils because 7 boxes times 6 pencils each equals 42 pencils.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "Emma has 24 stickers and wants to share them equally among 6 friends. How many stickers will each friend get?",
-        "choices": [
-          "4",
-          "6",
-          "3",
-          "5"
-        ],
-        "answer_index": 0,
-        "explanation": "Each friend gets 4 stickers because 24 divided by 6 equals 4.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -17856,21 +15441,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "medium",
-        "question": "Emma has 36 stickers and wants to share them equally among 6 of her friends. How many stickers will each friend get?",
-        "choices": [
-          "6 stickers",
-          "5 stickers",
-          "7 stickers",
-          "8 stickers"
-        ],
-        "answer_index": 0,
-        "explanation": "Each friend will get 6 stickers because 36 stickers divided equally among 6 friends is 6 stickers per friend.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
         "question": "Lily gives 2 candies to her brother on Monday, 4 candies on Tuesday, and 6 candies on Wednesday. If she continues this pattern, how many candies will she give on Friday?",
         "choices": [
           "10",
@@ -17901,36 +15471,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "medium",
-        "question": "There are 24 cookies that need to be divided equally into 6 boxes. How many cookies will go into each box?",
-        "choices": [
-          "4",
-          "6",
-          "8",
-          "5"
-        ],
-        "answer_index": 2,
-        "explanation": "When 24 cookies are divided equally into 6 boxes, each box will have 8 cookies because 24 divided by 6 equals 8.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "Lily notices a pattern in numbers: 3, 6, 12, 24, ?. What number should come next?",
-        "choices": [
-          "48",
-          "36",
-          "30",
-          "60"
-        ],
-        "answer_index": 0,
-        "explanation": "The pattern doubles each number to get the next one: 3 to 6, 6 to 12, 12 to 24. So, the next number is 48.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
         "question": "Lily has 7 boxes of crayons. Each box contains 8 crayons. How many crayons does Lily have in total?",
         "choices": [
           "56 crayons",
@@ -17940,36 +15480,6 @@
         ],
         "answer_index": 0,
         "explanation": "Lily has 7 boxes with 8 crayons each, so you multiply 7 by 8 to find the total. 7 times 8 equals 56, so Lily has 56 crayons.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "Sarah has 24 cupcakes. She wants to put them equally into 6 boxes. How many cupcakes will go in each box?",
-        "choices": [
-          "4 cupcakes",
-          "6 cupcakes",
-          "8 cupcakes",
-          "12 cupcakes"
-        ],
-        "answer_index": 2,
-        "explanation": "When Sarah divides 24 cupcakes equally into 6 boxes, each box will have 8 cupcakes. So, the correct answer is 8 cupcakes.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "Look at the pattern of numbers: 3, 6, 12, 24, __. What number comes next?",
-        "choices": [
-          "30",
-          "48",
-          "36",
-          "42"
-        ],
-        "answer_index": 1,
-        "explanation": "The pattern doubles each time: 3 to 6, 6 to 12, 12 to 24, so the next number is 48.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -17991,66 +15501,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "medium",
-        "question": "Sara has 48 marbles. She wants to put them equally into 6 bags. How many marbles will go in each bag?",
-        "choices": [
-          "8",
-          "6",
-          "12",
-          "7"
-        ],
-        "answer_index": 0,
-        "explanation": "Dividing 48 marbles equally into 6 bags means each bag gets 48 ÷ 6 = 8 marbles. So, the correct answer is 8.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "Lily plants flowers in her garden. On the first day, she plants 2 flowers. Each following day, she plants 3 more flowers than the previous day. How many flowers does she plant on the third day?",
-        "choices": [
-          "8",
-          "6",
-          "5",
-          "9"
-        ],
-        "answer_index": 0,
-        "explanation": "Lily plants 2 flowers on the first day, then 3 more on the second day (2 + 3 = 5), and 3 more than that on the third day (5 + 3 = 8). So, she plants 8 flowers on the third day.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "Lily has 7 boxes. Each box contains 6 crayons. How many crayons does Lily have in total?",
-        "choices": [
-          "42 crayons",
-          "36 crayons",
-          "48 crayons",
-          "56 crayons"
-        ],
-        "answer_index": 0,
-        "explanation": "Lily has 7 boxes with 6 crayons in each, so to find the total crayons, you multiply 7 by 6, which gives 42 crayons.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "Lila has 24 stickers and wants to share them equally in 6 small albums. How many stickers will each album get?",
-        "choices": [
-          "4 stickers",
-          "6 stickers",
-          "3 stickers",
-          "5 stickers"
-        ],
-        "answer_index": 0,
-        "explanation": "Each album will get 4 stickers because when you divide 24 stickers by 6 albums, you get 4 stickers per album.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
         "question": "Sophie plants flowers in a pattern: 2 tulips, 4 roses, 6 daisies, and then it repeats. What type of flower does she plant 10th?",
         "choices": [
           "4 roses",
@@ -18060,51 +15510,6 @@
         ],
         "answer_index": 0,
         "explanation": "The pattern repeats after every 3 flowers: 2 tulips, 4 roses, 6 daisies. The 10th flower is the 1st flower in the fourth cycle, which is 4 roses.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "Emily has 4 boxes. Each box contains 7 pencils. How many pencils does Emily have in total?",
-        "choices": [
-          "28 pencils",
-          "21 pencils",
-          "11 pencils",
-          "14 pencils"
-        ],
-        "answer_index": 0,
-        "explanation": "Emily has 4 boxes with 7 pencils each, so multiplying 4 by 7 gives 28 pencils in total.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "Emma has 24 cupcakes and wants to share them equally among 6 friends. How many cupcakes does each friend get?",
-        "choices": [
-          "4",
-          "6",
-          "5",
-          "3"
-        ],
-        "answer_index": 0,
-        "explanation": "Each friend gets 4 cupcakes because 24 divided by 6 equals 4.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "medium",
-        "question": "Lily counts her stickers in this order: 2, 4, 8, 16. What number comes next in her sticker pattern?",
-        "choices": [
-          "32",
-          "24",
-          "18",
-          "20"
-        ],
-        "answer_index": 0,
-        "explanation": "The pattern doubles each time: 2, then 4 (2x2), then 8 (4x2), then 16 (8x2). So, the next number is 16 multiplied by 2, which is 32.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -19457,6 +16862,21 @@
         "explanation": "Giving stickers only to the students who finished their homework on time is the fairest way because it treats everyone equally based on the same rule.",
         "hint": "",
         "learnMoreUrl": ""
+      },
+      {
+        "topic": "Math & Logic",
+        "difficulty": "medium",
+        "question": "What is 56 divided by 7?",
+        "choices": [
+          "8",
+          "6",
+          "9",
+          "7"
+        ],
+        "answer_index": 0,
+        "explanation": "56 divided by 7 is 8 because 7 times 8 equals 56.",
+        "hint": "",
+        "learnMoreUrl": ""
       }
     ],
     "hard": [
@@ -19470,7 +16890,7 @@
           "16",
           "17"
         ],
-        "answer_index": 2,
+        "answer_index": 0,
         "explanation": "The farmer starts with 5 + 7 + 9 = 21 apples. He gives away 3 red and 4 yellow apples, so he gives away 3 + 4 = 7 apples. 21 - 7 = 14 apples left.",
         "hint": "",
         "learnMoreUrl": ""
@@ -19523,21 +16943,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "hard",
-        "question": "Anna has 48 apples. She wants to pack them in boxes that hold 6 apples each. After filling all the boxes, she gives 3 apples to her friend. How many apples does Anna have left?",
-        "choices": [
-          "9",
-          "3",
-          "6",
-          "0"
-        ],
-        "answer_index": 0,
-        "explanation": "First, divide 48 apples by 6 apples per box to find the number of boxes: 48 ÷ 6 = 8 boxes. Since all apples fill 8 boxes exactly, none are left outside the boxes. Anna then gives 3 apples from the total apples to her friend. After giving away 3 apples, the apples left are 48 - 3 = 45. However, this does not match the choices. The correct understanding is that after packing the apples in boxes, Anna has no loose apples, so the apples left after giving 3 apples from the boxes is the apples outside the boxes, which is 0, but since the question asks for how many apples does Anna have left overall, the calculation is 48 - 3 = 45, which is not an option. The question needs to be rephrased or corrected choices need to be given. Therefore, I will fix the question and choices accordingly.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "hard",
         "question": "Look at the pattern: 2, 4, 8, 32, 256, ? What number comes next?",
         "choices": [
           "8192",
@@ -19583,22 +16988,7 @@
       {
         "topic": "Math & Logic",
         "difficulty": "hard",
-        "question": "Look at the number pattern: 2, 6, 12, 20, ?. What number comes next?",
-        "choices": [
-          "30",
-          "28",
-          "26",
-          "24"
-        ],
-        "answer_index": 0,
-        "explanation": "The differences between terms are +4, +6, +8, +10 (each step adds 2 more than the previous increment). After 20, add 10 to get 30.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "hard",
-        "question": "A farmer has 12 apples. He puts some apples into 3 baskets equally. If 2 apples are left outside, how many apples are in each basket?",
+        "question": "A farmer has 12 apples. He puts some apples into 3 baskets equally. If 3 apples are left outside, how many apples are in each basket?",
         "choices": [
           "3",
           "4",
@@ -19606,7 +16996,7 @@
           "6"
         ],
         "answer_index": 0,
-        "explanation": "First, subtract the 2 apples left outside from 12, which leaves 10 apples. Then divide 10 apples equally into 3 baskets. Each basket gets 3 apples, because 3 times 3 is 9, and 1 apple can't be divided equally.",
+        "explanation": "First, subtract the 2 apples left outside from 12, which leaves 10 apples. Then divide 10 apples equally into 3 baskets. Each basket gets 3 apples, because 3 times 3 is 9.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -19628,21 +17018,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "hard",
-        "question": "Look at the pattern: 2, 6, 12, 20, 30. What is the next number?",
-        "choices": [
-          "42",
-          "40",
-          "36",
-          "32"
-        ],
-        "answer_index": 0,
-        "explanation": "The pattern is increasing by consecutive even numbers: +4, +6, +8, +10. The next increase will be +12, so 30 + 12 = 42.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "hard",
         "question": "Sarah has twice as many apples as Tom. Tom has 3 apples. If Sarah gives 2 apples to Tom, how many apples does Sarah have now?",
         "choices": [
           "4",
@@ -19652,21 +17027,6 @@
         ],
         "answer_index": 0,
         "explanation": "Tom has 3 apples, so Sarah has twice as many, which is 6 apples. If Sarah gives 2 apples to Tom, Sarah has 6 - 2 = 4 apples left.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "hard",
-        "question": "Look at the pattern of numbers: 2, 6, 12, 20, 30, ?. What number comes next?",
-        "choices": [
-          "42",
-          "40",
-          "36",
-          "45"
-        ],
-        "answer_index": 0,
-        "explanation": "The pattern increases by adding 4, 6, 8, 10, so next add 12 to 30 which is 42.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -19697,21 +17057,6 @@
         ],
         "answer_index": 0,
         "explanation": "Sara divides 48 apples into boxes with 6 apples each, so she has 48 ÷ 6 = 8 boxes. She gives away 3 boxes, which is 3 × 6 = 18 apples. So, she has 48 - 18 = 30 apples left.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "hard",
-        "question": "What is the next number in this pattern? 2, 6, 12, 20, 30, ?",
-        "choices": [
-          "42",
-          "40",
-          "44",
-          "36"
-        ],
-        "answer_index": 0,
-        "explanation": "The pattern adds consecutive even numbers: +4, +6, +8, +10, so the next number is 30 + 12 = 42.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -19778,21 +17123,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "hard",
-        "question": "Look at this number pattern: 2, 6, 12, 20, __. What is the next number?",
-        "choices": [
-          "30",
-          "28",
-          "32",
-          "26"
-        ],
-        "answer_index": 0,
-        "explanation": "The differences between terms are +4, +6, +8, +10 (each step adds 2 more to the increment). After 20, add 10 to get 30.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "hard",
         "question": "Lily has 3 boxes. Each box contains 4 red balls and 5 blue balls. How many blue balls does she have in total?",
         "choices": [
           "9",
@@ -19817,21 +17147,6 @@
         ],
         "answer_index": 0,
         "explanation": "Lisa puts the 24 apples into baskets of 6, so she has 24 ÷ 6 = 4 baskets. She gives away 2 baskets, which is 2 × 6 = 12 apples. So, she has 24 - 12 = 12 apples left.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "hard",
-        "question": "If the pattern is 2, 6, 12, 20, 30, what comes next?",
-        "choices": [
-          "42",
-          "40",
-          "36",
-          "48"
-        ],
-        "answer_index": 0,
-        "explanation": "The pattern increases by adding 4, then 6, then 8, then 10. So the next step adds 12 to 30, which is 42.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -19868,21 +17183,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "hard",
-        "question": "Look at the pattern: 3, 6, 12, 24, ? What number comes next?",
-        "choices": [
-          "36",
-          "48",
-          "30",
-          "60"
-        ],
-        "answer_index": 1,
-        "explanation": "Each number is multiplied by 2 to get the next number. 24 times 2 equals 48.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "hard",
         "question": "Sara has 3 times as many apples as Tom. Together they have 48 apples. How many apples does Tom have?",
         "choices": [
           "12",
@@ -19905,7 +17205,7 @@
           "12",
           "10"
         ],
-        "answer_index": 1,
+        "answer_index": 0,
         "explanation": "Sara gives away 3 apples to 6 friends, which is 3 × 6 = 18 apples. She started with 24 apples, so she has 24 - 18 = 6 apples left.",
         "hint": "",
         "learnMoreUrl": ""
@@ -21278,21 +18578,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "hard",
-        "question": "Look at the pattern: 2, 6, 12, 20, __. What number comes next?",
-        "choices": [
-          "30",
-          "24",
-          "28",
-          "32"
-        ],
-        "answer_index": 0,
-        "explanation": "The pattern adds numbers increasing by 2 each time: 2 (+4) 6 (+6) 12 (+8) 20. The next number is 20 + 10 = 30.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "hard",
         "question": "Emma has 24 apples. She gives 1/3 of them to her friend and then buys 18 more apples. How many apples does Emma have now?",
         "choices": [
           "34",
@@ -21302,21 +18587,6 @@
         ],
         "answer_index": 0,
         "explanation": "Emma gives away 1/3 of 24 apples, which is 8 apples. She has 24 - 8 = 16 apples left. Then she buys 18 more apples, so now she has 16 + 18 = 34 apples.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "hard",
-        "question": "Find the next number in the pattern: 3, 6, 12, 24, __ ?",
-        "choices": [
-          "48",
-          "36",
-          "30",
-          "60"
-        ],
-        "answer_index": 0,
-        "explanation": "Each number in the pattern is multiplied by 2 to get the next number. 24 times 2 is 48.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -21353,21 +18623,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "hard",
-        "question": "Look at the pattern: 3, 6, 12, 24, __. What comes next?",
-        "choices": [
-          "30",
-          "36",
-          "48",
-          "60"
-        ],
-        "answer_index": 2,
-        "explanation": "Each number in the pattern is double the previous number. So, after 24, the next number is 24 × 2 = 48.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "hard",
         "question": "A farmer has 12 apples and 8 oranges. He puts them into baskets with 3 fruits in each basket. How many baskets does he need?",
         "choices": [
           "7 baskets",
@@ -21392,21 +18647,6 @@
         ],
         "answer_index": 0,
         "explanation": "Emma starts with 12 apples, gives away 4 leaving her with 8 apples. Then she buys 7 more, so 8 + 7 = 15 apples in total.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "hard",
-        "question": "Look at the pattern of numbers: 3, 6, 12, 24, __. What number should come next?",
-        "choices": [
-          "36",
-          "48",
-          "72",
-          "96"
-        ],
-        "answer_index": 3,
-        "explanation": "Each number in the pattern is double the one before it. After 24, doubling it gives 48, then doubling 48 gives 96. So the next number is 96.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -21488,21 +18728,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "hard",
-        "question": "Look at the pattern: 2, 6, 12, 20, 30, ?. What number comes next?",
-        "choices": [
-          "42",
-          "40",
-          "36",
-          "48"
-        ],
-        "answer_index": 0,
-        "explanation": "The pattern adds 4, then 6, then 8, then 10 to each number. After 30, adding 12 gives 42.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "hard",
         "question": "Sarah has 3 packs of pencils. Each pack has 12 pencils. She gives 15 pencils to her friend. How many pencils does Sarah have left?",
         "choices": [
           "21",
@@ -21548,21 +18773,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "hard",
-        "question": "Look at this number pattern: 2, 6, 12, 20, 30, ?. What is the next number?",
-        "choices": [
-          "42",
-          "40",
-          "36",
-          "32"
-        ],
-        "answer_index": 0,
-        "explanation": "The pattern adds increasing even numbers: 2+4=6, 6+6=12, 12+8=20, 20+10=30, so next add 12 to 30, which gives 42.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "hard",
         "question": "Emma has 3 bags with 7 marbles in each bag. She gives 2 marbles from each bag to her friend. How many marbles does Emma have left in total?",
         "choices": [
           "15",
@@ -21593,36 +18803,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "hard",
-        "question": "Sally has 3 packs of stickers. Each pack has 7 stickers. She gives 8 stickers to her friend. How many stickers does she have left?",
-        "choices": [
-          "13",
-          "21",
-          "19",
-          "23"
-        ],
-        "answer_index": 0,
-        "explanation": "Sally has 3 packs with 7 stickers each, so 3 × 7 = 21 stickers. After giving away 8 stickers, she has 21 - 8 = 13 stickers left.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "hard",
-        "question": "Look at this number pattern: 3, 6, 12, 24, __. What number should come next?",
-        "choices": [
-          "36",
-          "48",
-          "60",
-          "72"
-        ],
-        "answer_index": 1,
-        "explanation": "Each number is twice the one before it. 24 times 2 equals 48, so the next number is 48.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "hard",
         "question": "Sara has 48 apples. She wants to pack them into boxes that hold 6 apples each. After packing as many full boxes as she can, how many left over apples can she give away?",
         "choices": [
           "3",
@@ -21632,36 +18812,6 @@
         ],
         "answer_index": 2,
         "explanation": "Sara packs 48 ÷ 6 = 8 full boxes with no apples left over. Therefore she cannot give any remaining apples away.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "hard",
-        "question": "Look at this pattern of numbers: 2, 6, 12, 20, 30, ?. What number should come next?",
-        "choices": [
-          "42",
-          "40",
-          "36",
-          "48"
-        ],
-        "answer_index": 0,
-        "explanation": "The pattern adds consecutive even numbers: 2 + 4 = 6, 6 + 6 = 12, 12 + 8 = 20, 20 + 10 = 30, so next add 12 to 30 to get 42.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "hard",
-        "question": "Sara has 3 boxes with 5 apples each. She gives 2 apples from each box to her friends. How many apples does she have left?",
-        "choices": [
-          "9",
-          "12",
-          "15",
-          "6"
-        ],
-        "answer_index": 0,
-        "explanation": "Sara has 3 boxes with 5 apples each, so 3 × 5 = 15 apples. She gives away 2 apples from each box, so 3 × 2 = 6 apples given away. The apples left are 15 - 6 = 9.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -21713,21 +18863,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "hard",
-        "question": "Look at the pattern: 2, 6, 12, 20, 30, ?. What number should come next?",
-        "choices": [
-          "42",
-          "40",
-          "36",
-          "38"
-        ],
-        "answer_index": 0,
-        "explanation": "The pattern adds increasing even numbers: 4, 6, 8, 10, so the next number adds 12 to 30, which is 42.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "hard",
         "question": "If Mia has 3 boxes with 7 apples each, and she gives 5 apples to her friend, how many apples does Mia have left?",
         "choices": [
           "16",
@@ -21750,23 +18885,8 @@
           "8",
           "16"
         ],
-        "answer_index": 1,
-        "explanation": "Sarah gives away 8 apples, so she has 24 - 8 = 16 apples left. She divides these 16 apples into 4 baskets equally, so each basket has 16 ÷ 4 = 4 apples.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "hard",
-        "question": "Look at the pattern: 2, 4, 8, 16, ?. What number comes next?",
-        "choices": [
-          "32",
-          "24",
-          "20",
-          "18"
-        ],
         "answer_index": 0,
-        "explanation": "The pattern doubles each time: 2 × 2 = 4, 4 × 2 = 8, 8 × 2 = 16, so the next number is 16 × 2 = 32.",
+        "explanation": "Sarah gives away 8 apples, so she has 24 - 8 = 16 apples left. She divides these 16 apples into 4 baskets equally, so each basket has 16 ÷ 4 = 4 apples.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -21833,36 +18953,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "hard",
-        "question": "Look at the pattern: 3, 6, 12, 24, __. What number comes next?",
-        "choices": [
-          "36",
-          "48",
-          "54",
-          "72"
-        ],
-        "answer_index": 1,
-        "explanation": "Each number doubles the one before it. After 24, doubling gives 48.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "hard",
-        "question": "Tom has 3 bags. Each bag has 5 red apples and 7 green apples. How many apples does Tom have in total?",
-        "choices": [
-          "36",
-          "30",
-          "24",
-          "40"
-        ],
-        "answer_index": 0,
-        "explanation": "Each bag has 5 + 7 = 12 apples. Tom has 3 bags, so 12 × 3 = 36 apples in total.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "hard",
         "question": "Sarah has 3 boxes with 12 pencils in each box. She gives 18 pencils to her friends. How many pencils does Sarah have left?",
         "choices": [
           "18",
@@ -21923,21 +19013,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "hard",
-        "question": "Look at the pattern: 2, 6, 12, 20, 30, ?. What is the next number?",
-        "choices": [
-          "42",
-          "40",
-          "36",
-          "32"
-        ],
-        "answer_index": 0,
-        "explanation": "The pattern increases by adding consecutive even numbers: 4, 6, 8, 10, so the next increase is 12, and 30 + 12 = 42.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "hard",
         "question": "Sara has 3 boxes of pencils. Each box has 12 pencils. She gives 9 pencils to her friend. How many pencils does Sara have left?",
         "choices": [
           "27",
@@ -21968,21 +19043,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "hard",
-        "question": "What is the next number in this pattern? 2, 6, 12, 20, 30, __?",
-        "choices": [
-          "42",
-          "40",
-          "36",
-          "44"
-        ],
-        "answer_index": 0,
-        "explanation": "The pattern adds consecutive even numbers to each term: 2+(4)=6, 6+(6)=12, 12+(8)=20, 20+(10)=30, so the next add is 12. Adding 12 to 30 gives 42.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "hard",
         "question": "There are 3 baskets. Each basket has 4 apples. If you take 2 apples from each basket, how many apples are left in all baskets?",
         "choices": [
           "6",
@@ -21992,21 +19052,6 @@
         ],
         "answer_index": 0,
         "explanation": "Each basket starts with 4 apples. Taking 2 apples from each basket leaves 2 apples in each basket. There are 3 baskets, so 3 times 2 equals 6 apples left in all baskets.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "hard",
-        "question": "Look at this pattern of numbers: 2, 6, 12, 20, 30, ?. What number comes next?",
-        "choices": [
-          "42",
-          "50",
-          "56",
-          "72"
-        ],
-        "answer_index": 0,
-        "explanation": "The pattern adds increasing even numbers: +4, +6, +8, +10, so the next step is +12 to 30 making 42.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -24128,36 +21173,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "hard",
-        "question": "Lila arranged toy cars in rows. The first row had 2 cars, the second had 6 cars, the third had 12 cars, and the fourth had 20 cars. How many cars will be in the fifth row?",
-        "choices": [
-          "30",
-          "24",
-          "28",
-          "32"
-        ],
-        "answer_index": 0,
-        "explanation": "The number of cars in each row follows the pattern 2, 6, 12, 20. Each number is the product of the row number and the next number: row 1 (1x2=2), row 2 (2x3=6), row 3 (3x4=12), row 4 (4x5=20). So, for row 5, it's 5x6=30. Therefore, the fifth row will have 30 cars.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "hard",
-        "question": "Lila has 3 boxes of crayons. Each box has 12 crayons. She gives 7 crayons to her friend. How many crayons does Lila have left?",
-        "choices": [
-          "29",
-          "19",
-          "33",
-          "36"
-        ],
-        "answer_index": 0,
-        "explanation": "Lila starts with 3 boxes of 12 crayons, which is 3 × 12 = 36 crayons. She gives 7 crayons away, so she has 36 - 7 = 29 crayons left. The correct answer is 29.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "hard",
         "question": "Lily has 48 candies. She wants to put them into bags with 6 candies in each bag. After filling as many full bags as she can, she gives 3 candies to her friend. How many candies does Lily have left?",
         "choices": [
           "3",
@@ -24293,21 +21308,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "hard",
-        "question": "Liam is arranging blocks in a pattern. The first row has 3 blocks, the second row has 6 blocks, the third row has 9 blocks, and the fourth row has 12 blocks. How many blocks will be in the sixth row?",
-        "choices": [
-          "18 blocks",
-          "15 blocks",
-          "21 blocks",
-          "24 blocks"
-        ],
-        "answer_index": 0,
-        "explanation": "The pattern increases by 3 blocks each row: 3, 6, 9, 12... So, the sixth row will have 18 blocks.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "hard",
         "question": "Emma has 3 boxes with 7 marbles in each box. She gives 8 marbles to her friend. How many marbles does Emma have left?",
         "choices": [
           "13",
@@ -24338,21 +21338,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "hard",
-        "question": "Lila noticed a pattern in the numbers: 3, 6, 12, 24. What number comes next in the pattern?",
-        "choices": [
-          "48",
-          "36",
-          "30",
-          "60"
-        ],
-        "answer_index": 0,
-        "explanation": "The pattern doubles each number to get the next one, so after 24, the next number is 48.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "hard",
         "question": "Emma has 3 boxes. Each box has 5 red balls and 7 blue balls. How many balls does Emma have in total?",
         "choices": [
           "36 balls",
@@ -24362,21 +21347,6 @@
         ],
         "answer_index": 0,
         "explanation": "Emma has 3 boxes, and each box contains 5 red balls and 7 blue balls, making 12 balls per box. Multiplying 3 boxes by 12 balls each equals 36 balls in total, so the correct answer is 36 balls.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "hard",
-        "question": "Emma has 3 boxes of crayons. Each box has 12 crayons. She gives 15 crayons to her friend. How many crayons does Emma have left?",
-        "choices": [
-          "21 crayons",
-          "36 crayons",
-          "15 crayons",
-          "9 crayons"
-        ],
-        "answer_index": 0,
-        "explanation": "Emma starts with 3 boxes times 12 crayons which equals 36 crayons. After giving away 15 crayons, she has 36 minus 15, which is 21 crayons left. So, the correct answer is 21 crayons.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -26055,7 +23025,7 @@
           "24",
           "21"
         ],
-        "answer_index": 1,
+        "answer_index": 3,
         "explanation": "Each box starts with 4 red + 5 blue = 9 balls. Lina gives away 2 blue balls from each box, so each box now has 4 red + (5 - 2) blue = 7 balls. There are 3 boxes, so total balls left = 7 x 3 = 21. The correct answer is '21'.",
         "hint": "",
         "learnMoreUrl": ""
@@ -26100,7 +23070,7 @@
           "84 pages",
           "90 pages"
         ],
-        "answer_index": 2,
+        "answer_index": 0,
         "explanation": "Lila has 5 notebooks in total (3 + 2). Each notebook has 12 pages. So, 5 notebooks × 12 pages = 60 pages, but this is not listed. The correct calculation is 7 notebooks × 12 pages = 84 pages, but since the question states she buys 2 more notebooks in addition to 3 she already has, the total notebooks are 5. Thus, 5 notebooks × 12 pages = 60 pages is correct, but it is the first choice. After rechecking, the correct total pages is 60 pages.",
         "hint": "",
         "learnMoreUrl": ""
@@ -26183,21 +23153,6 @@
       {
         "topic": "Math & Logic",
         "difficulty": "hard",
-        "question": "Lily is arranging beads in a pattern: she puts 3 red beads, then 5 blue beads, then 7 green beads, and repeats. If she has placed 50 beads, how many green beads did she use?",
-        "choices": [
-          "14",
-          "15",
-          "16",
-          "21"
-        ],
-        "answer_index": 3,
-        "explanation": "One full pattern is 3 red + 5 blue + 7 green = 15 beads, with 7 green beads per pattern. In 50 beads there are 3 complete patterns (45 beads), using 3 × 7 = 21 green beads. The remaining 5 beads are only red and blue, so no extra green beads.",
-        "hint": "",
-        "learnMoreUrl": ""
-      },
-      {
-        "topic": "Math & Logic",
-        "difficulty": "hard",
         "question": "Mila found 12 red marbles and 7 blue marbles. She gave 5 red marbles and 3 blue marbles to her friend. How many marbles does Mila have now?",
         "choices": [
           "11 marbles",
@@ -26220,7 +23175,7 @@
           "42",
           "24"
         ],
-        "answer_index": 1,
+        "answer_index": 0,
         "explanation": "Liam puts 48 stickers into 6 albums, so each album has 8 stickers. Then he gives away 3 stickers from each album. Since there are 6 albums, he gives away 6 × 3 = 18 stickers. So, the stickers left are 48 - 18 = 30. However, the question asks how many stickers Liam has left in total after the gifts. Each album now has 8 - 3 = 5 stickers, so total stickers left are 6 × 5 = 30. The correct answer is '30'.",
         "hint": "",
         "learnMoreUrl": ""
@@ -27677,6 +24632,36 @@
         ],
         "answer_index": 0,
         "explanation": "Encouraging everyone to take turns and listen to each other's ideas helps solve the problem because it promotes cooperation and respect among classmates.",
+        "hint": "",
+        "learnMoreUrl": ""
+      },
+      {
+        "topic": "Math & Logic",
+        "difficulty": "hard",
+        "question": "Lily has 7 boxes. Each box contains 6 apples. How many apples does Lily have in total?",
+        "choices": [
+          "42 apples",
+          "36 apples",
+          "13 apples",
+          "49 apples"
+        ],
+        "answer_index": 0,
+        "explanation": "Lily has 7 boxes with 6 apples each, so multiplying 7 by 6 gives 42 apples in total.",
+        "hint": "",
+        "learnMoreUrl": ""
+      },
+      {
+        "topic": "Math & Logic",
+        "difficulty": "hard",
+        "question": "A shipment uses 8 crates. Each crate holds 6 water bottles. How many water bottles are there in total?",
+        "choices": [
+          "48 bottles",
+          "42 bottles",
+          "54 bottles",
+          "56 bottles"
+        ],
+        "answer_index": 0,
+        "explanation": "Multiply 8 crates by 6 bottles each: 8 × 6 = 48 water bottles.",
         "hint": "",
         "learnMoreUrl": ""
       }
