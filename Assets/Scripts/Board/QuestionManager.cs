@@ -120,8 +120,8 @@ public class QuestionManager : MonoBehaviour
     }
 
     /// <summary>
-    /// Same topic + difficulty: drop duplicate question strings (LLM often generated repeats).
-    /// Shuffle so order is not predictable.
+    /// Same topic + difficulty: drop duplicate question strings.
+    /// order is not predictable.
     /// </summary>
     private List<Question> BuildFilteredQuestionList(string subject, string difficulty)
     {
@@ -161,7 +161,7 @@ public class QuestionManager : MonoBehaviour
     }
 
     /// <summary>
-    /// Same as BuildFilteredQuestionList but drops questions already shown this run (session keys).
+    /// Same as BuildFilteredQuestionList but drops questions already shown this run.
     /// Used when the draw pool still has items but every remaining one is blocked by session dedup.
     /// </summary>
     private List<Question> BuildFilteredQuestionListExcludingSession(string subject, string difficulty)

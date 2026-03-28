@@ -19485,8 +19485,8 @@
           "6",
           "5"
         ],
-        "answer_index": 2,
-        "explanation": "Sara gives away 8 apples, so 24 - 8 = 16 apples are left. She divides these 16 apples into 4 baskets equally, so each basket has 16 ÷ 4 = 6 apples.",
+        "answer_index": 0,
+        "explanation": "Sara gives away 8 apples, so 24 - 8 = 16 apples are left. She divides these 16 apples into 4 baskets equally, so each basket has 16 ÷ 4 = 4 apples.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -21623,15 +21623,15 @@
       {
         "topic": "Math & Logic",
         "difficulty": "hard",
-        "question": "Sara has 48 apples. She wants to pack them into boxes that hold 6 apples each. After packing as many full boxes as she can, she gives 3 apples to her friend. How many apples does Sara have left?",
+        "question": "Sara has 48 apples. She wants to pack them into boxes that hold 6 apples each. After packing as many full boxes as she can, how many left over apples can she give away?",
         "choices": [
           "3",
           "6",
           "0",
           "9"
         ],
-        "answer_index": 0,
-        "explanation": "Sara packs 48 ÷ 6 = 8 full boxes with no apples left over. Then she gives 3 apples to her friend, so she has 3 apples left after packing.",
+        "answer_index": 2,
+        "explanation": "Sara packs 48 ÷ 6 = 8 full boxes with no apples left over. Therefore she cannot give any remaining apples away.",
         "hint": "",
         "learnMoreUrl": ""
       },
@@ -24105,8 +24105,8 @@
           "8 apples",
           "9 apples"
         ],
-        "answer_index": 3,
-        "explanation": "Anna starts with 5 red apples and 7 green apples, which is 12 apples in total. She gives away 3 red and 4 green apples, which is 7 apples. So, 12 minus 7 leaves Anna with 9 apples. Therefore, the correct answer is 9 apples.",
+        "answer_index": 0,
+        "explanation": "Anna starts with 5 red apples and 7 green apples, which is 12 apples in total. She gives away 3 red and 4 green apples, which is 7 apples. So, 12 minus 7 leaves Anna with 5 apples. Therefore, the correct answer is 9 apples.",
         "hint": "",
         "learnMoreUrl": ""
       },

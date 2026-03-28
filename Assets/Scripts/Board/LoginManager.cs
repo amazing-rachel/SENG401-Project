@@ -4,6 +4,7 @@ using TMPro;
 using System.Collections;
 using UnityEngine.SceneManagement;
 
+// Login and sign-up UI. Sends username and password to the backend (HTTPS).
 public class LoginManager : MonoBehaviour
 {
 
@@ -43,6 +44,7 @@ public class LoginManager : MonoBehaviour
         ClearFields();
     }
 
+    // After a good login, show the subject choice screen.
     public void ShowSubjects()
     {
         LoginPanel.SetActive(false);
@@ -51,6 +53,7 @@ public class LoginManager : MonoBehaviour
         ClearFields();
     }
 
+    // Clear every text field so old input does not stay on screen.
     void ClearFields()
     {
         LoginUsernameInput.text = "";
@@ -67,6 +70,7 @@ public class LoginManager : MonoBehaviour
         string username = LoginUsernameInput.text;
         string password = LoginPasswordInput.text;
 
+        // Do not call the server if fields are blank.
         if (string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(password))
         {
             Debug.Log("Login fields cannot be empty!");
@@ -81,6 +85,7 @@ public class LoginManager : MonoBehaviour
         string username = RegisterUsernameInput.text;
         string password = RegisterPasswordInput.text;
 
+        // Do not call the server if fields are blank.
         if (string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(password))
         {
             Debug.Log("Register fields cannot be empty!");
@@ -97,23 +102,24 @@ public class LoginManager : MonoBehaviour
     {
         string json = "{\"username\":\"" + username + "\",\"password\":\"" + password + "\"}";
 
-        // Debug statements
         Debug.Log("Sending request to: " + api + endpoint);
         Debug.Log("Request body: " + json);
-
 
         UnityWebRequest request = new UnityWebRequest(api + endpoint, "POST");
         byte[] body = System.Text.Encoding.UTF8.GetBytes(json);
 
         request.uploadHandler = new UploadHandlerRaw(body);
         request.downloadHandler = new DownloadHandlerBuffer();
+        // Tell the server the body is JSON.
         request.SetRequestHeader("Content-Type", "application/json");
+        // Wait at most 60 seconds before giving up.
         request.timeout = 60;
 
         yield return request.SendWebRequest();
 
         string response = request.downloadHandler != null ? request.downloadHandler.text : "";
 
+        // Network error or bad HTTP status.
         if (request.result != UnityWebRequest.Result.Success)
         {
             Debug.LogError(
@@ -121,6 +127,7 @@ public class LoginManager : MonoBehaviour
                 " httpCode=" + request.responseCode +
                 " error=" + request.error +
                 " body=" + response);
+
             request.Dispose();
             yield break;
         }
@@ -128,9 +135,10 @@ public class LoginManager : MonoBehaviour
         Debug.Log("Response from backend (" + request.responseCode + "): " + response);
         request.Dispose();
 
+        // Backend sends short text flags in the body; we branch on those.
         if (response.Contains("success") && endpoint == "/login")
         {
-            // Save username for the entire game session
+            // Remember who is logged in for the rest of the game.
             SessionManager.Instance.CurrentUsername = username;
 
             Debug.Log("Logged in as: " + username);
